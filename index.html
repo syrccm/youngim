@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>수간호사 채용 모니터</title>
+<meta name="description" content="사람인 '수간호사' 검색(부산·경남) 결과를 하루 두 번 자동 갱신하고, 반여1동에서 시내버스 한 번으로 출퇴근 가능한 곳을 표시합니다.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --bg:#F5F7F6; --panel:#FFFFFF; --ink:#1B2624; --muted:#66716E; --line:#DDE3E0;
+  --accent:#1B6E78; --accent-ink:#FFFFFF; --accent-soft:#E2F0F1;
+  --new:#B8561F; --soon:#A93A32; --soon-soft:#F9E4E1;
+  --ok:#2E7D4F; --ok-soft:#E1F1E7; --far:#8A6D0B; --far-soft:#F7EFD2; --no:#7A7F7D; --no-soft:#EDEFEE; --unk:#5B5F9E; --unk-soft:#E9E9F6;
+  --chip:#EEF2F0; --focus:#1B6E78;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#131A19; --panel:#1B2422; --ink:#E6ECEA; --muted:#93A09C; --line:#2C3835;
+    --accent:#63B6BF; --accent-ink:#0F1B1D; --accent-soft:#1F3538;
+    --new:#E9955B; --soon:#E27C74; --soon-soft:#3D2321;
+    --ok:#6FC993; --ok-soft:#1E3A2A; --far:#D9B44A; --far-soft:#3A3117; --no:#8E9694; --no-soft:#252D2B; --unk:#A4A6E0; --unk-soft:#2A2B45;
+    --chip:#243030;
+  }
+}
+*{box-sizing:border-box}
+html,body{background:var(--bg)}
+body{margin:0;color:var(--ink);font-family:"Noto Sans KR",-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;font-size:14px;line-height:1.5}
+.wrap{max-width:980px;margin:0 auto;padding-block:28px 48px;padding-inline:16px}
+header{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 24px;margin-bottom:18px}
+h1{font-size:24px;font-weight:700;margin:0;letter-spacing:-.01em;text-wrap:balance}
+.sub{color:var(--muted);margin:4px 0 0;font-size:13px}
+.updated{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:12px;color:var(--muted);text-align:right}
+.updated b{color:var(--ink);font-weight:500}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:18px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px 14px;cursor:pointer;text-align:left;font:inherit;color:inherit}
+.stat:focus-visible,.tog:focus-visible,select:focus-visible,a:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.stat .n{font-size:26px;font-weight:700;font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .l{font-size:12px;color:var(--muted);margin-top:2px}
+.stat.on{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+.stat.new .n{color:var(--new)} .stat.soon .n{color:var(--soon)} .stat.ok .n{color:var(--ok)}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px}
+.tog{background:var(--chip);border:1px solid transparent;border-radius:999px;padding:5px 12px;font:inherit;font-size:13px;color:var(--ink);cursor:pointer}
+.tog.on{background:var(--accent);color:var(--accent-ink)}
+select{font:inherit;font-size:13px;background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:5px 8px;margin-left:auto}
+.list{background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.row{display:grid;grid-template-columns:1fr auto;gap:4px 16px;padding:12px 16px;border-top:1px solid var(--line);align-items:start}
+.row:first-child{border-top:0}
+.row.gone{opacity:.5}
+.t{font-weight:500;display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center}
+.t a{color:inherit;text-decoration:none}
+.t a:hover{text-decoration:underline;text-decoration-color:var(--accent)}
+.badge{font-size:11px;font-weight:700;letter-spacing:.04em;padding:1px 7px;border-radius:4px;white-space:nowrap}
+.badge.new{background:var(--new);color:#fff}
+.badge.head{background:var(--accent-soft);color:var(--accent)}
+.badge.soon{background:var(--soon-soft);color:var(--soon)}
+.badge.gone{background:var(--no-soft);color:var(--no)}
+.c{font-size:12px;display:flex;flex-wrap:wrap;gap:4px 10px;align-items:center;margin-top:2px}
+.c .v{font-weight:700;padding:1px 8px;border-radius:4px}
+.c .v.ok{background:var(--ok-soft);color:var(--ok)} .c .v.far{background:var(--far-soft);color:var(--far)}
+.c .v.no{background:var(--no-soft);color:var(--no)} .c .v.unknown{background:var(--unk-soft);color:var(--unk)}
+.c .n{color:var(--muted)}
+.m{color:var(--muted);font-size:13px;display:flex;flex-wrap:wrap;gap:4px 14px}
+.m .co{color:var(--ink)}
+.d{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:12px;color:var(--muted);text-align:right;white-space:nowrap;grid-row:span 3;font-variant-numeric:tabular-nums}
+.d b{display:block;color:var(--ink);font-weight:500}
+.d.soon b{color:var(--soon)}
+.empty{padding:32px;text-align:center;color:var(--muted)}
+details{margin-top:22px;font-size:12px;color:var(--muted)}
+details summary{cursor:pointer}
+details ul{margin:8px 0 0;padding-left:18px}
+.routes li{margin-bottom:4px}
+.hist ul{font-family:"IBM Plex Mono",ui-monospace,monospace}
+footer{margin-top:20px;font-size:12px;color:var(--muted);line-height:1.6}
+footer a,details a{color:var(--accent)}
+@media (max-width:560px){.row{grid-template-columns:1fr}.d{grid-row:auto;text-align:left;display:flex;gap:8px}.d b{display:inline}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div>
+    <h1>수간호사 채용 모니터</h1>
+    <p class="sub">사람인 · 검색어 「수간호사」 · 부산 전체 + 경남 전체 · 매일 06:00 / 14:00 자동 갱신 · 출발지 반여1동 장산성당 정류장</p>
+  </div>
+  <div class="updated" id="updated">불러오는 중…</div>
+</header>
+
+<div class="stats" id="stats">
+  <button class="stat on" data-f="all"><div class="n" id="n-all">–</div><div class="l">검색 결과 전체</div></button>
+  <button class="stat new" data-f="new"><div class="n" id="n-new">–</div><div class="l">신규 (이번 갱신에 처음 등장)</div></button>
+  <button class="stat ok" data-f="ok"><div class="n" id="n-ok">–</div><div class="l">버스 1회 통근 가능</div></button>
+  <button class="stat" data-f="head"><div class="n" id="n-head">–</div><div class="l">제목에 「수간호사」 포함</div></button>
+  <button class="stat soon" data-f="soon"><div class="n" id="n-soon">–</div><div class="l">마감 3일 이내</div></button>
+</div>
+
+<div class="bar" id="bar">
+  <button class="tog on" data-r="">전 지역</button>
+  <button class="tog" data-r="부산">부산</button>
+  <button class="tog" data-r="경남">경남</button>
+  <button class="tog" data-c="hide-no" id="hideno">통근 불가 숨기기</button>
+  <select id="sort" aria-label="정렬">
+    <option value="commute">통근 가능 우선</option>
+    <option value="new">신규 우선</option>
+    <option value="deadline">마감 임박순</option>
+    <option value="posted">등록·수정 최신순</option>
+    <option value="company">기관명순</option>
+  </select>
+</div>
+
+<div class="list" id="list"><div class="empty">공고 목록을 불러오는 중입니다…</div></div>
+
+<details class="routes"><summary>통근 판정 기준 — 장산성당 정류장에서 타는 4개 노선</summary>
+  <ul>
+    <li><b>115-1</b> 반송 → 반여 → 재송 → 벡스코 → 동백역 → 해운대 → 중동 → 좌동(해운대백병원) → 장산역 → 해운대구청</li>
+    <li><b>155</b> 서동(금정) → 명장·안락(동래) → 반여 → 재송 → 센텀 → 수영·광안 → 남천 → 경성대·부경대 → 대연 → 용당</li>
+    <li><b>189-1</b> 반송 → 반여 → 재송 → 원동 → 토곡·연산8동 → 연산교차로</li>
+    <li><b>36</b> 기장읍·일광·철마 → 반송 → 반여 → 원동 → 안락(동래봉생병원) → 연산교차로 → 연산역 → 거제역</li>
+  </ul>
+  <p>「가능」은 하차 후 도보 10분 이내, 「도보 멀음」은 10~20분, 「불가」는 4개 노선이 20분 도보권 안에 가지 않는 곳입니다. 「확인 필요」는 기관 위치가 아직 확인되지 않은 공고이며, <code>data/commute.json</code>에 기관을 추가하면 다음 갱신부터 반영됩니다.</p>
+</details>
+<details class="hist"><summary>갱신 이력</summary><ul id="histlist"></ul></details>
+
+<footer>
+  공고 제목을 누르면 사람인 상세 페이지가 열립니다. 검색 결과에는 「수간호사」 외 관련 간호 직군 공고도 함께 포함됩니다.
+  <br><a id="srclink" target="_blank" rel="noopener" href="https://www.saramin.co.kr/zf_user/search/recruit?searchType=search&searchword=%EC%88%98%EA%B0%84%ED%98%B8%EC%82%AC&loc_mcd=106000%2C110000&recruitPageCount=100">사람인에서 같은 조건으로 직접 보기 ↗</a>
+</footer>
+</div>
+
+<script>
+(async function(){
+  var data;
+  try {
+    var r = await fetch('data/jobs.json?t=' + Date.now(), {cache:'no-store'});
+    data = await r.json();
+  } catch (e) {
+    document.getElementById('list').innerHTML = '<div class="empty">data/jobs.json 을 불러오지 못했습니다. 첫 갱신(Actions)이 아직 실행되지 않았을 수 있습니다.</div>';
+    document.getElementById('updated').textContent = '';
+    return;
+  }
+  var items = data.items || [];
+  var latest = data.updated || '';
+  var latestDay = latest.slice(0,10);
+  var today = latest ? new Date(latest) : new Date();
+  var day0 = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+  var VL = {ok:'가능', far:'도보 멀음', no:'불가', unknown:'확인 필요'};
+  var VR = {ok:0, far:1, unknown:2, no:3};
+
+  function parseDeadline(s){
+    var m = /(\d{2})\/(\d{2})/.exec(s||''); if(!m) return null;
+    var y = today.getFullYear(); var d = new Date(y, +m[1]-1, +m[2]);
+    if (d < new Date(today.getFullYear(), today.getMonth(), today.getDate()-60)) d = new Date(y+1, +m[1]-1, +m[2]);
+    return d;
+  }
+  function parsePosted(s){ var m=/(\d{2})\/(\d{2})\/(\d{2})/.exec(s||''); return m? new Date(2000+ +m[1], +m[2]-1, +m[3]) : null; }
+
+  items.forEach(function(it){
+    it.pd = parsePosted(it.posted);
+    it.isNew = !it.gone && ((data.runs||[]).length > 1
+      ? it.first_seen === latest
+      : !!(it.pd && it.pd.getTime() === day0.getTime() && /등록일/.test(it.posted||'')));
+    it.isHead = /수간호사|간호감독|간호팀장|간호파트장|간호부장|간호과장/.test(it.title||'');
+    it.dl = parseDeadline(it.deadline);
+    it.daysLeft = it.dl ? Math.round((it.dl - day0)/864e5) : null;
+    it.isSoon = !it.gone && it.daysLeft !== null && it.daysLeft >= 0 && it.daysLeft <= 3;
+    it.region = (it.location||'').indexOf('경남') >= 0 && (it.location||'').indexOf('부산') >= 0 ? '부산·경남'
+              : (it.location||'').indexOf('경남') >= 0 ? '경남' : (it.location||'').indexOf('부산') >= 0 ? '부산' : '';
+    it.cv = (it.commute && it.commute.verdict) || 'unknown';
+  });
+
+  var filter = 'all', region = '', hideNo = false, sort = 'commute';
+  try { var s = localStorage.getItem('hn-sort'); if (s) sort = s; hideNo = localStorage.getItem('hn-hideno') === '1'; } catch(e){}
+  document.getElementById('sort').value = sort;
+  document.getElementById('hideno').classList.toggle('on', hideNo);
+
+  function esc(s){ return String(s||'').replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+  function link(it){
+    if (it.url) return it.url;
+    return 'https://www.saramin.co.kr/zf_user/search/recruit?searchType=search&loc_mcd=106000%2C110000&searchword=' + encodeURIComponent(it.company);
+  }
+  function commuteHtml(it){
+    var c = it.commute || {};
+    var out = '<span class="v '+it.cv+'">통근 '+VL[it.cv]+'</span>';
+    if (c.route) out += '<span class="n">'+esc(c.route)+'번 · '+esc(c.stop)+' 하차'+(c.walk_min ? ' · 도보 '+c.walk_min+'분' : '')+'</span>';
+    if (c.address) out += '<span class="n">'+esc(c.address)+'</span>';
+    if (c.note && !c.route) out += '<span class="n">'+esc(c.note)+'</span>';
+    return '<div class="c">'+out+'</div>';
+  }
+  function render(){
+    var rows = items.filter(function(it){
+      if (filter==='new' && !it.isNew) return false;
+      if (filter==='head' && !it.isHead) return false;
+      if (filter==='soon' && !it.isSoon) return false;
+      if (filter==='ok' && !(it.cv==='ok' || it.cv==='far')) return false;
+      if (region && it.region.indexOf(region) < 0) return false;
+      if (hideNo && it.cv==='no') return false;
+      return true;
+    });
+    rows.sort(function(a,b){
+      if (a.gone!==b.gone) return a.gone?1:-1;
+      if (sort==='commute'){ if (VR[a.cv]!==VR[b.cv]) return VR[a.cv]-VR[b.cv]; if (a.isNew!==b.isNew) return a.isNew?-1:1; if (a.isHead!==b.isHead) return a.isHead?-1:1; return (b.pd||0)-(a.pd||0); }
+      if (sort==='new'){ if (a.isNew!==b.isNew) return a.isNew?-1:1; if (a.isHead!==b.isHead) return a.isHead?-1:1; return (b.pd||0)-(a.pd||0); }
+      if (sort==='deadline'){ var x=a.dl?+a.dl:9e15, y=b.dl?+b.dl:9e15; return x-y; }
+      if (sort==='posted'){ return (b.pd||0)-(a.pd||0); }
+      return a.company.localeCompare(b.company,'ko');
+    });
+    var el = document.getElementById('list');
+    if (!rows.length){ el.innerHTML = '<div class="empty">조건에 맞는 공고가 없습니다.</div>'; return; }
+    el.innerHTML = rows.map(function(it){
+      var dl = it.deadline ? esc(it.deadline) : '채용시까지';
+      var left = it.gone ? '' : it.daysLeft===null ? '' : (it.daysLeft<0 ? '마감' : it.daysLeft===0 ? '오늘 마감' : 'D-'+it.daysLeft);
+      var extra = [];
+      if (it.career) extra.push(it.career);
+      if (it.type) extra.push(it.type);
+      return '<div class="row'+(it.gone?' gone':'')+'">'
+        + '<div class="t">' + (it.isNew?'<span class="badge new">NEW</span>':'') + (it.gone?'<span class="badge gone">검색에서 사라짐</span>':'') + (it.isHead?'<span class="badge head">수간호사</span>':'') + (it.isSoon?'<span class="badge soon">마감임박</span>':'')
+        + '<a href="'+esc(link(it))+'" target="_blank" rel="noopener">'+esc(it.title)+'</a></div>'
+        + '<div class="d'+(it.isSoon?' soon':'')+'"><b>'+dl+'</b>'+left+'</div>'
+        + commuteHtml(it)
+        + '<div class="m"><span class="co">'+esc(it.company)+'</span><span>'+esc(it.location)+'</span>'+(extra.length?'<span>'+esc(extra.join(' · '))+'</span>':'')+'<span>'+esc(it.posted)+'</span>'
+        + (it.first_seen && !it.isNew && it.first_seen.slice(0,10) !== latestDay ? '<span>최초 확인 '+esc(it.first_seen.slice(5,10).replace('-','/'))+'</span>' : '') + '</div>'
+        + '</div>';
+    }).join('');
+  }
+  function counts(){
+    var live = items.filter(function(i){return !i.gone});
+    document.getElementById('n-all').textContent = live.length;
+    document.getElementById('n-new').textContent = live.filter(function(i){return i.isNew}).length;
+    document.getElementById('n-ok').textContent = live.filter(function(i){return i.cv==='ok'||i.cv==='far'}).length;
+    document.getElementById('n-head').textContent = live.filter(function(i){return i.isHead}).length;
+    document.getElementById('n-soon').textContent = live.filter(function(i){return i.isSoon}).length;
+  }
+  document.getElementById('updated').innerHTML = latest ? '마지막 갱신<br><b>'+esc(latest.replace('T',' '))+'</b>' : '아직 갱신 전';
+  document.getElementById('histlist').innerHTML = (data.runs||[]).slice().reverse().map(function(r){ return '<li>'+esc(r.at.replace('T',' '))+' — 전체 '+r.total+'건, 신규 '+r.new+'건</li>'; }).join('') || '<li>기록 없음</li>';
+
+  document.getElementById('stats').addEventListener('click', function(e){
+    var b = e.target.closest('.stat'); if(!b) return;
+    filter = b.dataset.f;
+    document.querySelectorAll('.stat').forEach(function(x){ x.classList.toggle('on', x===b); });
+    render();
+  });
+  document.getElementById('bar').addEventListener('click', function(e){
+    var b = e.target.closest('.tog'); if(!b) return;
+    if (b.dataset.c === 'hide-no'){ hideNo = !hideNo; b.classList.toggle('on', hideNo); try{ localStorage.setItem('hn-hideno', hideNo?'1':'0'); }catch(err){} render(); return; }
+    region = b.dataset.r;
+    document.querySelectorAll('.tog[data-r]').forEach(function(x){ x.classList.toggle('on', x===b); });
+    render();
+  });
+  document.getElementById('sort').addEventListener('change', function(e){
+    sort = e.target.value; try{ localStorage.setItem('hn-sort', sort); }catch(err){} render();
+  });
+  counts(); render();
+})();
+</script>
+</body>
+</html>
