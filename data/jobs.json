@@ -1,13 +1,1145 @@
 {
- "updated": "2026-09-22T19:19",
+ "updated": "2026-09-22T20:54",
  "runs": [
   {
    "at": "2026-09-22T19:19",
    "total": 49,
    "new": 0
+  },
+  {
+   "at": "2026-09-22T20:54",
+   "total": 49,
+   "new": 49
   }
  ],
  "items": [
+  {
+   "id": "55101714",
+   "company": "(의)이한의료재단",
+   "title": "",
+   "location": "부산 기장군",
+   "career": "경력무관",
+   "education": "학력무관",
+   "type": "계약직",
+   "deadline": "10/22(목)",
+   "posted": "등록일 26/09/22",
+   "sector": "간호사, 한방병원",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "ok",
+    "route": "36",
+    "stop": "동해선일광역",
+    "walk_min": 7,
+    "note": "36번이 일광신도시 내부 경유, 승차 50분 이상",
+    "address": "기장군 일광읍 해빛6로 85-4 (일광한방병원)"
+   }
+  },
+  {
+   "id": "55099924",
+   "company": "연세미래아이에프씨의원",
+   "title": "",
+   "location": "부산 남구",
+   "career": "경력5년↑",
+   "education": "초대졸↑",
+   "type": "계약직",
+   "deadline": "10/22(목)",
+   "posted": "수정일 26/09/22",
+   "sector": "수간호사, 간호사, 내과, 전문병원, 검진센터",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "문현동 국제금융센터는 4개 노선 미경유",
+    "address": "남구 문현동 IFC몰"
+   }
+  },
+  {
+   "id": "55093577",
+   "company": "그랜드자연요양병원",
+   "title": "",
+   "location": "부산 남구",
+   "career": "경력 5~20년",
+   "education": "초대졸↑",
+   "type": "정규직",
+   "deadline": "11/20(금)",
+   "posted": "등록일 26/09/21",
+   "sector": "수간호사, 전문병원",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "far",
+    "route": "155",
+    "stop": "대남교차로.남천역",
+    "walk_min": 18,
+    "note": "황령산 자락, 남천역 정류장에서 도보 15~20분 언덕길",
+    "address": "남구 대연동 황령대로 355-14"
+   }
+  },
+  {
+   "id": "55092924",
+   "company": "의료법인장수의료재단",
+   "title": "",
+   "location": "부산 동래구",
+   "career": "경력3년↑",
+   "education": "초대졸↑",
+   "type": "정규직",
+   "deadline": "채용시",
+   "posted": "수정일 26/09/21",
+   "sector": "수간호사, 요양병원",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "명륜동은 4개 노선 미경유",
+    "address": "동래구 명륜동 (동래요양병원)"
+   }
+  },
+  {
+   "id": "55091180",
+   "company": "(의)서호의료재단",
+   "title": "",
+   "location": "부산 사하구",
+   "career": "경력",
+   "education": "학력무관",
+   "type": "정규직",
+   "deadline": "채용시",
+   "posted": "수정일 26/09/22",
+   "sector": "수간호사, D-Keep, 병원·진료, 산부인과, 내과",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "사하구는 4개 노선 미경유",
+    "address": "사하구 하단동 (서호하단병원)"
+   }
+  },
+  {
+   "id": "55090066",
+   "company": "태종대요양병원",
+   "title": "",
+   "location": "부산 영도구",
+   "career": "경력무관",
+   "education": "초대졸↑",
+   "type": "정규직",
+   "deadline": "09/27(일)",
+   "posted": "등록일 26/09/21",
+   "sector": "수간호사, 간호사, 책임간호사, 마취간호사, 심사간호사",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "55090059",
+   "company": "태종대요양병원",
+   "title": "",
+   "location": "부산 영도구",
+   "career": "경력무관",
+   "education": "학력무관",
+   "type": "정규직",
+   "deadline": "09/27(일)",
+   "posted": "등록일 26/09/21",
+   "sector": "수간호사, 간호사, 책임간호사, 마취간호사, 심사간호사",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "55089250",
+   "company": "(의)해림의료재단부산금사요양병원",
+   "title": "",
+   "location": "부산 금정구",
+   "career": "경력1년↑",
+   "education": "학력무관",
+   "type": "정규직",
+   "deadline": "10/21(수)",
+   "posted": "등록일 26/09/21",
+   "sector": "간호사, 요양병원",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "ok",
+    "route": "155",
+    "stop": "서동역",
+    "walk_min": 7,
+    "note": "155번 서동역 정류장에서 반송로 따라 도보 약 7분",
+    "address": "금정구 금사동 반송로 470"
+   }
+  },
+  {
+   "id": "55080815",
+   "company": "한양류마디병원",
+   "title": "",
+   "location": "부산 연제구",
+   "career": "경력 10~20년",
+   "education": "초대졸↑",
+   "type": "정규직",
+   "deadline": "09/30(수)",
+   "posted": "등록일 26/09/19",
+   "sector": "간호사, D-Keep, 병원·진료",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "ok",
+    "route": "189-1",
+    "stop": "연산8치안센터",
+    "walk_min": 3,
+    "note": "189-1번이 과정로 경유, 바로 앞 하차",
+    "address": "연제구 연산동 과정로 272 (토곡)"
+   }
+  },
+  {
+   "id": "55075610",
+   "company": "(의)서원탑의료재단서원요양병원",
+   "title": "",
+   "location": "부산전체, 경남 김해시",
+   "career": "경력3년↑",
+   "education": "초대졸↑",
+   "type": "정규직",
+   "deadline": "10/18(일)",
+   "posted": "등록일 26/09/18",
+   "sector": "간호사, 인공신장실, 요양병원",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "김해는 4개 노선 미경유",
+    "address": "경남 김해시 (김해서원요양병원)"
+   }
+  },
+  {
+   "id": "55073630",
+   "company": "새봄병원",
+   "title": "",
+   "location": "부산 동래구",
+   "career": "경력 7~15년",
+   "education": "초대졸↑",
+   "type": "정규직",
+   "deadline": "10/18(일)",
+   "posted": "등록일 26/09/18",
+   "sector": "수간호사, 간호사, 내과, 외과, 재활의학과",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "온천장 일대는 4개 노선 미경유",
+    "address": "동래구 온천동"
+   }
+  },
+  {
+   "id": "55071599",
+   "company": "파티마안과의원",
+   "title": "",
+   "location": "경남 창원시",
+   "career": "경력무관",
+   "education": "학력무관",
+   "type": "정규직",
+   "deadline": "10/18(일)",
+   "posted": "등록일 26/09/18",
+   "sector": "수간호사, 간호사, 간호조무사, 안과",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "55063181",
+   "company": "희망병원",
+   "title": "",
+   "location": "경남 창원시 진해구",
+   "career": "경력5년↑",
+   "education": "초대졸↑",
+   "type": "정규직",
+   "deadline": "채용시",
+   "posted": "수정일 26/09/17",
+   "sector": "간호사, 병원·진료",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "55054233",
+   "company": "(의)굿타임의료재단",
+   "title": "",
+   "location": "부산 사하구",
+   "career": "경력5년↑",
+   "education": "초대졸↑",
+   "type": "정규직",
+   "deadline": "10/16(금)",
+   "posted": "수정일 26/09/22",
+   "sector": "간호사, 전문병원",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "사하구는 4개 노선 미경유",
+    "address": "사하구"
+   }
+  },
+  {
+   "id": "55050144",
+   "company": "이의용밝은길요양병원",
+   "title": "",
+   "location": "부산 서구",
+   "career": "경력무관",
+   "education": "초대졸↑",
+   "type": "정규직",
+   "deadline": "10/16(금)",
+   "posted": "등록일 26/09/16",
+   "sector": "수간호사, 간호사, 책임간호사, 마취간호사, 심사간호사",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "55049292",
+   "company": "서면엘비뇨가과의원",
+   "title": "",
+   "location": "부산 부산진구",
+   "career": "신입·경력",
+   "education": "학력무관",
+   "type": "정규직",
+   "deadline": "10/16(금)",
+   "posted": "등록일 26/09/16",
+   "sector": "수간호사, 간호사, 책임간호사, 마취간호사, 심사간호사",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "55041002",
+   "company": "의료법인화인의료재단",
+   "title": "",
+   "location": "부산 해운대구",
+   "career": "경력무관",
+   "education": "학력무관",
+   "type": "정규직",
+   "deadline": "10/15(목)",
+   "posted": "등록일 26/09/15",
+   "sector": "수간호사, 간호사, 책임간호사, 마취간호사, 심사간호사",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "ok",
+    "route": "189-1",
+    "stop": "동해선재송역",
+    "walk_min": 7,
+    "note": "189-1 동해선재송역·155 재송시장입구에서 도보 5~10분",
+    "address": "해운대구 재송동 해운대로76번길 12 (센텀화인요양병원)"
+   }
+  },
+  {
+   "id": "55039135",
+   "company": "(의)벧엘의료재단",
+   "title": "",
+   "location": "부산 사하구",
+   "career": "경력 10~20년",
+   "education": "초대졸↑",
+   "type": "정규직",
+   "deadline": "09/28(월)",
+   "posted": "등록일 26/09/15",
+   "sector": "간호사, 요양병원",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "사하구 장림동은 4개 노선 미경유",
+    "address": "사하구 장림동 (부산정신병원)"
+   }
+  },
+  {
+   "id": "55038789",
+   "company": "바른재활병원",
+   "title": "",
+   "location": "경남 창원시 성산구",
+   "career": "경력",
+   "education": "초대졸↑",
+   "type": "정규직",
+   "deadline": "10/15(목)",
+   "posted": "등록일 26/09/15",
+   "sector": "수간호사, 간호사, 병원·진료",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "55030084",
+   "company": "세인요양병원",
+   "title": "",
+   "location": "부산 동래구",
+   "career": "경력10년↑",
+   "education": "초대졸↑",
+   "type": "정규직",
+   "deadline": "10/30(금)",
+   "posted": "수정일 26/09/15",
+   "sector": "수간호사, 요양병원",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "사직동은 4개 노선 미경유",
+    "address": "동래구 사직동"
+   }
+  },
+  {
+   "id": "55023651",
+   "company": "삼인요양병원",
+   "title": "",
+   "location": "부산 사상구",
+   "career": "경력10년↑",
+   "education": "학력무관",
+   "type": "정규직",
+   "deadline": "10/14(수)",
+   "posted": "등록일 26/09/14",
+   "sector": "수간호사, 요양병원",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "사상구는 4개 노선 미경유",
+    "address": "사상구"
+   }
+  },
+  {
+   "id": "55022442",
+   "company": "척시원병원",
+   "title": "",
+   "location": "부산 동구",
+   "career": "경력1년↑",
+   "education": "대졸↑",
+   "type": "정규직",
+   "deadline": "10/14(수)",
+   "posted": "수정일 26/09/16",
+   "sector": "수간호사, 간호사, 책임간호사, 마취간호사, 심사간호사",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "55007475",
+   "company": "미래로병원",
+   "title": "",
+   "location": "부산 북구",
+   "career": "경력15년↑",
+   "education": "대졸↑",
+   "type": "정규직",
+   "deadline": "채용시",
+   "posted": "등록일 26/09/11",
+   "sector": "수간호사, 간호사, 책임간호사, 상담간호사, 산부인과",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "덕천동은 4개 노선 미경유",
+    "address": "북구 덕천동 금곡대로 15"
+   }
+  },
+  {
+   "id": "54998063",
+   "company": "부산더존한방병원",
+   "title": "",
+   "location": "부산 남구",
+   "career": "경력",
+   "education": "초대졸↑",
+   "type": "정규직",
+   "deadline": "채용시",
+   "posted": "수정일 26/09/21",
+   "sector": "수간호사, 간호사, 책임간호사, 마취간호사, 심사간호사",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "ok",
+    "route": "155",
+    "stop": "경성대.부경대역",
+    "walk_min": 2,
+    "note": "155번 경성대·부경대역 정류장에서 도보 1~2분",
+    "address": "남구 대연동 수영로 305"
+   }
+  },
+  {
+   "id": "54961120",
+   "company": "다움병원",
+   "title": "",
+   "location": "부산 금정구",
+   "career": "경력3년↑",
+   "education": "대졸↑",
+   "type": "정규직",
+   "deadline": "진행예정",
+   "posted": "등록일 26/09/07",
+   "sector": "수간호사, 간호사, QPS간호사, 신경정신과",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "두구동(노포 북쪽)은 4개 노선 미경유",
+    "address": "금정구 두구동"
+   }
+  },
+  {
+   "id": "54957096",
+   "company": "파티마안과의원",
+   "title": "",
+   "location": "경남 창원시",
+   "career": "경력무관",
+   "education": "학력무관",
+   "type": "정규직",
+   "deadline": "10/07(수)",
+   "posted": "등록일 26/09/07",
+   "sector": "수간호사, 간호사, 책임간호사, 마취간호사, 심사간호사",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "54928203",
+   "company": "초록내과의원",
+   "title": "",
+   "location": "경남 창원시 성산구",
+   "career": "경력",
+   "education": "초대졸↑",
+   "type": "정규직",
+   "deadline": "10/03(토)",
+   "posted": "수정일 26/09/04",
+   "sector": "간호사, 내과",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "54927625",
+   "company": "세하병원",
+   "title": "",
+   "location": "부산 동래구",
+   "career": "경력무관",
+   "education": "학력무관",
+   "type": "정규직",
+   "deadline": "10/03(토)",
+   "posted": "등록일 26/09/03",
+   "sector": "수간호사, 간호사, 책임간호사, 마취간호사, 병원·진료",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "ok",
+    "route": "36",
+    "stop": "동래봉생병원",
+    "walk_min": 5,
+    "note": "36번이 충렬대로(안락동우체국·동래봉생병원) 직접 경유",
+    "address": "동래구 낙민동 충렬대로 258"
+   }
+  },
+  {
+   "id": "54922616",
+   "company": "하이유외과성형외과의원",
+   "title": "",
+   "location": "부산 부산진구",
+   "career": "경력무관",
+   "education": "학력무관",
+   "type": "정규직",
+   "deadline": "10/02(금)",
+   "posted": "등록일 26/09/02",
+   "sector": "수간호사, 간호사, 책임간호사, 마취간호사, 심사간호사",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "54920500",
+   "company": "바로마디정형외과내과의원",
+   "title": "",
+   "location": "경남 진주시",
+   "career": "경력무관",
+   "education": "초대졸↑",
+   "type": "정규직",
+   "deadline": "10/02(금)",
+   "posted": "등록일 26/09/02",
+   "sector": "수간호사, 간호사, 책임간호사, 마취간호사, 심사간호사",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "54919178",
+   "company": "웰하이여성아동병원",
+   "title": "",
+   "location": "부산 강서구",
+   "career": "경력무관",
+   "education": "초대졸↑",
+   "type": "정규직",
+   "deadline": "11/01(일)",
+   "posted": "수정일 26/09/03",
+   "sector": "수간호사, 간호사, 산부인과, 신생아실, 산후조리원",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "54918699",
+   "company": "금강요양병원",
+   "title": "",
+   "location": "부산 동래구",
+   "career": "경력무관",
+   "education": "학력무관",
+   "type": "정규직",
+   "deadline": "10/02(금)",
+   "posted": "등록일 26/09/02",
+   "sector": "수간호사, 간호사, 책임간호사, 마취간호사, 심사간호사",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "금강공원 입구는 4개 노선 미경유",
+    "address": "동래구 온천동 금강공원로 32"
+   }
+  },
+  {
+   "id": "54914595",
+   "company": "장튼튼아침내과의원",
+   "title": "",
+   "location": "부산 수영구",
+   "career": "경력무관",
+   "education": "대졸↑",
+   "type": "정규직",
+   "deadline": "10/01(목)",
+   "posted": "수정일 26/09/02",
+   "sector": "수간호사, 간호사, 책임간호사, 마취간호사, 심사간호사",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "unknown",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "동명 유사 '장튼튼내과의원'은 반여동 재반로 213-1로 집 근처 도보권",
+    "address": "수영구 (상세 주소 미확인)"
+   }
+  },
+  {
+   "id": "54880336",
+   "company": "부산우리들병원",
+   "title": "",
+   "location": "부산 동래구",
+   "career": "경력무관",
+   "education": "초대졸↑",
+   "type": "정규직",
+   "deadline": "09/25(금)",
+   "posted": "수정일 26/09/07",
+   "sector": "수간호사, 간호사, 책임간호사, 병원·진료, 정형외과",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "온천동 중앙대로변은 4개 노선 미경유",
+    "address": "동래구 온천동 중앙대로 1523"
+   }
+  },
+  {
+   "id": "54839291",
+   "company": "하나병원",
+   "title": "",
+   "location": "부산 사하구",
+   "career": "경력무관",
+   "education": "초대졸↑",
+   "type": "정규직",
+   "deadline": "10/24(토)",
+   "posted": "등록일 26/08/25",
+   "sector": "간호사, 의료·보건",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "사하구는 4개 노선 미경유",
+    "address": "사하구 장림동"
+   }
+  },
+  {
+   "id": "54827511",
+   "company": "의)청십자의료재단 행복한병원",
+   "title": "",
+   "location": "부산 부산진구",
+   "career": "경력무관",
+   "education": "초대졸↑",
+   "type": "정규직",
+   "deadline": "내일마감",
+   "posted": "등록일 26/08/24",
+   "sector": "수간호사, 간호사, 책임간호사, 마취간호사, 심사간호사",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "54825870",
+   "company": "(의)피터의료재단",
+   "title": "",
+   "location": "부산 기장군",
+   "career": "경력",
+   "education": "초대졸↑",
+   "type": "정규직",
+   "deadline": "내일마감",
+   "posted": "등록일 26/08/24",
+   "sector": "간호사, 요양병원",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "unknown",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "기장군 내 위치에 따라 36번 이용 가능 여부 확인 필요",
+    "address": "기장군 (상세 미확인)"
+   }
+  },
+  {
+   "id": "54821840",
+   "company": "미래로병원",
+   "title": "",
+   "location": "부산 북구",
+   "career": "경력10년↑",
+   "education": "대졸↑",
+   "type": "정규직",
+   "deadline": "오늘마감",
+   "posted": "등록일 26/08/23",
+   "sector": "수간호사, 간호사, 책임간호사, 상담간호사, 산부인과",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "덕천동은 4개 노선 미경유",
+    "address": "북구 덕천동 금곡대로 15"
+   }
+  },
+  {
+   "id": "54761948",
+   "company": "양산우리외과",
+   "title": "",
+   "location": "경남 양산시",
+   "career": "경력무관",
+   "education": "학력무관",
+   "type": "정규직",
+   "deadline": "10/16(금)",
+   "posted": "수정일 26/09/14",
+   "sector": "수간호사, 외과",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "54758690",
+   "company": "추원공외과의원",
+   "title": "",
+   "location": "경남 창원시 마산회원구",
+   "career": "경력",
+   "education": "학력무관",
+   "type": "정규직·계약직",
+   "deadline": "10/14(수)",
+   "posted": "수정일 26/09/03",
+   "sector": "수간호사, 간호사, 간호조무사, 상담간호사, 수술",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "54711885",
+   "company": "퀸즈파크여성병원",
+   "title": "",
+   "location": "부산 해운대구",
+   "career": "경력10년↑",
+   "education": "학력무관",
+   "type": "정규직",
+   "deadline": "채용시",
+   "posted": "수정일 26/09/01",
+   "sector": "수간호사, 산부인과",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "ok",
+    "route": "115-1",
+    "stop": "장산역",
+    "walk_min": 5,
+    "note": "115-1번 장산역 정류장 바로 인근",
+    "address": "해운대구 좌동 해운대로 794"
+   }
+  },
+  {
+   "id": "54684557",
+   "company": "(의)푸른솔의료재단 김해한솔재활요양병원",
+   "title": "",
+   "location": "경남 김해시",
+   "career": "경력무관",
+   "education": "초대졸↑",
+   "type": "정규직",
+   "deadline": "09/26(토)",
+   "posted": "수정일 26/09/11",
+   "sector": "간호사, 병원·진료, 한의원, 내과, 가정의학과",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "54673451",
+   "company": "사상구정신건강복지센터",
+   "title": "",
+   "location": "부산 사상구",
+   "career": "경력무관",
+   "education": "대졸↑",
+   "type": "계약직",
+   "deadline": "09/30(수)",
+   "posted": "수정일 26/08/06",
+   "sector": "수간호사, 간호사, 책임간호사, 임상심리사, 작업치료사",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "54581608",
+   "company": "부산성소병원",
+   "title": "",
+   "location": "부산 남구",
+   "career": "경력무관",
+   "education": "학력무관",
+   "type": "정규직",
+   "deadline": "채용시",
+   "posted": "등록일 26/07/28",
+   "sector": "수간호사, 간호사, 책임간호사, 병원·진료",
+   "url": "",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "far",
+    "route": "155",
+    "stop": "경성대.부경대역",
+    "walk_min": 15,
+    "note": "155번은 경성대역에서 부경대 방면으로 꺾여 대연역 미경유, 도보 약 15분",
+    "address": "남구 대연동 수영로 175 (대연역 인근)"
+   }
+  },
+  {
+   "id": "55067754",
+   "company": "희망병원",
+   "title": "고용24 공고",
+   "location": "경남 창원시 진해구",
+   "career": "경력1년↑",
+   "education": "초대졸",
+   "type": "계약직",
+   "deadline": "채용시",
+   "posted": "수정일 26/09/21",
+   "sector": "간호사, 전문병원",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=etc&rec_idx=55067754&searchType=search&searchword=%EC%88%98%EA%B0%84%ED%98%B8%EC%82%AC",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "55016211",
+   "company": "사회복지법인동남복지재단부산은빛요양병원",
+   "title": "고용24 공고",
+   "location": "부산 북구",
+   "career": "경력1년↑",
+   "education": "학력무관",
+   "type": "정규직",
+   "deadline": "채용시",
+   "posted": "수정일 26/09/11",
+   "sector": "간호사, 요양병원",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=etc&rec_idx=55016211&searchType=search&searchword=%EC%88%98%EA%B0%84%ED%98%B8%EC%82%AC",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "54903548",
+   "company": "함양성심병원",
+   "title": "고용24 공고",
+   "location": "경남 함양군",
+   "career": "경력무관",
+   "education": "학력무관",
+   "type": "정규직",
+   "deadline": "채용시",
+   "posted": "수정일 26/08/31",
+   "sector": "간호사, 전문병원",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=etc&rec_idx=54903548&searchType=search&searchword=%EC%88%98%EA%B0%84%ED%98%B8%EC%82%AC",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "54847389",
+   "company": "하나병원",
+   "title": "고용24 공고",
+   "location": "부산 사하구",
+   "career": "경력무관",
+   "education": "학력무관",
+   "type": "정규직",
+   "deadline": "채용시",
+   "posted": "수정일 26/08/25",
+   "sector": "간호사, 병원·진료",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=etc&rec_idx=54847389&searchType=search&searchword=%EC%88%98%EA%B0%84%ED%98%B8%EC%82%AC",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "사하구는 4개 노선 미경유",
+    "address": "사하구 장림동"
+   }
+  },
+  {
+   "id": "54815565",
+   "company": "온요양병원",
+   "title": "고용24 공고",
+   "location": "경남 사천시",
+   "career": "경력무관",
+   "education": "학력무관",
+   "type": "정규직",
+   "deadline": "오늘마감",
+   "posted": "수정일 26/09/07",
+   "sector": "간호사, 요양병원",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=etc&rec_idx=54815565&searchType=search&searchword=%EC%88%98%EA%B0%84%ED%98%B8%EC%82%AC",
+   "first_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:54",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "address": ""
+   }
+  },
   {
    "company": "새봄병원",
    "title": "외래 수간호사 경력 채용",
@@ -29,7 +1161,8 @@
     "walk_min": null,
     "note": "온천장 일대는 4개 노선 미경유",
     "address": "동래구 온천동"
-   }
+   },
+   "gone": true
   },
   {
    "company": "연세미래아이에프씨의원",
@@ -52,7 +1185,8 @@
     "walk_min": null,
     "note": "문현동 국제금융센터는 4개 노선 미경유",
     "address": "남구 문현동 IFC몰"
-   }
+   },
+   "gone": true
   },
   {
    "company": "(의)서호의료재단",
@@ -75,7 +1209,8 @@
     "walk_min": null,
     "note": "사하구는 4개 노선 미경유",
     "address": "사하구 하단동 (서호하단병원)"
-   }
+   },
+   "gone": true
   },
   {
    "company": "하나병원",
@@ -98,7 +1233,8 @@
     "walk_min": null,
     "note": "사하구는 4개 노선 미경유",
     "address": "사하구 장림동"
-   }
+   },
+   "gone": true
   },
   {
    "company": "(의)해림의료재단부산금사요양병원",
@@ -121,7 +1257,8 @@
     "walk_min": 7,
     "note": "155번 서동역 정류장에서 반송로 따라 도보 약 7분",
     "address": "금정구 금사동 반송로 470"
-   }
+   },
+   "gone": true
   },
   {
    "company": "(의)굿타임의료재단",
@@ -144,7 +1281,8 @@
     "walk_min": null,
     "note": "사하구는 4개 노선 미경유",
     "address": "사하구"
-   }
+   },
+   "gone": true
   },
   {
    "company": "의료법인장수의료재단",
@@ -167,7 +1305,8 @@
     "walk_min": null,
     "note": "명륜동은 4개 노선 미경유",
     "address": "동래구 명륜동 (동래요양병원)"
-   }
+   },
+   "gone": true
   },
   {
    "company": "그랜드자연요양병원",
@@ -190,7 +1329,8 @@
     "walk_min": 18,
     "note": "황령산 자락, 남천역 정류장에서 도보 15~20분 언덕길",
     "address": "남구 대연동 황령대로 355-14"
-   }
+   },
+   "gone": true
   },
   {
    "company": "미래로병원",
@@ -213,7 +1353,8 @@
     "walk_min": null,
     "note": "덕천동은 4개 노선 미경유",
     "address": "북구 덕천동 금곡대로 15"
-   }
+   },
+   "gone": true
   },
   {
    "company": "(의)이한의료재단",
@@ -236,7 +1377,8 @@
     "walk_min": 7,
     "note": "36번이 일광신도시 내부 경유, 승차 50분 이상",
     "address": "기장군 일광읍 해빛6로 85-4 (일광한방병원)"
-   }
+   },
+   "gone": true
   },
   {
    "company": "(의)벧엘의료재단",
@@ -259,7 +1401,8 @@
     "walk_min": null,
     "note": "사하구 장림동은 4개 노선 미경유",
     "address": "사하구 장림동 (부산정신병원)"
-   }
+   },
+   "gone": true
   },
   {
    "company": "퀸즈파크여성병원",
@@ -282,7 +1425,8 @@
     "walk_min": 5,
     "note": "115-1번 장산역 정류장 바로 인근",
     "address": "해운대구 좌동 해운대로 794"
-   }
+   },
+   "gone": true
   },
   {
    "company": "삼인요양병원",
@@ -305,7 +1449,8 @@
     "walk_min": null,
     "note": "사상구는 4개 노선 미경유",
     "address": "사상구"
-   }
+   },
+   "gone": true
   },
   {
    "company": "(의)피터의료재단",
@@ -328,7 +1473,8 @@
     "walk_min": null,
     "note": "기장군 내 위치에 따라 36번 이용 가능 여부 확인 필요",
     "address": "기장군 (상세 미확인)"
-   }
+   },
+   "gone": true
   },
   {
    "company": "양산우리외과",
@@ -351,7 +1497,8 @@
     "walk_min": null,
     "note": "115-1·155·189-1·36번이 가지 않는 지역",
     "address": ""
-   }
+   },
+   "gone": true
   },
   {
    "company": "희망병원",
@@ -374,7 +1521,8 @@
     "walk_min": null,
     "note": "115-1·155·189-1·36번이 가지 않는 지역",
     "address": ""
-   }
+   },
+   "gone": true
   },
   {
    "company": "(의)푸른솔의료재단 김해한솔재활요양병원",
@@ -397,7 +1545,8 @@
     "walk_min": null,
     "note": "115-1·155·189-1·36번이 가지 않는 지역",
     "address": ""
-   }
+   },
+   "gone": true
   },
   {
    "company": "사상구정신건강복지센터",
@@ -420,7 +1569,8 @@
     "walk_min": null,
     "note": "115-1·155·189-1·36번이 가지 않는 지역",
     "address": ""
-   }
+   },
+   "gone": true
   },
   {
    "company": "다움병원",
@@ -443,7 +1593,8 @@
     "walk_min": null,
     "note": "두구동(노포 북쪽)은 4개 노선 미경유",
     "address": "금정구 두구동"
-   }
+   },
+   "gone": true
   },
   {
    "company": "장튼튼아침내과의원",
@@ -466,7 +1617,8 @@
     "walk_min": null,
     "note": "동명 유사 '장튼튼내과의원'은 반여동 재반로 213-1로 집 근처 도보권",
     "address": "수영구 (상세 주소 미확인)"
-   }
+   },
+   "gone": true
   },
   {
    "company": "태종대요양병원",
@@ -489,7 +1641,8 @@
     "walk_min": null,
     "note": "115-1·155·189-1·36번이 가지 않는 지역",
     "address": ""
-   }
+   },
+   "gone": true
   },
   {
    "company": "한양류마디병원",
@@ -512,7 +1665,8 @@
     "walk_min": 3,
     "note": "189-1번이 과정로 경유, 바로 앞 하차",
     "address": "연제구 연산동 과정로 272 (토곡)"
-   }
+   },
+   "gone": true
   },
   {
    "company": "추원공외과의원",
@@ -535,7 +1689,8 @@
     "walk_min": null,
     "note": "115-1·155·189-1·36번이 가지 않는 지역",
     "address": ""
-   }
+   },
+   "gone": true
   },
   {
    "company": "(의)서원탑의료재단서원요양병원",
@@ -552,13 +1707,14 @@
    "type": "",
    "sector": "",
    "commute": {
-    "verdict": "unknown",
+    "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "기관 위치 확인 필요",
-    "address": ""
-   }
+    "note": "김해는 4개 노선 미경유",
+    "address": "경남 김해시 (김해서원요양병원)"
+   },
+   "gone": true
   },
   {
    "company": "웰하이여성아동병원",
@@ -581,7 +1737,8 @@
     "walk_min": null,
     "note": "115-1·155·189-1·36번이 가지 않는 지역",
     "address": ""
-   }
+   },
+   "gone": true
   },
   {
    "company": "척시원병원",
@@ -604,7 +1761,8 @@
     "walk_min": null,
     "note": "115-1·155·189-1·36번이 가지 않는 지역",
     "address": ""
-   }
+   },
+   "gone": true
   },
   {
    "company": "금강요양병원",
@@ -627,7 +1785,8 @@
     "walk_min": null,
     "note": "금강공원 입구는 4개 노선 미경유",
     "address": "동래구 온천동 금강공원로 32"
-   }
+   },
+   "gone": true
   },
   {
    "company": "부산더존한방병원",
@@ -650,7 +1809,8 @@
     "walk_min": 2,
     "note": "155번 경성대·부경대역 정류장에서 도보 1~2분",
     "address": "남구 대연동 수영로 305"
-   }
+   },
+   "gone": true
   },
   {
    "company": "부산성소병원",
@@ -673,7 +1833,8 @@
     "walk_min": 15,
     "note": "155번은 경성대역에서 부경대 방면으로 꺾여 대연역 미경유, 도보 약 15분",
     "address": "남구 대연동 수영로 175 (대연역 인근)"
-   }
+   },
+   "gone": true
   },
   {
    "company": "의)청십자의료재단 행복한병원",
@@ -696,7 +1857,8 @@
     "walk_min": null,
     "note": "115-1·155·189-1·36번이 가지 않는 지역",
     "address": ""
-   }
+   },
+   "gone": true
   },
   {
    "company": "이의용밝은길요양병원",
@@ -719,7 +1881,8 @@
     "walk_min": null,
     "note": "115-1·155·189-1·36번이 가지 않는 지역",
     "address": ""
-   }
+   },
+   "gone": true
   },
   {
    "company": "의료법인화인의료재단",
@@ -742,7 +1905,8 @@
     "walk_min": 7,
     "note": "189-1 동해선재송역·155 재송시장입구에서 도보 5~10분",
     "address": "해운대구 재송동 해운대로76번길 12 (센텀화인요양병원)"
-   }
+   },
+   "gone": true
   },
   {
    "company": "세인요양병원",
@@ -765,7 +1929,8 @@
     "walk_min": null,
     "note": "사직동은 4개 노선 미경유",
     "address": "동래구 사직동"
-   }
+   },
+   "gone": true
   },
   {
    "company": "세하병원",
@@ -788,7 +1953,8 @@
     "walk_min": 5,
     "note": "36번이 충렬대로(안락동우체국·동래봉생병원) 직접 경유",
     "address": "동래구 낙민동 충렬대로 258"
-   }
+   },
+   "gone": true
   },
   {
    "company": "서면엘비뇨가과의원",
@@ -811,7 +1977,8 @@
     "walk_min": null,
     "note": "115-1·155·189-1·36번이 가지 않는 지역",
     "address": ""
-   }
+   },
+   "gone": true
   },
   {
    "company": "미래로병원",
@@ -834,7 +2001,8 @@
     "walk_min": null,
     "note": "덕천동은 4개 노선 미경유",
     "address": "북구 덕천동 금곡대로 15"
-   }
+   },
+   "gone": true
   },
   {
    "company": "부산우리들병원",
@@ -857,7 +2025,8 @@
     "walk_min": null,
     "note": "온천동 중앙대로변은 4개 노선 미경유",
     "address": "동래구 온천동 중앙대로 1523"
-   }
+   },
+   "gone": true
   },
   {
    "company": "하이유외과성형외과의원",
@@ -880,7 +2049,8 @@
     "walk_min": null,
     "note": "115-1·155·189-1·36번이 가지 않는 지역",
     "address": ""
-   }
+   },
+   "gone": true
   },
   {
    "company": "바른재활병원",
@@ -903,7 +2073,8 @@
     "walk_min": null,
     "note": "115-1·155·189-1·36번이 가지 않는 지역",
     "address": ""
-   }
+   },
+   "gone": true
   },
   {
    "company": "파티마안과의원",
@@ -926,7 +2097,8 @@
     "walk_min": null,
     "note": "115-1·155·189-1·36번이 가지 않는 지역",
     "address": ""
-   }
+   },
+   "gone": true
   },
   {
    "company": "파티마안과의원",
@@ -949,7 +2121,8 @@
     "walk_min": null,
     "note": "115-1·155·189-1·36번이 가지 않는 지역",
     "address": ""
-   }
+   },
+   "gone": true
   },
   {
    "company": "초록내과의원",
@@ -972,7 +2145,8 @@
     "walk_min": null,
     "note": "115-1·155·189-1·36번이 가지 않는 지역",
     "address": ""
-   }
+   },
+   "gone": true
   },
   {
    "company": "태종대요양병원",
@@ -995,7 +2169,8 @@
     "walk_min": null,
     "note": "115-1·155·189-1·36번이 가지 않는 지역",
     "address": ""
-   }
+   },
+   "gone": true
   },
   {
    "company": "바로마디정형외과내과의원",
@@ -1018,7 +2193,8 @@
     "walk_min": null,
     "note": "115-1·155·189-1·36번이 가지 않는 지역",
     "address": ""
-   }
+   },
+   "gone": true
   },
   {
    "company": "하나병원",
@@ -1041,7 +2217,8 @@
     "walk_min": null,
     "note": "사하구는 4개 노선 미경유",
     "address": "사하구 장림동"
-   }
+   },
+   "gone": true
   },
   {
    "company": "사회복지법인동남복지재단부산은빛요양병원",
@@ -1064,7 +2241,8 @@
     "walk_min": null,
     "note": "115-1·155·189-1·36번이 가지 않는 지역",
     "address": ""
-   }
+   },
+   "gone": true
   },
   {
    "company": "희망병원",
@@ -1087,7 +2265,8 @@
     "walk_min": null,
     "note": "115-1·155·189-1·36번이 가지 않는 지역",
     "address": ""
-   }
+   },
+   "gone": true
   },
   {
    "company": "함양성심병원",
@@ -1110,7 +2289,8 @@
     "walk_min": null,
     "note": "115-1·155·189-1·36번이 가지 않는 지역",
     "address": ""
-   }
+   },
+   "gone": true
   },
   {
    "company": "온요양병원",
@@ -1133,7 +2313,8 @@
     "walk_min": null,
     "note": "115-1·155·189-1·36번이 가지 않는 지역",
     "address": ""
-   }
+   },
+   "gone": true
   }
  ],
  "search": {
