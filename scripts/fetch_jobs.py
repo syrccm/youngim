@@ -50,16 +50,18 @@ def parse(page_html):
         b = b.split('<div class="item_recruit"')[0]
         rec = re.search(r'value="(\d+)"', b[:200])
         rec_idx = rec.group(1) if rec else ""
-        m = re.search(r'<a[^>]*href="([^"]*rec_idx=(\d+)[^"]*)"[^>]*title="([^"]*)"', b)
-        if m:
-            url = "https://www.saramin.co.kr" + html.unescape(m.group(1)) if m.group(1).startswith("/") else html.unescape(m.group(1))
-            rec_idx = rec_idx or m.group(2)
-            title = html.unescape(m.group(3)).strip()
+        tit = re.search(r'<h2 class="job_tit">(.*?)</h2>', b, re.S)
+        tb = tit.group(1) if tit else b
+        t = re.search(r'title="([^"]*)"', tb)
+        title = clean(html.unescape(t.group(1))) if t else clean(re.search(r"<a[^>]*>(.*?)</a>", tb, re.S).group(1)) if re.search(r"<a[^>]*>(.*?)</a>", tb, re.S) else ""
+        hm = re.search(r'href="([^"]*rec_idx=(\d+)[^"]*)"', tb)
+        if hm:
+            rec_idx = rec_idx or hm.group(2)
+            url = "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=" + rec_idx + "&view_type=search"
         else:
-            url, title = "", ""
-        corp = re.search(r'class="corp_name">\s*<a[^>]*title="([^"]*)"', b) or re.search(r'class="corp_name">(.*?)</strong>', b, re.S)
-        company = html.unescape(corp.group(1)).strip() if corp else ""
-        company = clean(company)
+            url = ""
+        corp = re.search(r'<strong class="corp_name">(.*?)</strong>', b, re.S)
+        company = clean(corp.group(1)) if corp else ""
         cond = re.search(r'<div class="job_condition">(.*?)</div>', b, re.S)
         conds = [clean(x) for x in re.findall(r"<span[^>]*>(.*?)</span>", cond.group(1), re.S)] if cond else []
         location = conds[0] if conds else ""
@@ -85,7 +87,7 @@ def parse(page_html):
 
 
 def total_count(page_html):
-    m = re.search(r'총\s*<span[^>]*>\s*([\d,]+)\s*</span>\s*건', page_html) or re.search(r'([\d,]+)\s*건의 검색결과', page_html)
+    m = re.search(r'class="cnt_result">\s*총\s*([\d,]+)\s*건', page_html) or re.search(r'총\s*([\d,]+)\s*건의 검색결과', page_html)
     return int(m.group(1).replace(",", "")) if m else None
 
 
@@ -115,11 +117,6 @@ def main():
         h = fetch(SEARCH_URL.format(page=page))
         if expected is None:
             expected = total_count(h)
-        if page == 1:
-            (DATA / "debug_sample.html").write_text(
-                "\n<!-- ===== BLOCK ===== -->\n".join(b[:6000] for b in re.split(r'<div class="item_recruit"', h)[1:3])
-                + "\n<!-- ===== COUNT AREA ===== -->\n" + "\n".join(l for l in h.splitlines() if "건" in l and ("cnt" in l or "총" in l))[:3000],
-                encoding="utf-8")
         got = parse(h)
         if not got:
             break
