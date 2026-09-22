@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-22T20:54",
+ "updated": "2026-09-22T20:55",
  "runs": [
   {
    "at": "2026-09-22T19:19",
@@ -10,6 +10,11 @@
    "at": "2026-09-22T20:54",
    "total": 49,
    "new": 49
+  },
+  {
+   "at": "2026-09-22T20:55",
+   "total": 49,
+   "new": 0
   }
  ],
  "items": [
@@ -26,7 +31,7 @@
    "sector": "간호사, 한방병원",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "ok",
     "route": "36",
@@ -49,7 +54,7 @@
    "sector": "수간호사, 간호사, 내과, 전문병원, 검진센터",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -72,7 +77,7 @@
    "sector": "수간호사, 전문병원",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "far",
     "route": "155",
@@ -95,7 +100,7 @@
    "sector": "수간호사, 요양병원",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -118,7 +123,7 @@
    "sector": "수간호사, D-Keep, 병원·진료, 산부인과, 내과",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -141,7 +146,7 @@
    "sector": "수간호사, 간호사, 책임간호사, 마취간호사, 심사간호사",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -164,7 +169,7 @@
    "sector": "수간호사, 간호사, 책임간호사, 마취간호사, 심사간호사",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -187,7 +192,7 @@
    "sector": "간호사, 요양병원",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -210,7 +215,7 @@
    "sector": "간호사, D-Keep, 병원·진료",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "ok",
     "route": "189-1",
@@ -233,7 +238,7 @@
    "sector": "간호사, 인공신장실, 요양병원",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -256,7 +261,7 @@
    "sector": "수간호사, 간호사, 내과, 외과, 재활의학과",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -279,7 +284,7 @@
    "sector": "수간호사, 간호사, 간호조무사, 안과",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -302,7 +307,7 @@
    "sector": "간호사, 병원·진료",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -325,7 +330,7 @@
    "sector": "간호사, 전문병원",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -348,7 +353,7 @@
    "sector": "수간호사, 간호사, 책임간호사, 마취간호사, 심사간호사",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -371,7 +376,7 @@
    "sector": "수간호사, 간호사, 책임간호사, 마취간호사, 심사간호사",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -394,7 +399,7 @@
    "sector": "수간호사, 간호사, 책임간호사, 마취간호사, 심사간호사",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "ok",
     "route": "189-1",
@@ -417,7 +422,7 @@
    "sector": "간호사, 요양병원",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -440,7 +445,7 @@
    "sector": "수간호사, 간호사, 병원·진료",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -463,7 +468,7 @@
    "sector": "수간호사, 요양병원",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -486,7 +491,7 @@
    "sector": "수간호사, 요양병원",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -509,7 +514,7 @@
    "sector": "수간호사, 간호사, 책임간호사, 마취간호사, 심사간호사",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -532,7 +537,7 @@
    "sector": "수간호사, 간호사, 책임간호사, 상담간호사, 산부인과",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -555,7 +560,7 @@
    "sector": "수간호사, 간호사, 책임간호사, 마취간호사, 심사간호사",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -578,7 +583,7 @@
    "sector": "수간호사, 간호사, QPS간호사, 신경정신과",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -601,7 +606,7 @@
    "sector": "수간호사, 간호사, 책임간호사, 마취간호사, 심사간호사",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -624,7 +629,7 @@
    "sector": "간호사, 내과",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -647,7 +652,7 @@
    "sector": "수간호사, 간호사, 책임간호사, 마취간호사, 병원·진료",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "ok",
     "route": "36",
@@ -670,7 +675,7 @@
    "sector": "수간호사, 간호사, 책임간호사, 마취간호사, 심사간호사",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -693,7 +698,7 @@
    "sector": "수간호사, 간호사, 책임간호사, 마취간호사, 심사간호사",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -716,7 +721,7 @@
    "sector": "수간호사, 간호사, 산부인과, 신생아실, 산후조리원",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -739,7 +744,7 @@
    "sector": "수간호사, 간호사, 책임간호사, 마취간호사, 심사간호사",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -762,7 +767,7 @@
    "sector": "수간호사, 간호사, 책임간호사, 마취간호사, 심사간호사",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "unknown",
     "route": "",
@@ -785,7 +790,7 @@
    "sector": "수간호사, 간호사, 책임간호사, 병원·진료, 정형외과",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -808,7 +813,7 @@
    "sector": "간호사, 의료·보건",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -831,7 +836,7 @@
    "sector": "수간호사, 간호사, 책임간호사, 마취간호사, 심사간호사",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -854,7 +859,7 @@
    "sector": "간호사, 요양병원",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "unknown",
     "route": "",
@@ -877,7 +882,7 @@
    "sector": "수간호사, 간호사, 책임간호사, 상담간호사, 산부인과",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -900,7 +905,7 @@
    "sector": "수간호사, 외과",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -923,7 +928,7 @@
    "sector": "수간호사, 간호사, 간호조무사, 상담간호사, 수술",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -946,7 +951,7 @@
    "sector": "수간호사, 산부인과",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "ok",
     "route": "115-1",
@@ -969,7 +974,7 @@
    "sector": "간호사, 병원·진료, 한의원, 내과, 가정의학과",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -992,7 +997,7 @@
    "sector": "수간호사, 간호사, 책임간호사, 임상심리사, 작업치료사",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1015,7 +1020,7 @@
    "sector": "수간호사, 간호사, 책임간호사, 병원·진료",
    "url": "",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "far",
     "route": "155",
@@ -1038,7 +1043,7 @@
    "sector": "간호사, 전문병원",
    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=etc&rec_idx=55067754&searchType=search&searchword=%EC%88%98%EA%B0%84%ED%98%B8%EC%82%AC",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1061,7 +1066,7 @@
    "sector": "간호사, 요양병원",
    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=etc&rec_idx=55016211&searchType=search&searchword=%EC%88%98%EA%B0%84%ED%98%B8%EC%82%AC",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1084,7 +1089,7 @@
    "sector": "간호사, 전문병원",
    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=etc&rec_idx=54903548&searchType=search&searchword=%EC%88%98%EA%B0%84%ED%98%B8%EC%82%AC",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1107,7 +1112,7 @@
    "sector": "간호사, 병원·진료",
    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=etc&rec_idx=54847389&searchType=search&searchword=%EC%88%98%EA%B0%84%ED%98%B8%EC%82%AC",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1130,7 +1135,7 @@
    "sector": "간호사, 요양병원",
    "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=etc&rec_idx=54815565&searchType=search&searchword=%EC%88%98%EA%B0%84%ED%98%B8%EC%82%AC",
    "first_seen": "2026-09-22T20:54",
-   "last_seen": "2026-09-22T20:54",
+   "last_seen": "2026-09-22T20:55",
    "commute": {
     "verdict": "no",
     "route": "",
