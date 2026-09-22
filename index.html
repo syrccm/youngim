@@ -69,7 +69,40 @@ details ul{margin:10px 0 0;padding-left:20px}
 code{background:var(--panel2);padding:1px 5px;border-radius:3px;color:var(--ink)}
 footer{margin-top:24px;font-size:14px;color:var(--muted);line-height:1.7}
 footer a,details a{color:var(--ink);text-underline-offset:3px}
-@media (max-width:560px){.row{grid-template-columns:1fr}.d{grid-row:auto;text-align:left;display:flex;gap:10px;align-items:baseline}.d b{display:inline}.t{font-size:16px}}
+@media (max-width:640px){.row{grid-template-columns:1fr}.d{grid-row:auto;text-align:left;display:flex;gap:10px;align-items:baseline}.d b{display:inline}}
+.ls{display:none}
+@media (max-width:640px){
+  body{font-size:15px}
+  .wrap{padding-block:14px 40px}
+  header{margin-bottom:12px;padding-bottom:10px;gap:4px;align-items:baseline}
+  h1{font-size:22px}
+  .sub{display:none}
+  .updated{text-align:left;font-size:12px}
+  .updated br{display:none}
+  .updated b{font-size:12px;margin-left:6px}
+  .stats{grid-template-columns:repeat(5,1fr);gap:6px;margin-bottom:12px}
+  .stat{padding:8px 4px;text-align:center;border-radius:6px}
+  .stat .n{font-size:20px}
+  .stat .l{font-size:11px;margin-top:2px;line-height:1.2}
+  .lf{display:none}.ls{display:inline}
+  .bar{flex-wrap:nowrap;overflow-x:auto;gap:6px;margin-bottom:8px;padding-bottom:2px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .bar::-webkit-scrollbar{display:none}
+  .tog{padding:5px 11px;font-size:13px;white-space:nowrap;flex:0 0 auto}
+  select{font-size:13px;padding:5px 8px;flex:0 0 auto;margin-left:0}
+  #kwbar{margin-top:0}
+  .list{border-radius:6px}
+  .row{padding:12px 12px;gap:4px 10px}
+  .t{font-size:15.5px;line-height:1.35}
+  .badge{font-size:11px;padding:1px 6px}
+  .c{font-size:13px;gap:3px 8px}
+  .c .v{padding:1px 8px;font-size:12px}
+  .m{font-size:12.5px;gap:2px 10px}
+  .d{font-size:12.5px}
+  .d b{font-size:14px}
+  details{font-size:13px}
+  footer{font-size:12.5px}
+}
+
 </style>
 </head>
 <body>
@@ -83,18 +116,18 @@ footer a,details a{color:var(--ink);text-underline-offset:3px}
 </header>
 
 <div class="stats" id="stats">
-  <button class="stat on" data-f="all"><div class="n" id="n-all">–</div><div class="l">검색 결과 전체</div></button>
-  <button class="stat new" data-f="new"><div class="n" id="n-new">–</div><div class="l">신규 (이번 갱신에 처음 등장)</div></button>
-  <button class="stat ok" data-f="ok"><div class="n" id="n-ok">–</div><div class="l">버스 1회 통근 가능</div></button>
-  <button class="stat" data-f="head"><div class="n" id="n-head">–</div><div class="l">제목에 수간호사·간호부장·신장실 포함</div></button>
-  <button class="stat soon" data-f="soon"><div class="n" id="n-soon">–</div><div class="l">마감 3일 이내</div></button>
+  <button class="stat on" data-f="all"><div class="n" id="n-all">–</div><div class="l"><span class="lf">검색 결과 전체</span><span class="ls">전체</span></div></button>
+  <button class="stat new" data-f="new"><div class="n" id="n-new">–</div><div class="l"><span class="lf">신규 (이번 갱신에 처음 등장)</span><span class="ls">신규</span></div></button>
+  <button class="stat ok" data-f="ok"><div class="n" id="n-ok">–</div><div class="l"><span class="lf">버스 1회 통근 가능</span><span class="ls">통근 가능</span></div></button>
+  <button class="stat" data-f="head"><div class="n" id="n-head">–</div><div class="l"><span class="lf">제목에 수간호사·간호부장·신장실 포함</span><span class="ls">관리직</span></div></button>
+  <button class="stat soon" data-f="soon"><div class="n" id="n-soon">–</div><div class="l"><span class="lf">마감 3일 이내</span><span class="ls">마감임박</span></div></button>
 </div>
 
 <div class="bar" id="bar">
   <button class="tog on" data-r="">전 지역</button>
   <button class="tog" data-r="부산">부산</button>
   <button class="tog" data-r="경남">경남</button>
-  <button class="tog" data-c="hide-no" id="hideno">통근 불가 숨기기</button>
+  <button class="tog" data-c="hide-no" id="hideno">불가 숨기기</button>
   <select id="sort" aria-label="정렬">
     <option value="commute">통근 가능 우선</option>
     <option value="new">신규 우선</option>
@@ -147,7 +180,7 @@ footer a,details a{color:var(--ink);text-underline-offset:3px}
   var KWS = (data.search && data.search.keywords) || ['수간호사'];
   var kw = '';
   document.getElementById('sub').textContent = '사람인 · 검색어 ' + KWS.map(function(k){return '「'+k+'」'}).join(' ') + ' · 부산 전체 + 경남 전체 · 매일 06:00 / 14:00 자동 갱신 · 출발지 반여1동 장산성당 정류장';
-  document.getElementById('kwbar').innerHTML = '<span style="font-size:13px;color:var(--ink2)">검색어</span><button class="tog on" data-k="">전체</button>' + KWS.map(function(k){ return '<button class="tog" data-k="'+esc(k)+'">'+esc(k)+'</button>'; }).join('');
+  document.getElementById('kwbar').innerHTML = '<span style="font-size:13px;color:var(--ink2);white-space:nowrap;flex:0 0 auto">검색어</span><button class="tog on" data-k="">전체</button>' + KWS.map(function(k){ return '<button class="tog" data-k="'+esc(k)+'">'+esc(k)+'</button>'; }).join('');
   var urls = (data.search && data.search.urls) || {};
   document.getElementById('srclinks').innerHTML = KWS.map(function(k){ return '<a target="_blank" rel="noopener" href="'+esc(urls[k] || ('https://www.saramin.co.kr/zf_user/search/recruit?searchType=search&loc_mcd=106000%2C110000&recruitPageCount=100&searchword='+encodeURIComponent(k)))+'">'+esc(k)+' ↗</a>'; }).join(' · ');
   document.getElementById('kwbar').addEventListener('click', function(e){
