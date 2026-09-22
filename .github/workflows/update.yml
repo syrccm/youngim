@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["scripts/**", "data/commute.json", ".github/workflows/update.yml"]
+    paths: ["scripts/**", "data/commute.json", "data/routes.json", ".github/workflows/update.yml"]
 
 permissions:
   contents: write
@@ -28,13 +28,15 @@ jobs:
           python-version: "3.12"
 
       - name: 공고 수집
+        env:
+          KAKAO_REST_KEY: ${{ secrets.KAKAO_REST_KEY }}
         run: python scripts/fetch_jobs.py
 
       - name: 변경 사항 커밋
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/jobs.json
+          git add data/jobs.json data/stops.json data/geo_cache.json
           if git diff --cached --quiet; then
             echo "변경 없음"
           else

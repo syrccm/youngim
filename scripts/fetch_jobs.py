@@ -8,6 +8,8 @@
 """
 import json, re, sys, html, datetime, zoneinfo, pathlib, time
 import urllib.request, urllib.parse
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import geo
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -97,21 +99,23 @@ def total_count(page_html):
     return int(m.group(1).replace(",", "")) if m else None
 
 
-def judge_commute(item, table):
-    """commute.json 의 기관별 판정 → 없으면 지역 규칙 → 나머지는 '확인 필요'."""
+def judge_commute(item, table, stops=None, cache=None):
+    """1) commute.json 수동 판정 → 2) 노선이 안 가는 지역 → 3) 카카오 지도 자동 판정 → 4) 확인 필요."""
     comp = re.sub(r"\s+", "", item["company"])
-    hits = [(len(k), k) for k in table if not k.startswith("_")
-            and re.sub(r"\s+", "", k) in comp]
+    hits = [(len(k), k) for k in table if not k.startswith("_") and re.sub(r"\s+", "", k) in comp]
     if hits:
         v = table[max(hits)[1]]  # 가장 구체적인(긴) 기관명 우선
-        if True:
-            return {"verdict": v.get("verdict", "unknown"), "route": v.get("route", ""),
-                    "stop": v.get("stop", ""), "walk_min": v.get("walk_min"),
-                    "note": v.get("note", ""), "address": v.get("address", "")}
+        return {"verdict": v.get("verdict", "unknown"), "route": v.get("route", ""),
+                "stop": v.get("stop", ""), "walk_min": v.get("walk_min"),
+                "note": v.get("note", ""), "address": v.get("address", "")}
     loc = item.get("location", "")
     if any(loc.startswith(g) or ("부산 " + g) in loc for g in NO_GO) or loc.startswith("경남") or loc.startswith("울산"):
         return {"verdict": "no", "route": "", "stop": "", "walk_min": None,
                 "note": "115-1·155·189-1·36번이 가지 않는 지역", "address": ""}
+    if stops is not None and cache is not None:
+        auto = geo.auto_verdict(item["company"], loc, stops, cache)
+        if auto:
+            return auto
     return {"verdict": "unknown", "route": "", "stop": "", "walk_min": None, "note": "기관 위치 확인 필요", "address": ""}
 
 
@@ -120,6 +124,11 @@ def main():
     state = json.loads(JOBS.read_text(encoding="utf-8")) if JOBS.exists() else {}
     state.setdefault("items", []); state.setdefault("runs", [])
     table = json.loads(COMMUTE.read_text(encoding="utf-8")) if COMMUTE.exists() else {}
+    routes = json.loads((DATA / "routes.json").read_text(encoding="utf-8"))
+    stops = geo.build_stops(routes) if geo.KEY else (json.loads(geo.STOPS.read_text(encoding="utf-8")) if geo.STOPS.exists() else {})
+    cache = geo.load_cache()
+    if not geo.KEY:
+        print("KAKAO_REST_KEY 없음: 자동 위치 판정 생략", file=sys.stderr)
 
     fetched, by_id = [], {}
     for kw in KEYWORDS:
@@ -160,7 +169,7 @@ def main():
         prev = old.get(it["id"])
         it["first_seen"] = prev["first_seen"] if prev else now
         it["last_seen"] = now
-        it["commute"] = judge_commute(it, table)
+        it["commute"] = judge_commute(it, table, stops, cache)
         if not prev:
             new_ids.append(it["id"])
         merged.append(it)
@@ -174,7 +183,7 @@ def main():
         last = datetime.datetime.fromisoformat(p["last_seen"])
         if (datetime.datetime.fromisoformat(now) - last).days <= 7:
             p["gone"] = True
-            p["commute"] = judge_commute(p, table)
+            p["commute"] = judge_commute(p, table, stops, cache)
             merged.append(p)
 
     state["items"] = merged
@@ -183,6 +192,7 @@ def main():
                        "urls": {kw: search_url(kw) for kw in KEYWORDS}}
     state["runs"] = (state["runs"] + [{"at": now, "total": len(fetched), "new": len(new_ids) if state["runs"] else 0}])[-60:]
     JOBS.write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")
+    geo.save_cache(cache)
     print(f"updated {now}: total {len(fetched)}, new {len(new_ids)}")
 
 
