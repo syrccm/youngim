@@ -14,7 +14,7 @@ DATA = ROOT / "data"
 JOBS = DATA / "jobs.json"
 COMMUTE = DATA / "commute.json"
 
-KEYWORDS = ["수간호사", "인공신장실", "간호부장", "신장실", "간호부"]
+KEYWORDS = ["수간호사", "인공신장실", "간호부장", "간호과장", "신장실", "간호부"]
 SEARCH_URL = ("https://www.saramin.co.kr/zf_user/search/recruit?searchType=search"
               "&searchword={kw}&loc_mcd=106000%2C110000"
               "&recruitPageCount=100&recruitSort=reg_dt&recruitPage={page}")
