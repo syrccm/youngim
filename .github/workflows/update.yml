@@ -33,6 +33,7 @@ jobs:
         run: python scripts/fetch_jobs.py
 
       - name: 변경 사항 커밋
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -41,5 +42,6 @@ jobs:
             echo "변경 없음"
           else
             git commit -m "data: $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M') 공고 갱신"
+            git pull --rebase --autostash origin main || true
             git push
           fi
