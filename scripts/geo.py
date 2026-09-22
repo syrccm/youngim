@@ -178,3 +178,4 @@ def load_cache():
 
 def save_cache(cache):
     CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")
+# 자동 판정 v1
