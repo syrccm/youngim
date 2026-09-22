@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""사람인 '수간호사' (부산·경남) 검색 결과를 수집해 data/jobs.json 을 갱신한다.
+"""사람인 간호 관리직 검색 결과(부산·경남)를 수집해 data/jobs.json 을 갱신한다.
 
-- 검색 조건: searchword=수간호사, loc_mcd=106000(부산),110000(경남), 페이지당 100건
+- 검색어: KEYWORDS 목록 각각 검색 후 합침(공고 번호 기준 중복 제거, 어떤 검색어에 걸렸는지 기록)
+- 지역: loc_mcd=106000(부산),110000(경남), 페이지당 100건
 - 기존 jobs.json 과 병합해 first_seen / last_seen 을 유지하고 신규 여부를 판단
 - data/commute.json(기관별 통근 판정)과 지역 규칙으로 각 공고의 통근 가능성을 채움
 """
@@ -13,9 +14,14 @@ DATA = ROOT / "data"
 JOBS = DATA / "jobs.json"
 COMMUTE = DATA / "commute.json"
 
+KEYWORDS = ["수간호사", "인공신장실", "간호부장", "신장실", "간호부"]
 SEARCH_URL = ("https://www.saramin.co.kr/zf_user/search/recruit?searchType=search"
-              "&searchword=%EC%88%98%EA%B0%84%ED%98%B8%EC%82%AC&loc_mcd=106000%2C110000"
+              "&searchword={kw}&loc_mcd=106000%2C110000"
               "&recruitPageCount=100&recruitSort=reg_dt&recruitPage={page}")
+
+
+def search_url(kw, page=1):
+    return SEARCH_URL.format(kw=urllib.parse.quote(kw), page=page)
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36",
     "Accept-Language": "ko-KR,ko;q=0.9",
@@ -112,19 +118,32 @@ def main():
     state.setdefault("items", []); state.setdefault("runs", [])
     table = json.loads(COMMUTE.read_text(encoding="utf-8")) if COMMUTE.exists() else {}
 
-    fetched, page, expected = [], 1, None
-    while page <= 5:
-        h = fetch(SEARCH_URL.format(page=page))
-        if expected is None:
-            expected = total_count(h)
-        got = parse(h)
-        if not got:
-            break
-        fetched += got
-        if expected is not None and len(fetched) >= expected:
-            break
-        page += 1
-    print(f"fetched {len(fetched)} items (site says {expected})")
+    fetched, by_id = [], {}
+    for kw in KEYWORDS:
+        page, expected, got_kw = 1, None, 0
+        while page <= 5:
+            h = fetch(search_url(kw, page))
+            if expected is None:
+                expected = total_count(h)
+            got = parse(h)
+            if not got:
+                break
+            for it in got:
+                got_kw += 1
+                if it["id"] in by_id:
+                    if kw not in by_id[it["id"]]["keywords"]:
+                        by_id[it["id"]]["keywords"].append(kw)
+                else:
+                    it["keywords"] = [kw]
+                    by_id[it["id"]] = it
+                    fetched.append(it)
+            if expected is not None and got_kw >= expected:
+                break
+            page += 1
+            time.sleep(1)
+        print(f"[{kw}] {got_kw} items (site says {expected})")
+        time.sleep(1)
+    print(f"fetched {len(fetched)} unique items")
     if not fetched:
         raise SystemExit("파싱 결과가 0건입니다. 사람인 마크업 변경 여부를 확인하세요.")
 
@@ -142,6 +161,8 @@ def main():
         if not prev:
             new_ids.append(it["id"])
         merged.append(it)
+    for p in state["items"]:
+        p.setdefault("keywords", ["수간호사"])
 
     # 이번 검색에서 사라진 공고는 7일간 '마감/종료' 로 보관
     for pid, p in old.items():
@@ -155,7 +176,8 @@ def main():
 
     state["items"] = merged
     state["updated"] = now
-    state["search"] = {"keyword": "수간호사", "regions": "부산 전체, 경남 전체", "url": SEARCH_URL.format(page=1)}
+    state["search"] = {"keywords": KEYWORDS, "regions": "부산 전체, 경남 전체",
+                       "urls": {kw: search_url(kw) for kw in KEYWORDS}}
     state["runs"] = (state["runs"] + [{"at": now, "total": len(fetched), "new": len(new_ids) if state["runs"] else 0}])[-60:]
     JOBS.write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"updated {now}: total {len(fetched)}, new {len(new_ids)}")
