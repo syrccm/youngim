@@ -100,8 +100,11 @@ def total_count(page_html):
 def judge_commute(item, table):
     """commute.json 의 기관별 판정 → 없으면 지역 규칙 → 나머지는 '확인 필요'."""
     comp = re.sub(r"\s+", "", item["company"])
-    for key, v in table.items():
-        if re.sub(r"\s+", "", key) in comp or comp in re.sub(r"\s+", "", key):
+    hits = [(len(k), k) for k in table if not k.startswith("_")
+            and (re.sub(r"\s+", "", k) in comp or comp in re.sub(r"\s+", "", k))]
+    if hits:
+        v = table[max(hits)[1]]  # 가장 구체적인(긴) 기관명 우선
+        if True:
             return {"verdict": v.get("verdict", "unknown"), "route": v.get("route", ""),
                     "stop": v.get("stop", ""), "walk_min": v.get("walk_min"),
                     "note": v.get("note", ""), "address": v.get("address", "")}
