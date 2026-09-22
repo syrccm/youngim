@@ -115,6 +115,11 @@ def main():
         h = fetch(SEARCH_URL.format(page=page))
         if expected is None:
             expected = total_count(h)
+        if page == 1:
+            (DATA / "debug_sample.html").write_text(
+                "\n<!-- ===== BLOCK ===== -->\n".join(b[:6000] for b in re.split(r'<div class="item_recruit"', h)[1:3])
+                + "\n<!-- ===== COUNT AREA ===== -->\n" + "\n".join(l for l in h.splitlines() if "건" in l and ("cnt" in l or "총" in l))[:3000],
+                encoding="utf-8")
         got = parse(h)
         if not got:
             break
