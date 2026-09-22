@@ -34,15 +34,15 @@ HEADERS = {
 NO_GO = ["사하구", "서구", "북구", "사상구", "강서구", "영도구", "동구", "부산진구", "중구", "경남", "울산", "경북"]
 
 
-def fetch(url, retries=3):
+def fetch(url, retries=6):
     for i in range(retries):
         try:
             req = urllib.request.Request(url, headers=HEADERS)
-            with urllib.request.urlopen(req, timeout=30) as r:
+            with urllib.request.urlopen(req, timeout=60) as r:
                 return r.read().decode("utf-8", "replace")
         except Exception as e:  # noqa
             print(f"fetch failed ({i+1}/{retries}): {e}", file=sys.stderr)
-            time.sleep(3)
+            time.sleep(15 * (i + 1))
     raise SystemExit("사람인 페이지를 가져오지 못했습니다.")
 
 
