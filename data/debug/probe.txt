@@ -1,0 +1,6 @@
+www.nursejob.co.kr -> 222.236.46.133
+nursejob.co.kr -> 222.236.46.133
+https://www.nursejob.co.kr/ ERR URLError(TimeoutError('timed out')) 27.4 s
+http://www.nursejob.co.kr/ ERR URLError(TimeoutError('timed out')) 25.5 s
+https://www.nursejob.co.kr/recruit/list.php?m=jikjong&w_jik%5B%5D=1006&num=1 ERR URLError(TimeoutError('timed out')) 28.8 s
+000 25.000538
