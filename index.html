@@ -56,6 +56,7 @@ select{font:inherit;font-size:14px;background:var(--panel);color:var(--ink);bord
 .c .n{color:var(--ink2)}
 .m{color:var(--muted);font-size:14px;display:flex;flex-wrap:wrap;gap:4px 16px}
 .m .co{color:var(--ink);font-weight:500}
+.m .src{border:1px solid var(--line2);border-radius:3px;padding:0 6px;font-size:12px;color:var(--ink2)}
 .d{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:14px;color:var(--muted);text-align:right;white-space:nowrap;grid-row:span 3;font-variant-numeric:tabular-nums}
 .d b{display:block;color:var(--ink);font-weight:700;font-size:16px}
 .d.soon b{text-decoration:underline;text-decoration-style:dashed;text-underline-offset:4px}
@@ -110,7 +111,7 @@ footer a,details a{color:var(--ink);text-underline-offset:3px}
 <header>
   <div>
     <h1>간호 관리직 채용 모니터</h1>
-    <p class="sub" id="sub">사람인 · 부산 전체 + 경남 전체 · 15분마다 자동 갱신 · 출발지 반여1동 장산성당 정류장</p>
+    <p class="sub" id="sub">사람인 + 널스잡 · 부산 전체 + 경남 전체 · 15분마다 자동 갱신 · 출발지 반여1동 장산성당 정류장</p>
   </div>
   <div class="updated" id="updated">불러오는 중…</div>
 </header>
@@ -128,6 +129,7 @@ footer a,details a{color:var(--ink);text-underline-offset:3px}
   <button class="tog" data-r="부산">부산</button>
   <button class="tog" data-r="경남">경남</button>
   <button class="tog" data-c="hide-no" id="hideno">불가 숨기기</button>
+  <button class="tog" data-s="" id="src-all" style="display:none">모든 출처</button>
   <select id="sort" aria-label="정렬">
     <option value="commute">통근 가능 우선</option>
     <option value="new">신규 우선</option>
@@ -138,6 +140,7 @@ footer a,details a{color:var(--ink);text-underline-offset:3px}
 </div>
 
 <div class="bar" id="kwbar" style="margin-top:-4px"></div>
+<div class="bar" id="srcbar" style="margin-top:-4px"><span style="font-size:13px;color:var(--ink2);white-space:nowrap;flex:0 0 auto">출처</span><button class="tog on" data-s="">전체</button><button class="tog" data-s="사람인">사람인</button><button class="tog" data-s="널스잡">널스잡</button></div>
 
 <div class="list" id="list"><div class="empty">공고 목록을 불러오는 중입니다…</div></div>
 
@@ -153,7 +156,7 @@ footer a,details a{color:var(--ink);text-underline-offset:3px}
 <details class="hist"><summary>갱신 이력</summary><ul id="histlist"></ul></details>
 
 <footer>
-  공고 제목을 누르면 사람인 상세 페이지가 열립니다. 검색어별 결과를 합치고 같은 공고는 하나로 묶었으며, 각 공고에 걸린 검색어를 함께 표시합니다.
+  공고 제목을 누르면 해당 사이트의 상세 페이지가 열립니다. 사람인과 널스잡을 같은 검색어로 각각 검색해 합치고 같은 공고는 하나로 묶었으며, 각 공고에 걸린 검색어를 함께 표시합니다.
   <br>사람인에서 직접 보기: <span id="srclinks"></span>
 </footer>
 </div>
@@ -179,10 +182,12 @@ footer a,details a{color:var(--ink);text-underline-offset:3px}
   var VM = {ok:'●', far:'◐', no:'○', unknown:'?'};
   var KWS = (data.search && data.search.keywords) || ['수간호사'];
   var kw = '';
-  document.getElementById('sub').textContent = '사람인 · 검색어 ' + KWS.map(function(k){return '「'+k+'」'}).join(' ') + ' · 부산 전체 + 경남 전체 · 15분마다 자동 갱신 · 출발지 반여1동 장산성당 정류장';
+  document.getElementById('sub').textContent = '사람인 + 널스잡 · 검색어 ' + KWS.map(function(k){return '「'+k+'」'}).join(' ') + ' · 부산 전체 + 경남 전체 · 15분마다 자동 갱신 · 출발지 반여1동 장산성당 정류장';
   document.getElementById('kwbar').innerHTML = '<span style="font-size:13px;color:var(--ink2);white-space:nowrap;flex:0 0 auto">검색어</span><button class="tog on" data-k="">전체</button>' + KWS.map(function(k){ return '<button class="tog" data-k="'+esc(k)+'">'+esc(k)+'</button>'; }).join('');
   var urls = (data.search && data.search.urls) || {};
-  document.getElementById('srclinks').innerHTML = KWS.map(function(k){ return '<a target="_blank" rel="noopener" href="'+esc(urls[k] || ('https://www.saramin.co.kr/zf_user/search/recruit?searchType=search&loc_mcd=106000%2C110000&recruitPageCount=100&searchword='+encodeURIComponent(k)))+'">'+esc(k)+' ↗</a>'; }).join(' · ');
+  var nurls = (data.search && data.search.nursejob_urls) || {};
+  document.getElementById('srclinks').innerHTML = '사람인: ' + KWS.map(function(k){ return '<a target="_blank" rel="noopener" href="'+esc(urls[k] || ('https://www.saramin.co.kr/zf_user/search/recruit?searchType=search&loc_mcd=106000%2C110000&recruitPageCount=100&searchword='+encodeURIComponent(k)))+'">'+esc(k)+' ↗</a>'; }).join(' · ')
+    + '<br>널스잡: ' + KWS.map(function(k){ return '<a target="_blank" rel="noopener" href="'+esc(nurls[k] || ('https://www.nursejob.co.kr/recruit/list.php?m=jikjong&smode=search&w_area1=73&num=1&keyword_search='+encodeURIComponent(k)))+'">'+esc(k)+' ↗</a>'; }).join(' · ');
   document.getElementById('kwbar').addEventListener('click', function(e){
     var b = e.target.closest('.tog'); if(!b) return;
     kw = b.dataset.k;
@@ -214,7 +219,13 @@ footer a,details a{color:var(--ink);text-underline-offset:3px}
     it.kws = it.keywords || ['수간호사'];
   });
 
-  var filter = 'all', region = '', hideNo = false, sort = 'commute';
+  var filter = 'all', region = '', hideNo = false, sort = 'commute', src = '';
+  document.getElementById('srcbar').addEventListener('click', function(e){
+    var b = e.target.closest('.tog'); if(!b) return;
+    src = b.dataset.s;
+    document.querySelectorAll('#srcbar .tog').forEach(function(x){ x.classList.toggle('on', x===b); });
+    render();
+  });
   try { var s = localStorage.getItem('hn-sort'); if (s) sort = s; hideNo = localStorage.getItem('hn-hideno') === '1'; } catch(e){}
   document.getElementById('sort').value = sort;
   document.getElementById('hideno').classList.toggle('on', hideNo);
@@ -241,6 +252,7 @@ footer a,details a{color:var(--ink);text-underline-offset:3px}
       if (region && it.region.indexOf(region) < 0) return false;
       if (hideNo && it.cv==='no') return false;
       if (kw && it.kws.indexOf(kw) < 0) return false;
+      if (src && (it.source||'사람인') !== src) return false;
       return true;
     });
     rows.sort(function(a,b){
@@ -290,7 +302,7 @@ footer a,details a{color:var(--ink);text-underline-offset:3px}
     try { var r = await fetch('data/jobs.json?t='+Date.now(), {cache:'no-store'}); var j = await r.json();
       if (j.updated && j.updated !== latest) location.reload(); } catch(e){}
   }, 5*60*1000);
-  document.getElementById('histlist').innerHTML = (data.runs||[]).slice().reverse().map(function(r){ return '<li>'+esc(r.at.replace('T',' '))+' — 전체 '+r.total+'건, 신규 '+r.new+'건</li>'; }).join('') || '<li>기록 없음</li>';
+  document.getElementById('histlist').innerHTML = (data.runs||[]).slice().reverse().slice(0,60).map(function(r){ return '<li>'+esc(r.at.replace('T',' '))+' — 전체 '+r.total+'건'+(r.nursejob!==undefined?' (사람인 '+r.saramin+' · 널스잡 '+r.nursejob+')':'')+', 신규 '+r.new+'건</li>'; }).join('') || '<li>기록 없음</li>';
 
   document.getElementById('stats').addEventListener('click', function(e){
     var b = e.target.closest('.stat'); if(!b) return;

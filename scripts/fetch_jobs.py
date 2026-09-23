@@ -10,6 +10,7 @@ import json, re, sys, html, datetime, zoneinfo, pathlib, time
 import urllib.request, urllib.parse
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import geo
+import nursejob
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -155,9 +156,19 @@ def main():
             time.sleep(1)
         print(f"[{kw}] {got_kw} items (site says {expected})")
         time.sleep(1)
-    print(f"fetched {len(fetched)} unique items")
+    for it in fetched:
+        it["source"] = "사람인"
+    print(f"[사람인] {len(fetched)} unique items")
     if not fetched:
         raise SystemExit("파싱 결과가 0건입니다. 사람인 마크업 변경 여부를 확인하세요.")
+
+    # 널스잡 (Cloudflare 프록시 경유). 실패해도 사람인 결과는 유지한다.
+    try:
+        nj = nursejob.collect(KEYWORDS)
+    except Exception as e:  # noqa
+        print(f"널스잡 수집 실패: {e}", file=sys.stderr); nj = []
+    print(f"[널스잡] {len(nj)} unique items")
+    fetched += nj
 
     old = {it["id"]: it for it in state["items"]}
     merged, new_ids = [], []
@@ -176,10 +187,13 @@ def main():
     for p in state["items"]:
         p.setdefault("keywords", ["수간호사"])
 
-    # 이번 검색에서 사라진 공고는 7일간 '마감/종료' 로 보관
+    # 이번 검색에서 사라진 공고는 7일간 '마감/종료' 로 보관 (널스잡 수집이 통째로 실패한 경우는 그대로 유지)
+    nj_ok = bool(nj)
     for pid, p in old.items():
         if pid in seen:
             continue
+        if not nj_ok and p.get("source") == "널스잡":
+            merged.append(p); continue
         last = datetime.datetime.fromisoformat(p["last_seen"])
         if (datetime.datetime.fromisoformat(now) - last).days <= 7:
             p["gone"] = True
@@ -188,9 +202,11 @@ def main():
 
     state["items"] = merged
     state["updated"] = now
-    state["search"] = {"keywords": KEYWORDS, "regions": "부산 전체, 경남 전체",
-                       "urls": {kw: search_url(kw) for kw in KEYWORDS}}
-    state["runs"] = (state["runs"] + [{"at": now, "total": len(fetched), "new": len(new_ids) if state["runs"] else 0}])[-200:]
+    state["search"] = {"keywords": KEYWORDS, "regions": "부산 전체, 경남 전체", "sources": ["사람인", "널스잡"],
+                       "urls": {kw: search_url(kw) for kw in KEYWORDS},
+                       "nursejob_urls": {kw: nursejob.search(kw, "73") for kw in KEYWORDS}}
+    state["runs"] = (state["runs"] + [{"at": now, "total": len(fetched), "new": len(new_ids) if state["runs"] else 0,
+                                       "saramin": len(fetched) - len(nj), "nursejob": len(nj)}])[-200:]
     JOBS.write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")
     geo.save_cache(cache)
     print(f"updated {now}: total {len(fetched)}, new {len(new_ids)}")

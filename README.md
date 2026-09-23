@@ -1,6 +1,6 @@
-# 수간호사 채용 모니터
+# 간호 관리직 채용 모니터
 
-사람인에서 「수간호사」「인공신장실」「간호부장」「간호과장」「신장실」「간호부」(부산 전체 + 경남 전체) 검색 결과를 합쳐 15분마다 자동으로 모아
+사람인과 널스잡에서 「수간호사」「인공신장실」「간호부장」「간호과장」「신장실」「간호부」(부산 전체 + 경남 전체) 검색 결과를 합쳐 15분마다 자동으로 모아
 GitHub Pages 페이지에 보여줍니다. 반여1동 장산성당 정류장에서 시내버스 한 번(115-1 · 155 · 189-1 · 36)으로
 출퇴근 가능한지도 함께 표시합니다.
 
@@ -12,7 +12,9 @@ GitHub Pages 페이지에 보여줍니다. 반여1동 장산성당 정류장에�
 | `data/jobs.json` | 수집된 공고 + 최초/최근 확인 시각 + 통근 판정 (Actions가 자동 갱신) |
 | `data/commute.json` | 기관별 통근 판정표 — 새 기관은 여기에 한 줄 추가 |
 | `data/routes.json` | 4개 노선의 정류장 목록 (판정 근거) |
-| `scripts/fetch_jobs.py` | 사람인 검색 → 파싱 → 병합 → `jobs.json` 저장 |
+| `scripts/fetch_jobs.py` | 사람인 검색 → 파싱 → 널스잡 결과와 병합 → `jobs.json` 저장 |
+| `scripts/nursejob.py` | 널스잡 검색(Cloudflare 프록시 경유) |
+| `cloudflare/worker.js` | 널스잡 프록시 워커 (널스잡이 해외 IP를 막아 필요) |
 | `.github/workflows/update.yml` | 15분 간격 예약 실행 및 수동 실행 |
 
 ## 처음 한 번 설정
@@ -41,3 +43,10 @@ GitHub Pages 페이지에 보여줍니다. 반여1동 장산성당 정류장에�
 ## 검색 조건 바꾸기
 
 `scripts/fetch_jobs.py` 상단의 `KEYWORDS`(검색어 목록)와 `SEARCH_URL`의 `loc_mcd`(지역 코드: 부산 106000, 경남 110000, 울산 107000)를 바꾸면 됩니다.
+
+## 널스잡 프록시 (Cloudflare Workers, 무료)
+
+널스잡은 해외 IP 접속을 막아 GitHub Actions에서 직접 가져올 수 없습니다. `cloudflare/worker.js`를 Cloudflare 워커로 배포하고
+1. 워커 Settings → Variables and Secrets → `PROXY_KEY` (Secret, 아무 긴 문자열)
+2. 이 저장소 Secrets → `NJ_PROXY_URL` (워커 주소, 예: https://youngim-proxy.xxx.workers.dev), `NJ_PROXY_KEY` (위와 같은 값)
+을 넣으면 다음 갱신부터 널스잡 결과가 합쳐집니다. 두 값이 없으면 사람인만 수집합니다.

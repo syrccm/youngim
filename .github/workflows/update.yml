@@ -1,4 +1,4 @@
-name: 사람인 간호 관리직 공고 갱신
+name: 간호 관리직 공고 갱신 (사람인·널스잡)
 
 on:
   schedule:
@@ -29,6 +29,8 @@ jobs:
       - name: 공고 수집
         env:
           KAKAO_REST_KEY: ${{ secrets.KAKAO_REST_KEY }}
+          NJ_PROXY_URL: ${{ secrets.NJ_PROXY_URL }}
+          NJ_PROXY_KEY: ${{ secrets.NJ_PROXY_KEY }}
         run: python scripts/fetch_jobs.py
 
       - name: 변경 사항 커밋
