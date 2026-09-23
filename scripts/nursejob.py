@@ -14,7 +14,9 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
            "Accept-Language": "ko-KR,ko;q=0.9"}
 
 
-def _get(url, retries=3):
+def _get(url, retries=2):
+    if not PROXY_URL:
+        return ""
     for i in range(retries):
         try:
             if PROXY_URL:
@@ -22,7 +24,7 @@ def _get(url, retries=3):
                                              headers={"X-Proxy-Key": PROXY_KEY})
             else:
                 req = urllib.request.Request(url, headers=HEADERS)
-            with urllib.request.urlopen(req, timeout=40) as r:
+            with urllib.request.urlopen(req, timeout=30) as r:
                 b = r.read()
             try:
                 return b.decode("utf-8")
@@ -83,6 +85,9 @@ def search(keyword, area, page=1):
 def collect(keywords, max_pages=5):
     """키워드 × 지역별로 검색해 합친다. {id: item} 와 id→키워드 목록을 돌려준다."""
     by_id, kws = {}, {}
+    if not PROXY_URL:
+        print("NJ_PROXY_URL 없음: 널스잡 수집 생략", file=sys.stderr)
+        return []
     for kw in keywords:
         for area in AREAS:
             for page in range(1, max_pages + 1):
