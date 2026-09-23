@@ -110,7 +110,7 @@ footer a,details a{color:var(--ink);text-underline-offset:3px}
 <header>
   <div>
     <h1>간호 관리직 채용 모니터</h1>
-    <p class="sub" id="sub">사람인 · 부산 전체 + 경남 전체 · 매시간 자동 갱신 · 출발지 반여1동 장산성당 정류장</p>
+    <p class="sub" id="sub">사람인 · 부산 전체 + 경남 전체 · 15분마다 자동 갱신 · 출발지 반여1동 장산성당 정류장</p>
   </div>
   <div class="updated" id="updated">불러오는 중…</div>
 </header>
@@ -179,7 +179,7 @@ footer a,details a{color:var(--ink);text-underline-offset:3px}
   var VM = {ok:'●', far:'◐', no:'○', unknown:'?'};
   var KWS = (data.search && data.search.keywords) || ['수간호사'];
   var kw = '';
-  document.getElementById('sub').textContent = '사람인 · 검색어 ' + KWS.map(function(k){return '「'+k+'」'}).join(' ') + ' · 부산 전체 + 경남 전체 · 매시간 자동 갱신 · 출발지 반여1동 장산성당 정류장';
+  document.getElementById('sub').textContent = '사람인 · 검색어 ' + KWS.map(function(k){return '「'+k+'」'}).join(' ') + ' · 부산 전체 + 경남 전체 · 15분마다 자동 갱신 · 출발지 반여1동 장산성당 정류장';
   document.getElementById('kwbar').innerHTML = '<span style="font-size:13px;color:var(--ink2);white-space:nowrap;flex:0 0 auto">검색어</span><button class="tog on" data-k="">전체</button>' + KWS.map(function(k){ return '<button class="tog" data-k="'+esc(k)+'">'+esc(k)+'</button>'; }).join('');
   var urls = (data.search && data.search.urls) || {};
   document.getElementById('srclinks').innerHTML = KWS.map(function(k){ return '<a target="_blank" rel="noopener" href="'+esc(urls[k] || ('https://www.saramin.co.kr/zf_user/search/recruit?searchType=search&loc_mcd=106000%2C110000&recruitPageCount=100&searchword='+encodeURIComponent(k)))+'">'+esc(k)+' ↗</a>'; }).join(' · ');
@@ -277,7 +277,19 @@ footer a,details a{color:var(--ink);text-underline-offset:3px}
     document.getElementById('n-head').textContent = live.filter(function(i){return i.isHead}).length;
     document.getElementById('n-soon').textContent = live.filter(function(i){return i.isSoon}).length;
   }
-  document.getElementById('updated').innerHTML = latest ? '마지막 갱신<br><b>'+esc(latest.replace('T',' '))+'</b>' : '아직 갱신 전';
+  function ago(){
+    if (!latest) return '';
+    var m = Math.round((Date.now() - new Date(latest + ':00+09:00').getTime())/60000);
+    return m < 1 ? '방금' : m < 60 ? m+'분 전' : Math.floor(m/60)+'시간 '+(m%60)+'분 전';
+  }
+  document.getElementById('updated').innerHTML = latest ? '마지막 갱신 <span id="ago">'+ago()+'</span><br><b>'+esc(latest.replace('T',' '))+'</b> <button class="tog" id="reload" style="margin-left:6px;padding:2px 10px;font-size:12px">새로고침</button>' : '아직 갱신 전';
+  document.getElementById('reload').addEventListener('click', function(){ location.reload(); });
+  setInterval(function(){ var a=document.getElementById('ago'); if(a) a.textContent = ago(); }, 30000);
+  // 15분마다 자동 갱신되므로, 페이지를 열어둔 채로도 새 데이터가 있으면 스스로 다시 불러온다
+  setInterval(async function(){
+    try { var r = await fetch('data/jobs.json?t='+Date.now(), {cache:'no-store'}); var j = await r.json();
+      if (j.updated && j.updated !== latest) location.reload(); } catch(e){}
+  }, 5*60*1000);
   document.getElementById('histlist').innerHTML = (data.runs||[]).slice().reverse().map(function(r){ return '<li>'+esc(r.at.replace('T',' '))+' — 전체 '+r.total+'건, 신규 '+r.new+'건</li>'; }).join('') || '<li>기록 없음</li>';
 
   document.getElementById('stats').addEventListener('click', function(e){

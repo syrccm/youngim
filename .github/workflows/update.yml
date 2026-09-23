@@ -2,8 +2,8 @@ name: 사람인 간호 관리직 공고 갱신
 
 on:
   schedule:
-    # 매시 17분 (정시는 GitHub 혼잡으로 지연이 잦아 17분으로)
-    - cron: "17 * * * *"
+    # 15분마다 (GitHub 혼잡 시 몇 분 지연될 수 있음)
+    - cron: "3,18,33,48 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
