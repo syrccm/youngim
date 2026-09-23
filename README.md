@@ -44,9 +44,11 @@ GitHub Pages 페이지에 보여줍니다. 반여1동 장산성당 정류장에�
 
 `scripts/fetch_jobs.py` 상단의 `KEYWORDS`(검색어 목록)와 `SEARCH_URL`의 `loc_mcd`(지역 코드: 부산 106000, 경남 110000, 울산 107000)를 바꾸면 됩니다.
 
-## 널스잡 프록시 (Cloudflare Workers, 무료)
+## 널스잡 프록시 (Vercel, 서울 리전, 무료)
 
-널스잡은 해외 IP 접속을 막아 GitHub Actions에서 직접 가져올 수 없습니다. `cloudflare/worker.js`를 Cloudflare 워커로 배포하고
-1. 워커 Settings → Variables and Secrets → `PROXY_KEY` (Secret, 아무 긴 문자열)
-2. 이 저장소 Secrets → `NJ_PROXY_URL` (워커 주소, 예: https://youngim-proxy.xxx.workers.dev), `NJ_PROXY_KEY` (위와 같은 값)
-을 넣으면 다음 갱신부터 널스잡 결과가 합쳐집니다. 두 값이 없으면 사람인만 수집합니다.
+널스잡은 해외 IP 접속을 막아 GitHub Actions에서 직접 가져올 수 없습니다. 이 저장소를 Vercel에 연결하면
+`api/proxy.js`가 서울(icn1)에서 실행되는 프록시가 됩니다(Cloudflare Workers는 실행 위치를 고를 수 없어 실패).
+1. vercel.com → Add New Project → GitHub 저장소 youngim 가져오기 → Deploy
+2. Vercel 프로젝트 Settings → Environment Variables → `PROXY_KEY` (아무 긴 문자열)
+3. 이 저장소 Secrets → `NJ_PROXY_URL` = `https://<프로젝트>.vercel.app/api/proxy`, `NJ_PROXY_KEY` = 위 값
+두 값이 없으면 사람인만 수집합니다.

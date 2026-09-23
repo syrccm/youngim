@@ -20,7 +20,8 @@ def _get(url, retries=2):
     for i in range(retries):
         try:
             if PROXY_URL:
-                req = urllib.request.Request(PROXY_URL + "/?url=" + urllib.parse.quote(url, safe=""),
+                sep = "&" if "?" in PROXY_URL else "?"
+                req = urllib.request.Request(PROXY_URL + sep + "url=" + urllib.parse.quote(url, safe=""),
                                              headers={"X-Proxy-Key": PROXY_KEY})
             else:
                 req = urllib.request.Request(url, headers=HEADERS)
