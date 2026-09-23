@@ -2,9 +2,8 @@ name: 사람인 간호 관리직 공고 갱신
 
 on:
   schedule:
-    # 한국시간 06:00, 14:00 (UTC 21:00, 05:00)
-    - cron: "0 21 * * *"
-    - cron: "0 5 * * *"
+    # 매시 17분 (정시는 GitHub 혼잡으로 지연이 잦아 17분으로)
+    - cron: "17 * * * *"
   workflow_dispatch:
   push:
     branches: [main]

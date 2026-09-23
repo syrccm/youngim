@@ -110,14 +110,14 @@ footer a,details a{color:var(--ink);text-underline-offset:3px}
 <header>
   <div>
     <h1>간호 관리직 채용 모니터</h1>
-    <p class="sub" id="sub">사람인 · 부산 전체 + 경남 전체 · 매일 06:00 / 14:00 자동 갱신 · 출발지 반여1동 장산성당 정류장</p>
+    <p class="sub" id="sub">사람인 · 부산 전체 + 경남 전체 · 매시간 자동 갱신 · 출발지 반여1동 장산성당 정류장</p>
   </div>
   <div class="updated" id="updated">불러오는 중…</div>
 </header>
 
 <div class="stats" id="stats">
   <button class="stat on" data-f="all"><div class="n" id="n-all">–</div><div class="l"><span class="lf">검색 결과 전체</span><span class="ls">전체</span></div></button>
-  <button class="stat new" data-f="new"><div class="n" id="n-new">–</div><div class="l"><span class="lf">신규 (이번 갱신에 처음 등장)</span><span class="ls">신규</span></div></button>
+  <button class="stat new" data-f="new"><div class="n" id="n-new">–</div><div class="l"><span class="lf">신규 (최근 24시간 내 등장)</span><span class="ls">신규</span></div></button>
   <button class="stat ok" data-f="ok"><div class="n" id="n-ok">–</div><div class="l"><span class="lf">버스 1회 통근 가능</span><span class="ls">통근 가능</span></div></button>
   <button class="stat" data-f="head"><div class="n" id="n-head">–</div><div class="l"><span class="lf">제목에 수간호사·간호부장·신장실 포함</span><span class="ls">관리직</span></div></button>
   <button class="stat soon" data-f="soon"><div class="n" id="n-soon">–</div><div class="l"><span class="lf">마감 3일 이내</span><span class="ls">마감임박</span></div></button>
@@ -179,7 +179,7 @@ footer a,details a{color:var(--ink);text-underline-offset:3px}
   var VM = {ok:'●', far:'◐', no:'○', unknown:'?'};
   var KWS = (data.search && data.search.keywords) || ['수간호사'];
   var kw = '';
-  document.getElementById('sub').textContent = '사람인 · 검색어 ' + KWS.map(function(k){return '「'+k+'」'}).join(' ') + ' · 부산 전체 + 경남 전체 · 매일 06:00 / 14:00 자동 갱신 · 출발지 반여1동 장산성당 정류장';
+  document.getElementById('sub').textContent = '사람인 · 검색어 ' + KWS.map(function(k){return '「'+k+'」'}).join(' ') + ' · 부산 전체 + 경남 전체 · 매시간 자동 갱신 · 출발지 반여1동 장산성당 정류장';
   document.getElementById('kwbar').innerHTML = '<span style="font-size:13px;color:var(--ink2);white-space:nowrap;flex:0 0 auto">검색어</span><button class="tog on" data-k="">전체</button>' + KWS.map(function(k){ return '<button class="tog" data-k="'+esc(k)+'">'+esc(k)+'</button>'; }).join('');
   var urls = (data.search && data.search.urls) || {};
   document.getElementById('srclinks').innerHTML = KWS.map(function(k){ return '<a target="_blank" rel="noopener" href="'+esc(urls[k] || ('https://www.saramin.co.kr/zf_user/search/recruit?searchType=search&loc_mcd=106000%2C110000&recruitPageCount=100&searchword='+encodeURIComponent(k)))+'">'+esc(k)+' ↗</a>'; }).join(' · ');
@@ -202,7 +202,7 @@ footer a,details a{color:var(--ink);text-underline-offset:3px}
   items.forEach(function(it){
     it.pd = parsePosted(it.posted);
     it.isNew = !it.gone && ((data.runs||[]).length > 1
-      ? it.first_seen === latest
+      ? (new Date(latest) - new Date(it.first_seen)) < 24*3600*1000
       : !!(it.pd && it.pd.getTime() === day0.getTime() && /등록일/.test(it.posted||'')));
     it.isHead = /수간호사|간호감독|간호팀장|간호파트장|간호부장|간호과장|간호부원장|간호국장|신장실/.test(it.title||'');
     it.dl = parseDeadline(it.deadline);
@@ -265,7 +265,7 @@ footer a,details a{color:var(--ink);text-underline-offset:3px}
         + '<div class="d'+(it.isSoon?' soon':'')+'"><b>'+dl+'</b>'+left+'</div>'
         + commuteHtml(it)
         + '<div class="m"><span class="co">'+esc(it.company)+'</span><span>'+esc(it.location)+'</span>'+(extra.length?'<span>'+esc(extra.join(' · '))+'</span>':'')+'<span>'+esc(it.posted)+'</span><span>검색어: '+esc(it.kws.join(', '))+'</span>'
-        + (it.first_seen && !it.isNew && it.first_seen.slice(0,10) !== latestDay ? '<span>최초 확인 '+esc(it.first_seen.slice(5,10).replace('-','/'))+'</span>' : '') + '</div>'
+        + (it.first_seen && !it.isNew ? '<span>최초 확인 '+esc(it.first_seen.slice(5,10).replace('-','/'))+'</span>' : '') + (it.isNew ? '<span>등장 '+esc(it.first_seen.slice(5,16).replace('-','/').replace('T',' '))+'</span>' : '') + '</div>'
         + '</div>';
     }).join('');
   }

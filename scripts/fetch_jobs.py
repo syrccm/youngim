@@ -190,7 +190,7 @@ def main():
     state["updated"] = now
     state["search"] = {"keywords": KEYWORDS, "regions": "부산 전체, 경남 전체",
                        "urls": {kw: search_url(kw) for kw in KEYWORDS}}
-    state["runs"] = (state["runs"] + [{"at": now, "total": len(fetched), "new": len(new_ids) if state["runs"] else 0}])[-60:]
+    state["runs"] = (state["runs"] + [{"at": now, "total": len(fetched), "new": len(new_ids) if state["runs"] else 0}])[-200:]
     JOBS.write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")
     geo.save_cache(cache)
     print(f"updated {now}: total {len(fetched)}, new {len(new_ids)}")
