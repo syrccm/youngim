@@ -51,9 +51,45 @@ def dist_m(x1, y1, x2, y2):
 
 
 # ---------- 정류장 좌표 ----------
-def _stop_query_variants(name):
-    base = name.replace(".", " ").replace("·", " ")
-    return [base + " 버스정류장", base + " 정류장", base]
+BAD_CAT = ("음식점", "카페", "편의점", "주차장", "부동산", "미용", "학원", "숙박", "술집", "간식", "제과", "치킨", "분식", "패스트푸드")
+GOOD_CAT = ("지하철", "교통", "학교", "시장", "관공서", "공공기관", "아파트", "병원", "은행", "교회", "공원", "문화시설", "행정", "대학")
+
+
+def _stop_variants(name):
+    """정류장 이름에서 검색어 후보를 만든다. '.'로 묶인 이름은 각각 시도."""
+    base = re.sub(r"\s*(기점|종점)$", "", name.replace("·", ".")).strip()
+    parts = [p.strip() for p in base.split(".") if p.strip()]
+    out = []
+    for p in parts + ([base] if len(parts) > 1 else []):
+        out += ["부산 " + p, p]
+    seen, uniq = set(), []
+    for q in out:
+        if q not in seen:
+            seen.add(q); uniq.append(q)
+    return uniq[:4]
+
+
+def _pick_stop(name, docs, prev):
+    cands = []
+    for d in docs:
+        cat = d.get("category_name", ""); pn = d.get("place_name", "")
+        if any(b in cat for b in BAD_CAT):
+            continue
+        x, y = float(d["x"]), float(d["y"])
+        dist = dist_m(prev[0], prev[1], x, y) if prev else 0
+        if prev and dist > 2500:
+            continue
+        score = 0
+        if any(g in cat for g in GOOD_CAT): score += 2
+        key = re.sub(r"[^가-힣A-Za-z0-9]", "", name.split(".")[0])[:4]
+        if key and key in re.sub(r"[^가-힣A-Za-z0-9]", "", pn): score += 2
+        if "정류" in pn: score -= 3          # '○○정류장'이라는 가게 이름
+        cands.append((score, -dist, x, y, pn))
+    if not cands:
+        return None
+    cands.sort(reverse=True)
+    s = cands[0]
+    return {"name": name, "x": s[2], "y": s[3], "matched": s[4]} if s[0] >= 0 else None
 
 
 def build_stops(routes):
@@ -70,26 +106,11 @@ def build_stops(routes):
                 out.append(have[name]); prev = (have[name]["x"], have[name]["y"]); continue
             found = None
             if KEY:
-                for q in _stop_query_variants(name):
-                    docs = search(q, near=prev, size=5)
-                    # 정류장 카테고리 우선, 없으면 이름이 들어간 결과, 이전 정류장에서 3km 이내
-                    cands = []
-                    for d in docs:
-                        x, y = float(d["x"]), float(d["y"])
-                        if prev and dist_m(prev[0], prev[1], x, y) > 3000:
-                            continue
-                        score = 0
-                        if "버스정류장" in d.get("category_name", "") or "정류" in d.get("place_name", ""):
-                            score += 2
-                        if name.split(".")[0][:3] in d.get("place_name", ""):
-                            score += 1
-                        cands.append((score, -dist_m(prev[0], prev[1], x, y) if prev else 0, x, y, d["place_name"]))
-                    if cands:
-                        cands.sort(reverse=True)
-                        s = cands[0]
-                        found = {"name": name, "x": s[2], "y": s[3], "matched": s[4]}
+                for q in _stop_variants(name):
+                    found = _pick_stop(name, search(q, near=prev, size=8), prev)
+                    if found:
                         break
-                    time.sleep(0.1)
+                    time.sleep(0.05)
             if found:
                 out.append(found); prev = (found["x"], found["y"]); changed = True
             else:
