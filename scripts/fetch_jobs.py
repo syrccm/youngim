@@ -101,6 +101,23 @@ def total_count(page_html):
     return int(m.group(1).replace(",", "")) if m else None
 
 
+MAX_AGE_DAYS = 30   # 등록(수정)일이 이보다 오래된 공고는 버린다
+
+
+def posted_age_days(posted, today):
+    """'등록일 26/08/31', '수정일 26/09/08'(사람인) / '3일전 등록', '9달전 등록'(널스잡) → 경과 일수. 모르면 None."""
+    m = re.search(r"(\d{2})/(\d{2})/(\d{2})", posted or "")
+    if m:
+        try:
+            return (today - datetime.date(2000 + int(m.group(1)), int(m.group(2)), int(m.group(3)))).days
+        except ValueError:
+            return None
+    m = re.match(r"\s*(\d+)\s*(분|시간|일|주|달|개월|년)\s*전", posted or "")
+    if m:
+        return int(m.group(1)) * {"분": 0, "시간": 0, "일": 1, "주": 7, "달": 30, "개월": 30, "년": 365}[m.group(2)]
+    return None
+
+
 def judge_commute(item, table, stops=None, cache=None):
     """1) commute.json 수동 판정 → 2) 노선이 안 가는 지역 → 3) 카카오 지도 자동 판정 → 4) 확인 필요."""
     comp = re.sub(r"\s+", "", item["company"])
@@ -171,6 +188,13 @@ def main():
     print(f"[널스잡] {len(nj)} unique items")
     fetched += nj
 
+    # 최근 MAX_AGE_DAYS 일 안에 등록·수정된 공고만 남긴다 (오래된 공고는 필요 없음)
+    today = datetime.date.fromisoformat(now[:10])
+    before = len(fetched)
+    fetched = [it for it in fetched if (posted_age_days(it.get("posted"), today) or 0) <= MAX_AGE_DAYS]
+    nj = [it for it in nj if (posted_age_days(it.get("posted"), today) or 0) <= MAX_AGE_DAYS]
+    print(f"[{MAX_AGE_DAYS}일 초과 제외] {before - len(fetched)}건 → {len(fetched)}건")
+
     old = {it["id"]: it for it in state["items"]}
     merged, new_ids = [], []
     seen = set()
@@ -196,6 +220,8 @@ def main():
         if not nj_ok and p.get("source") == "널스잡":
             merged.append(p); continue
         last = datetime.datetime.fromisoformat(p["last_seen"])
+        if (posted_age_days(p.get("posted"), today) or 0) > MAX_AGE_DAYS:
+            continue
         if (datetime.datetime.fromisoformat(now) - last).days <= 7:
             p["gone"] = True
             p["commute"] = judge_commute(p, table, stops, cache)
