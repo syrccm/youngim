@@ -17,7 +17,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T18:47",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -44,7 +44,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T18:47",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -71,7 +71,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T18:47",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -98,7 +98,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T18:47",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -125,7 +125,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T18:47",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 동래구 여고로 5",
     "auto": true,
@@ -154,7 +154,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T18:47",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -181,16 +181,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T18:47",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 연제구 중앙대로 1055",
     "auto": true,
-    "verdict": "far",
-    "route": "52",
-    "stop": "경남아파트",
-    "walk_min": 11,
-    "transfer": true,
-    "note": "자동 판정 · 반여3동 정류장에서 52번 경남아파트 직선 635m"
+    "verdict": "ok",
+    "route": "36",
+    "stop": "연산역",
+    "walk_min": 8,
+    "note": "자동 판정 · 가장 가까운 정류장 36번 연산역 직선 485m"
    }
   },
   {
@@ -211,7 +210,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T18:47",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -238,7 +237,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "ok",
     "route": "36",
@@ -265,7 +264,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -292,7 +291,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "far",
     "route": "155",
@@ -319,15 +318,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 동래구 명륜로 147",
     "auto": true,
-    "verdict": "ok",
-    "route": "36",
-    "stop": "우성아파트",
-    "walk_min": 9,
-    "note": "자동 판정 · 가장 가까운 정류장 36번 우성아파트 직선 495m"
+    "verdict": "ok2",
+    "route": "144",
+    "stop": "동래역.내성교차로",
+    "walk_min": 3,
+    "note": "자동 판정 · 반여3동 정류장에서 144번, 동래역.내성교차로 직선 173m"
    }
   },
   {
@@ -347,7 +346,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -375,7 +374,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -402,7 +401,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -429,7 +428,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -456,7 +455,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "ok",
     "route": "189-1",
@@ -483,15 +482,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 동래구 충렬대로 152",
     "auto": true,
     "verdict": "ok2",
     "route": "144",
-    "stop": "동래역.내성교차로",
-    "walk_min": 2,
-    "note": "자동 판정 · 반여3동 정류장에서 144번, 동래역.내성교차로 직선 125m"
+    "stop": "메가마트동래점",
+    "walk_min": 7,
+    "note": "자동 판정 · 반여3동 정류장에서 144번, 메가마트동래점 직선 413m"
    }
   },
   {
@@ -511,7 +510,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -538,7 +537,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -565,7 +564,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -592,7 +591,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -619,7 +618,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "unknown",
     "route": "",
@@ -647,7 +646,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "ok",
     "route": "189-1",
@@ -674,7 +673,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -701,7 +700,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -728,15 +727,16 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 동구 대영로 261",
     "auto": true,
-    "verdict": "ok2",
+    "verdict": "far",
     "route": "52",
-    "stop": "부산진역",
-    "walk_min": 5,
-    "note": "자동 판정 · 반여3동 정류장에서 52번, 부산진역 직선 298m"
+    "stop": "초량어린이집",
+    "walk_min": 13,
+    "transfer": true,
+    "note": "자동 판정 · 반여3동 정류장에서 52번 초량어린이집 직선 761m"
    }
   },
   {
@@ -756,7 +756,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -783,7 +783,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -810,7 +810,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 금정구 체육공원로 608",
     "auto": true,
@@ -838,7 +838,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -866,7 +866,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -893,7 +893,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "ok",
     "route": "36",
@@ -920,15 +920,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 부산진구 서면로 25",
     "auto": true,
     "verdict": "ok2",
-    "route": "44",
-    "stop": "당감초등학교",
-    "walk_min": 10,
-    "note": "자동 판정 · 반여3동 정류장에서 44번, 당감초등학교 직선 564m"
+    "route": "52",
+    "stop": "서면한전",
+    "walk_min": 7,
+    "note": "자동 판정 · 반여3동 정류장에서 52번, 서면한전 직선 386m"
    }
   },
   {
@@ -948,7 +948,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -975,7 +975,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1002,7 +1002,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "unknown",
     "route": "",
@@ -1029,7 +1029,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "unknown",
     "route": "",
@@ -1056,15 +1056,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 동래구 중앙대로 1523",
     "auto": true,
-    "verdict": "ok",
-    "route": "155",
-    "stop": "협진태양맨션",
-    "walk_min": 10,
-    "note": "자동 판정 · 가장 가까운 정류장 155번 협진태양맨션 직선 560m"
+    "verdict": "ok2",
+    "route": "144",
+    "stop": "래미안장전남문",
+    "walk_min": 5,
+    "note": "자동 판정 · 반여3동 정류장에서 144번, 래미안장전남문 직선 288m"
    }
   },
   {
@@ -1084,7 +1084,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1111,7 +1111,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1138,7 +1138,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1165,7 +1165,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "ok",
     "route": "115-1",
@@ -1193,7 +1193,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1220,7 +1220,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1247,7 +1247,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "far",
     "route": "155",
@@ -1274,7 +1274,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T22:32",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1302,7 +1302,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1329,7 +1329,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1356,7 +1356,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1383,7 +1383,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1410,15 +1410,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T18:47",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 동래구 아시아드대로 239-1",
     "auto": true,
     "verdict": "ok2",
     "route": "44",
-    "stop": "미남역.반도스카이뷰",
+    "stop": "반도보라스카이뷰",
     "walk_min": 2,
-    "note": "자동 판정 · 반여3동 정류장에서 44번, 미남역.반도스카이뷰 직선 133m"
+    "note": "자동 판정 · 반여3동 정류장에서 44번, 반도보라스카이뷰 직선 122m"
    }
   },
   {
@@ -1438,15 +1438,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T18:47",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 부산진구 황령대로 12",
     "auto": true,
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "자동 판정 · 가장 가까운 정류장(44번 당감초등학교)까지 직선 1246m"
+    "verdict": "ok2",
+    "route": "52",
+    "stop": "범내골역",
+    "walk_min": 2,
+    "note": "자동 판정 · 반여3동 정류장에서 52번, 범내골역 직선 108m"
    }
   },
   {
@@ -1467,7 +1467,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T18:47",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1494,7 +1494,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1522,7 +1522,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 금정구 중앙대로1685번길 12",
     "auto": true,
@@ -1551,15 +1551,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 부산진구 서전로10번길 61",
     "auto": true,
     "verdict": "ok2",
-    "route": "44",
-    "stop": "당감초등학교",
-    "walk_min": 9,
-    "note": "자동 판정 · 반여3동 정류장에서 44번, 당감초등학교 직선 512m"
+    "route": "52",
+    "stop": "서면한전",
+    "walk_min": 5,
+    "note": "자동 판정 · 반여3동 정류장에서 52번, 서면한전 직선 295m"
    }
   },
   {
@@ -1579,7 +1579,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1606,7 +1606,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1633,7 +1633,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1660,7 +1660,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 금정구 중앙대로1685번길 12",
     "auto": true,
@@ -1689,7 +1689,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1716,7 +1716,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1743,7 +1743,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1771,7 +1771,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 부산진구 개금온정로 5",
     "auto": true,
@@ -1779,7 +1779,7 @@
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "자동 판정 · 가장 가까운 정류장(44번 부산진구생활문화센터)까지 직선 1897m"
+    "note": "자동 판정 · 가장 가까운 정류장(44번 당감초등학교)까지 직선 1836m"
    }
   },
   {
@@ -1800,7 +1800,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1827,7 +1827,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1854,16 +1854,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 부산진구 중앙대로 808",
     "auto": true,
-    "verdict": "far",
-    "route": "44",
-    "stop": "당감초등학교",
-    "walk_min": 18,
-    "transfer": true,
-    "note": "자동 판정 · 반여3동 정류장에서 44번 당감초등학교 직선 1010m"
+    "verdict": "ok2",
+    "route": "52",
+    "stop": "부전역",
+    "walk_min": 1,
+    "note": "자동 판정 · 반여3동 정류장에서 52번, 부전역 직선 78m"
    }
   },
   {
@@ -1883,15 +1882,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 부산진구 중앙대로 907",
     "auto": true,
     "verdict": "ok2",
-    "route": "44",
-    "stop": "양정현대아파트",
-    "walk_min": 10,
-    "note": "자동 판정 · 반여3동 정류장에서 44번, 양정현대아파트 직선 603m"
+    "route": "52",
+    "stop": "양정대원칸타빌",
+    "walk_min": 3,
+    "note": "자동 판정 · 반여3동 정류장에서 52번, 양정대원칸타빌 직선 158m"
    }
   },
   {
@@ -1911,7 +1910,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1938,7 +1937,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "ok",
     "route": "36",
@@ -1965,7 +1964,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1992,15 +1991,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 동래구 중앙대로 1523",
     "auto": true,
-    "verdict": "ok",
-    "route": "155",
-    "stop": "협진태양맨션",
-    "walk_min": 9,
-    "note": "자동 판정 · 가장 가까운 정류장 155번 협진태양맨션 직선 539m"
+    "verdict": "ok2",
+    "route": "144",
+    "stop": "래미안장전남문",
+    "walk_min": 5,
+    "note": "자동 판정 · 반여3동 정류장에서 144번, 래미안장전남문 직선 297m"
    }
   },
   {
@@ -2020,7 +2019,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2047,7 +2046,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2074,7 +2073,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2101,15 +2100,16 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 부산진구 양정로 62",
     "auto": true,
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "자동 판정 · 가장 가까운 정류장(44번 양정현대아파트)까지 직선 1268m"
+    "verdict": "far",
+    "route": "52",
+    "stop": "양정대원칸타빌",
+    "walk_min": 14,
+    "transfer": true,
+    "note": "자동 판정 · 반여3동 정류장에서 52번 양정대원칸타빌 직선 819m"
    }
   },
   {
@@ -2129,15 +2129,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 동래구 반송로 352",
     "auto": true,
     "verdict": "ok",
     "route": "155",
-    "stop": "반여동부산은행",
-    "walk_min": 4,
-    "note": "자동 판정 · 가장 가까운 정류장 155번 반여동부산은행 직선 251m"
+    "stop": "협진태양맨션",
+    "walk_min": 3,
+    "note": "자동 판정 · 가장 가까운 정류장 155번 협진태양맨션 직선 181m"
    }
   },
   {
@@ -2157,7 +2157,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2184,7 +2184,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "ok",
     "route": "115-1",
@@ -2211,7 +2211,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2238,7 +2238,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2266,7 +2266,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2293,7 +2293,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2320,7 +2320,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2348,7 +2348,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2376,7 +2376,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2403,7 +2403,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2430,15 +2430,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 동래구 반송로 352",
     "auto": true,
     "verdict": "ok",
     "route": "155",
-    "stop": "반여동부산은행",
-    "walk_min": 4,
-    "note": "자동 판정 · 가장 가까운 정류장 155번 반여동부산은행 직선 251m"
+    "stop": "협진태양맨션",
+    "walk_min": 3,
+    "note": "자동 판정 · 가장 가까운 정류장 155번 협진태양맨션 직선 181m"
    }
   },
   {
@@ -2458,7 +2458,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2485,7 +2485,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "ok",
     "route": "115-1",
@@ -2512,7 +2512,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2540,7 +2540,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2567,7 +2567,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2594,7 +2594,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2621,7 +2621,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2648,7 +2648,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2675,7 +2675,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2702,7 +2702,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2729,7 +2729,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2757,7 +2757,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T21:09",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2785,7 +2785,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2813,7 +2813,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -2840,7 +2840,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 동래구 시실로 12",
     "auto": true,
@@ -2848,7 +2848,7 @@
     "route": "144",
     "stop": "온천장아스타아파트",
     "walk_min": 4,
-    "note": "자동 판정 · 반여3동 정류장에서 144번, 온천장아스타아파트 직선 231m"
+    "note": "자동 판정 · 반여3동 정류장에서 144번, 온천장아스타아파트 직선 238m"
    }
   },
   {
@@ -2868,7 +2868,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2895,7 +2895,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2922,7 +2922,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2949,7 +2949,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2976,7 +2976,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3003,7 +3003,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3030,7 +3030,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3057,7 +3057,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3084,7 +3084,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3111,7 +3111,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3139,7 +3139,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3166,7 +3166,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3193,7 +3193,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3220,7 +3220,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3247,7 +3247,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3274,7 +3274,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3301,15 +3301,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 금정구 중앙대로 1590",
     "auto": true,
     "verdict": "ok2",
     "route": "144",
-    "stop": "래미안장전남문",
-    "walk_min": 6,
-    "note": "자동 판정 · 반여3동 정류장에서 144번, 래미안장전남문 직선 364m"
+    "stop": "부산대앞부산은행",
+    "walk_min": 4,
+    "note": "자동 판정 · 반여3동 정류장에서 144번, 부산대앞부산은행 직선 236m"
    }
   },
   {
@@ -3329,7 +3329,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3356,7 +3356,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3383,7 +3383,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3410,7 +3410,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3437,7 +3437,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3464,7 +3464,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:37",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "ok",
     "route": "36",
@@ -3491,7 +3491,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:37",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3518,7 +3518,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:37",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3545,7 +3545,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:37",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 금정구 수림로 15",
     "auto": true,
@@ -3573,16 +3573,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:37",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 부산진구 중앙대로 792",
     "auto": true,
-    "verdict": "far",
-    "route": "44",
-    "stop": "당감초등학교",
-    "walk_min": 15,
-    "transfer": true,
-    "note": "자동 판정 · 반여3동 정류장에서 44번 당감초등학교 직선 873m"
+    "verdict": "ok2",
+    "route": "52",
+    "stop": "부전역",
+    "walk_min": 3,
+    "note": "자동 판정 · 반여3동 정류장에서 52번, 부전역 직선 161m"
    }
   },
   {
@@ -3602,7 +3601,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:37",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "ok",
     "route": "189-1",
@@ -3629,7 +3628,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:37",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3656,7 +3655,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:37",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 부산진구 새싹로 186",
     "auto": true,
@@ -3685,7 +3684,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3712,7 +3711,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T18:47",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3739,7 +3738,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T18:47",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 남구 석포로26번길 17",
     "auto": true,
@@ -3768,7 +3767,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T18:47",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -3795,15 +3794,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T08:22",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 연제구 종합운동장로 7",
     "auto": true,
     "verdict": "ok2",
     "route": "44",
     "stop": "창신초등학교.종합운동장역",
-    "walk_min": 7,
-    "note": "자동 판정 · 반여3동 정류장에서 44번, 창신초등학교.종합운동장역 직선 427m"
+    "walk_min": 6,
+    "note": "자동 판정 · 반여3동 정류장에서 44번, 창신초등학교.종합운동장역 직선 349m"
    }
   },
   {
@@ -3823,7 +3822,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3850,7 +3849,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3877,15 +3876,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 동구 중앙대로 205",
     "auto": true,
     "verdict": "ok2",
     "route": "52",
-    "stop": "부산진역",
-    "walk_min": 2,
-    "note": "자동 판정 · 반여3동 정류장에서 52번, 부산진역 직선 130m"
+    "stop": "초량역3번출구",
+    "walk_min": 8,
+    "note": "자동 판정 · 반여3동 정류장에서 52번, 초량역3번출구 직선 468m"
    }
   },
   {
@@ -3905,7 +3904,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3932,7 +3931,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3959,15 +3958,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 부산진구 새싹로14번길 14",
     "auto": true,
     "verdict": "ok2",
-    "route": "44",
-    "stop": "당감초등학교",
-    "walk_min": 6,
-    "note": "자동 판정 · 반여3동 정류장에서 44번, 당감초등학교 직선 342m"
+    "route": "52",
+    "stop": "서면역.서면지하상가",
+    "walk_min": 3,
+    "note": "자동 판정 · 반여3동 정류장에서 52번, 서면역.서면지하상가 직선 151m"
    }
   },
   {
@@ -3987,7 +3986,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4014,16 +4013,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 부산진구 중앙대로 805",
     "auto": true,
-    "verdict": "far",
-    "route": "44",
-    "stop": "당감초등학교",
-    "walk_min": 17,
-    "transfer": true,
-    "note": "자동 판정 · 반여3동 정류장에서 44번 당감초등학교 직선 969m"
+    "verdict": "ok2",
+    "route": "52",
+    "stop": "부전역",
+    "walk_min": 0,
+    "note": "자동 판정 · 반여3동 정류장에서 52번, 부전역 직선 24m"
    }
   },
   {
@@ -4043,7 +4041,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4070,7 +4068,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4097,7 +4095,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4124,7 +4122,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4151,7 +4149,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -4178,7 +4176,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4205,7 +4203,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "unknown",
     "route": "",
@@ -4232,7 +4230,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -4259,7 +4257,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4286,7 +4284,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4313,7 +4311,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4340,7 +4338,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4367,15 +4365,16 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 동구 범일로 85",
     "auto": true,
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "자동 판정 · 가장 가까운 정류장(52번 봉생병원)까지 직선 1253m"
+    "verdict": "far",
+    "route": "52",
+    "stop": "부산진시장",
+    "walk_min": 11,
+    "transfer": true,
+    "note": "자동 판정 · 반여3동 정류장에서 52번 부산진시장 직선 647m"
    }
   },
   {
@@ -4395,7 +4394,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4422,7 +4421,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "far",
     "route": "36",
@@ -4449,15 +4448,16 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 동구 범일로 85",
     "auto": true,
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "자동 판정 · 가장 가까운 정류장(52번 봉생병원)까지 직선 1253m"
+    "verdict": "far",
+    "route": "52",
+    "stop": "부산진시장",
+    "walk_min": 11,
+    "transfer": true,
+    "note": "자동 판정 · 반여3동 정류장에서 52번 부산진시장 직선 647m"
    }
   },
   {
@@ -4477,7 +4477,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4504,15 +4504,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 부산진구 동평로 94",
     "auto": true,
     "verdict": "ok2",
     "route": "44",
-    "stop": "부산진구생활문화센터",
-    "walk_min": 7,
-    "note": "자동 판정 · 반여3동 정류장에서 44번, 부산진구생활문화센터 직선 413m"
+    "stop": "당감초등학교",
+    "walk_min": 3,
+    "note": "자동 판정 · 반여3동 정류장에서 44번, 당감초등학교 직선 156m"
    }
   },
   {
@@ -4532,7 +4532,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "unknown",
     "route": "",
@@ -4559,7 +4559,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "far",
     "route": "36",
@@ -4586,7 +4586,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "ok",
     "route": "36",
@@ -4613,7 +4613,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4640,7 +4640,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4667,7 +4667,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4694,7 +4694,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4721,7 +4721,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4748,7 +4748,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4775,7 +4775,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4802,7 +4802,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4829,7 +4829,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4856,7 +4856,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4883,7 +4883,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4910,7 +4910,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "ok",
     "route": "189-1",
@@ -4937,7 +4937,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4964,7 +4964,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "ok",
     "route": "36",
@@ -4991,7 +4991,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5018,7 +5018,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 동래구 아시아드대로 213",
     "auto": true,
@@ -5026,7 +5026,7 @@
     "route": "44",
     "stop": "미남역.반도스카이뷰",
     "walk_min": 3,
-    "note": "자동 판정 · 반여3동 정류장에서 44번, 미남역.반도스카이뷰 직선 162m"
+    "note": "자동 판정 · 반여3동 정류장에서 44번, 미남역.반도스카이뷰 직선 181m"
    }
   },
   {
@@ -5046,7 +5046,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -5073,15 +5073,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 부산진구 서면문화로 10",
     "auto": true,
     "verdict": "ok2",
-    "route": "44",
-    "stop": "당감초등학교",
-    "walk_min": 4,
-    "note": "자동 판정 · 반여3동 정류장에서 44번, 당감초등학교 직선 224m"
+    "route": "52",
+    "stop": "서면역.서면지하상가",
+    "walk_min": 5,
+    "note": "자동 판정 · 반여3동 정류장에서 52번, 서면역.서면지하상가 직선 264m"
    }
   },
   {
@@ -5101,7 +5101,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "unknown",
     "route": "",
@@ -5128,7 +5128,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5155,7 +5155,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5182,7 +5182,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5209,7 +5209,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5236,7 +5236,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5263,7 +5263,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5290,15 +5290,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 부산진구 부전로 144-3",
     "auto": true,
     "verdict": "ok2",
-    "route": "44",
-    "stop": "당감초등학교",
-    "walk_min": 8,
-    "note": "자동 판정 · 반여3동 정류장에서 44번, 당감초등학교 직선 432m"
+    "route": "52",
+    "stop": "서면역.서면지하상가",
+    "walk_min": 6,
+    "note": "자동 판정 · 반여3동 정류장에서 52번, 서면역.서면지하상가 직선 329m"
    }
   },
   {
@@ -5318,7 +5318,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "ok",
     "route": "36",
@@ -5345,7 +5345,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5372,7 +5372,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5399,7 +5399,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5426,7 +5426,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5453,7 +5453,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5480,7 +5480,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 사하구 낙동남로 1412",
     "auto": true,
@@ -5488,7 +5488,7 @@
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "자동 판정 · 가장 가까운 정류장(52번 초량시장입구)까지 직선 5944m"
+    "note": "자동 판정 · 가장 가까운 정류장(52번 금수사)까지 직선 6016m"
    }
   },
   {
@@ -5508,15 +5508,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 부산진구 서면문화로 10",
     "auto": true,
     "verdict": "ok2",
-    "route": "44",
-    "stop": "당감초등학교",
-    "walk_min": 4,
-    "note": "자동 판정 · 반여3동 정류장에서 44번, 당감초등학교 직선 224m"
+    "route": "52",
+    "stop": "서면역.서면지하상가",
+    "walk_min": 5,
+    "note": "자동 판정 · 반여3동 정류장에서 52번, 서면역.서면지하상가 직선 264m"
    }
   },
   {
@@ -5536,7 +5536,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5563,7 +5563,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5590,7 +5590,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -5617,7 +5617,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5644,7 +5644,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5671,7 +5671,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "unknown",
     "route": "",
@@ -5698,7 +5698,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "far",
     "route": "36",
@@ -5725,7 +5725,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "far",
     "route": "36",
@@ -5752,7 +5752,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "far",
     "route": "36",
@@ -5779,7 +5779,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "far",
     "route": "36",
@@ -5806,15 +5806,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 부산진구 가야대로 767",
     "auto": true,
     "verdict": "ok2",
-    "route": "44",
-    "stop": "당감초등학교",
-    "walk_min": 0,
-    "note": "자동 판정 · 반여3동 정류장에서 44번, 당감초등학교 직선 27m"
+    "route": "52",
+    "stop": "서면역.서면지하상가",
+    "walk_min": 8,
+    "note": "자동 판정 · 반여3동 정류장에서 52번, 서면역.서면지하상가 직선 476m"
    }
   },
   {
@@ -5834,15 +5834,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 금정구 식물원로 11",
     "auto": true,
-    "verdict": "ok",
-    "route": "155",
-    "stop": "협진태양맨션",
-    "walk_min": 9,
-    "note": "자동 판정 · 가장 가까운 정류장 155번 협진태양맨션 직선 535m"
+    "verdict": "ok2",
+    "route": "144",
+    "stop": "래미안장전남문",
+    "walk_min": 1,
+    "note": "자동 판정 · 반여3동 정류장에서 144번, 래미안장전남문 직선 50m"
    }
   },
   {
@@ -5862,16 +5862,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 부산진구 중앙대로 805",
     "auto": true,
-    "verdict": "far",
-    "route": "44",
-    "stop": "당감초등학교",
-    "walk_min": 17,
-    "transfer": true,
-    "note": "자동 판정 · 반여3동 정류장에서 44번 당감초등학교 직선 969m"
+    "verdict": "ok2",
+    "route": "52",
+    "stop": "부전역",
+    "walk_min": 0,
+    "note": "자동 판정 · 반여3동 정류장에서 52번, 부전역 직선 24m"
    }
   },
   {
@@ -5891,7 +5890,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5918,7 +5917,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 금정구 금정로 244",
     "auto": true,
@@ -5947,7 +5946,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5974,7 +5973,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 금정구 금강로 592",
     "auto": true,
@@ -6002,7 +6001,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -6029,7 +6028,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "ok",
     "route": "115-1",
@@ -6056,7 +6055,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "unknown",
     "route": "",
@@ -6083,7 +6082,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "unknown",
     "route": "",
@@ -6110,7 +6109,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -6137,7 +6136,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -6164,7 +6163,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -6191,7 +6190,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -6218,7 +6217,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -6245,7 +6244,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "ok",
     "route": "36",
@@ -6272,7 +6271,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "ok",
     "route": "36",
@@ -6299,7 +6298,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 금정구 무학송로 143",
     "auto": true,
@@ -6328,7 +6327,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -6355,7 +6354,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 금정구 금강로 592",
     "auto": true,
@@ -6383,7 +6382,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "ok",
     "route": "36",
@@ -6410,16 +6409,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 부산진구 중앙대로 792",
     "auto": true,
-    "verdict": "far",
-    "route": "44",
-    "stop": "당감초등학교",
-    "walk_min": 15,
-    "transfer": true,
-    "note": "자동 판정 · 반여3동 정류장에서 44번 당감초등학교 직선 873m"
+    "verdict": "ok2",
+    "route": "52",
+    "stop": "부전역",
+    "walk_min": 3,
+    "note": "자동 판정 · 반여3동 정류장에서 52번, 부전역 직선 161m"
    }
   },
   {
@@ -6439,7 +6437,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "unknown",
     "route": "",
@@ -6466,15 +6464,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 부산진구 서면로 25",
     "auto": true,
     "verdict": "ok2",
-    "route": "44",
-    "stop": "당감초등학교",
-    "walk_min": 10,
-    "note": "자동 판정 · 반여3동 정류장에서 44번, 당감초등학교 직선 562m"
+    "route": "52",
+    "stop": "서면한전",
+    "walk_min": 7,
+    "note": "자동 판정 · 반여3동 정류장에서 52번, 서면한전 직선 386m"
    }
   },
   {
@@ -6494,7 +6492,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -6521,7 +6519,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -6548,15 +6546,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "address": "부산 금정구 중앙대로 1580",
     "auto": true,
-    "verdict": "ok",
-    "route": "155",
-    "stop": "협진태양맨션",
-    "walk_min": 9,
-    "note": "자동 판정 · 가장 가까운 정류장 155번 협진태양맨션 직선 533m"
+    "verdict": "ok2",
+    "route": "144",
+    "stop": "부산대앞부산은행",
+    "walk_min": 4,
+    "note": "자동 판정 · 반여3동 정류장에서 144번, 부산대앞부산은행 직선 219m"
    }
   },
   {
@@ -6576,7 +6574,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -6603,7 +6601,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "ok",
     "route": "115-1",
@@ -6630,7 +6628,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -6657,7 +6655,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -6684,7 +6682,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "far",
     "route": "115-1",
@@ -6711,7 +6709,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -6738,7 +6736,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -6765,7 +6763,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T10:37",
+   "last_seen": "2026-09-24T10:42",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -7983,11 +7981,12 @@
    "commute": {
     "address": "부산 부산진구 봉수로 18",
     "auto": true,
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "자동 판정 · 가장 가까운 정류장(44번 당감초등학교)까지 직선 1598m"
+    "verdict": "far",
+    "route": "52",
+    "stop": "서면한전",
+    "walk_min": 15,
+    "transfer": true,
+    "note": "자동 판정 · 반여3동 정류장에서 52번 서면한전 직선 844m"
    },
    "gone": true
   },
@@ -8233,11 +8232,11 @@
    "commute": {
     "address": "부산 부산진구 황령대로 12",
     "auto": true,
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "자동 판정 · 가장 가까운 정류장(44번 당감초등학교)까지 직선 1246m"
+    "verdict": "ok2",
+    "route": "52",
+    "stop": "범내골역",
+    "walk_min": 2,
+    "note": "자동 판정 · 반여3동 정류장에서 52번, 범내골역 직선 108m"
    },
    "gone": true
   },
@@ -8491,9 +8490,16 @@
    "new": 0,
    "saramin": 248,
    "nursejob": 43
+  },
+  {
+   "at": "2026-09-24T10:42",
+   "total": 248,
+   "new": 0,
+   "saramin": 248,
+   "nursejob": 0
   }
  ],
- "updated": "2026-09-24T10:37",
+ "updated": "2026-09-24T10:42",
  "search": {
   "keywords": [
    "수간호사",
