@@ -79,6 +79,9 @@ h1{font-size:24px;font-weight:900;margin:0;letter-spacing:-.01em}
 .src{display:inline-block;font-size:12px;font-weight:900;letter-spacing:.04em;padding:2px 8px;border-radius:4px;margin-right:6px;vertical-align:2px}
 .src.sr{background:var(--sr-soft);color:var(--sr)}
 .src.nj{background:var(--nj-soft);color:var(--nj)}
+.tier{display:inline-block;font-size:11px;font-weight:900;padding:2px 7px;border-radius:4px;margin-right:6px;vertical-align:2px}
+.tier.t1{background:#F5C451;color:#2A1D00}
+.tier.t2{background:#3A3F52;color:#DDE3F5}
 .new{display:inline-block;font-size:11px;font-weight:900;padding:2px 6px;border-radius:4px;background:var(--new);color:#1A0606;margin-right:6px;vertical-align:2px}
 .card .title{font-size:16.5px;font-weight:700;line-height:1.4;margin:2px 0 4px}
 .card.dim .title{font-weight:500;color:var(--ink2)}
@@ -147,6 +150,7 @@ footer a{color:var(--accent);text-underline-offset:3px}
   <summary>표시 기준과 버스 노선 안내</summary>
   <ul>
     <li><b>사람인</b> 공고는 하늘색, <b>널스잡</b> 공고는 살구색 태그와 왼쪽 띠로 구분합니다. 카드를 누르면 해당 사이트의 공고가 열립니다.</li>
+    <li><b>1순위</b>(노란 표)는 신장실·인공신장실 검색에 걸리면서 수간호사이기도 한 공고, <b>2순위</b>(회색 표)는 간호부장·간호과장 공고입니다. 각 구역 안에서 1순위 → 2순위 → 나머지 순으로 위에 놓입니다.</li>
     <li><b>NEW</b>는 최근 24시간 안에 처음 나타난 공고입니다. 15분마다 자동으로 다시 검색합니다.</li>
     <li><b>115-1</b> 반송 → 반여 → 재송 → 벡스코 → 동백역 → 해운대 → 중동 → 좌동(해운대백병원) → 장산역 → 해운대구청</li>
     <li><b>155</b> 서동(금정) → 명장·안락(동래) → 반여 → 재송 → 센텀 → 수영·광안 → 남천 → 경성대·부경대 → 대연 → 용당</li>
@@ -184,6 +188,15 @@ footer a{color:var(--accent);text-underline-offset:3px}
     it.region = (it.location||'').indexOf('경남')>=0 ? ((it.location||'').indexOf('부산')>=0 ? '부산·경남' : '경남') : '부산';
     it.cv = (it.commute && it.commute.verdict) || 'unknown';
     it.kws = it.keywords || [];
+    // 우선순위: 1순위 = (신장실·인공신장실 검색) + 수간호사, 2순위 = 간호부장·간호과장
+    // 사이트 검색은 본문까지 걸리므로, 제목에도 관련 단어가 있어야 순위를 매긴다
+    var title = it.title || '';
+    var kwDia = it.kws.indexOf('신장실')>=0 || it.kws.indexOf('인공신장실')>=0;
+    var kwHead = it.kws.indexOf('수간호사')>=0;
+    var kwMgr = it.kws.indexOf('간호부장')>=0 || it.kws.indexOf('간호과장')>=0;
+    var t1 = (/신장실/.test(title) && /수간호사/.test(title)) || (kwDia && kwHead && /신장실|수간호사/.test(title));
+    var t2 = /간호부장|간호과장/.test(title) || (kwMgr && /부장|과장|팀장|간호부/.test(title));
+    it.tier = t1 ? 1 : t2 ? 2 : 3;
   });
 
   var src = '', onlyOk = false, kw = '', region = '';
@@ -233,7 +246,7 @@ footer a{color:var(--accent);text-underline-offset:3px}
     if (it.type) meta.push(esc(it.type));
     if (it.posted) meta.push(esc(it.posted));
     return '<a class="card '+(it.src==='널스잡'?'nj':'sr')+(it.cv==='no'?' dim':'')+'" href="'+esc(it.url)+'" target="_blank" rel="noopener">'
-      + '<div class="head"><span class="src '+(it.src==='널스잡'?'nj':'sr')+'">'+esc(it.src)+'</span>' + (it.isNew?'<span class="new">NEW</span>':'')
+      + '<div class="head"><span class="src '+(it.src==='널스잡'?'nj':'sr')+'">'+esc(it.src)+'</span>' + (it.tier===1?'<span class="tier t1">1순위 · 신장실 수간호사</span>':it.tier===2?'<span class="tier t2">2순위 · 간호부장·과장</span>':'') + (it.isNew?'<span class="new">NEW</span>':'')
       + '<div class="title">'+esc(it.title)+'</div></div>'
       + '<div class="dl'+(it.isSoon?' soon':'')+'"><b>'+dl+'</b>'+left+'</div>'
       + '<div class="meta">'+meta.join('<span>·</span>')+'</div>'
@@ -247,7 +260,7 @@ footer a{color:var(--accent);text-underline-offset:3px}
       if (region && it.region.indexOf(region)<0) return false;
       return true;
     });
-    rows.sort(function(a,b){ if(a.isNew!==b.isNew) return a.isNew?-1:1; if(a.isHead!==b.isHead) return a.isHead?-1:1; var x=a.dl?+a.dl:9e15,y=b.dl?+b.dl:9e15; if(x!==y) return x-y; return (b.pd||0)-(a.pd||0); });
+    rows.sort(function(a,b){ if(a.tier!==b.tier) return a.tier-b.tier; if(a.isNew!==b.isNew) return a.isNew?-1:1; if(a.isHead!==b.isHead) return a.isHead?-1:1; var x=a.dl?+a.dl:9e15,y=b.dl?+b.dl:9e15; if(x!==y) return x-y; return (b.pd||0)-(a.pd||0); });
     var html = '';
     SEC.forEach(function(s){
       var g = rows.filter(function(r){ return r.cv===s.k; });
