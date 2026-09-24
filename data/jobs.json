@@ -17,13 +17,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T18:47",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -44,13 +44,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T18:47",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -71,13 +71,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T18:47",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -98,13 +98,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T18:47",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -125,14 +125,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T18:47",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "사직동은 4개 노선 미경유",
-    "address": "동래구 사직동"
+    "address": "부산 동래구 여고로 5",
+    "auto": true,
+    "verdict": "ok2",
+    "route": "44",
+    "stop": "사직사거리",
+    "walk_min": 2,
+    "note": "자동 판정 · 반여3동 정류장에서 44번, 사직사거리 직선 133m"
    }
   },
   {
@@ -153,13 +154,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T18:47",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -180,15 +181,16 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T18:47",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "far",
-    "route": "189-1",
-    "stop": "연산교차로",
-    "walk_min": 13,
-    "note": "자동 판정 · 지도 기준 가장 가까운 정류장 189-1번 연산교차로 직선 749m",
     "address": "부산 연제구 중앙대로 1055",
-    "auto": true
+    "auto": true,
+    "verdict": "far",
+    "route": "52",
+    "stop": "경남아파트",
+    "walk_min": 11,
+    "transfer": true,
+    "note": "자동 판정 · 반여3동 정류장에서 52번 경남아파트 직선 635m"
    }
   },
   {
@@ -209,7 +211,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T18:47",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -236,7 +238,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "ok",
     "route": "36",
@@ -263,7 +265,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -290,7 +292,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "far",
     "route": "155",
@@ -317,14 +319,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "명륜동은 4개 노선 미경유",
-    "address": "동래구 명륜동 (동래요양병원)"
+    "address": "부산 동래구 명륜로 147",
+    "auto": true,
+    "verdict": "ok",
+    "route": "36",
+    "stop": "우성아파트",
+    "walk_min": 9,
+    "note": "자동 판정 · 가장 가까운 정류장 36번 우성아파트 직선 495m"
    }
   },
   {
@@ -344,7 +347,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -372,13 +375,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -399,13 +402,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -426,7 +429,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -453,7 +456,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "ok",
     "route": "189-1",
@@ -480,14 +483,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "온천장 일대는 4개 노선 미경유",
-    "address": "동래구 온천동"
+    "address": "부산 동래구 충렬대로 152",
+    "auto": true,
+    "verdict": "ok2",
+    "route": "144",
+    "stop": "동래역.내성교차로",
+    "walk_min": 2,
+    "note": "자동 판정 · 반여3동 정류장에서 144번, 동래역.내성교차로 직선 125m"
    }
   },
   {
@@ -507,13 +511,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -534,13 +538,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -561,7 +565,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -588,13 +592,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -615,13 +619,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
+    "verdict": "unknown",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "기관 위치 확인 필요",
     "address": ""
    }
   },
@@ -643,7 +647,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "ok",
     "route": "189-1",
@@ -670,7 +674,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -697,7 +701,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -724,14 +728,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
-    "address": ""
+    "address": "부산 동구 대영로 261",
+    "auto": true,
+    "verdict": "ok2",
+    "route": "52",
+    "stop": "부산진역",
+    "walk_min": 5,
+    "note": "자동 판정 · 반여3동 정류장에서 52번, 부산진역 직선 298m"
    }
   },
   {
@@ -751,7 +756,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -778,7 +783,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -805,14 +810,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
+    "address": "부산 금정구 체육공원로 608",
+    "auto": true,
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "두구동(노포 북쪽)은 4개 노선 미경유",
-    "address": "금정구 두구동"
+    "note": "자동 판정 · 가장 가까운 정류장(144번 까치공원)까지 직선 6714m"
    }
   },
   {
@@ -832,13 +838,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -860,13 +866,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -887,7 +893,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "ok",
     "route": "36",
@@ -914,14 +920,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
-    "address": ""
+    "address": "부산 부산진구 서면로 25",
+    "auto": true,
+    "verdict": "ok2",
+    "route": "44",
+    "stop": "당감초등학교",
+    "walk_min": 10,
+    "note": "자동 판정 · 반여3동 정류장에서 44번, 당감초등학교 직선 564m"
    }
   },
   {
@@ -941,13 +948,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -968,13 +975,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -995,14 +1002,14 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
+    "verdict": "unknown",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "금강공원 입구는 4개 노선 미경유",
-    "address": "동래구 온천동 금강공원로 32"
+    "note": "기관 위치 확인 필요",
+    "address": ""
    }
   },
   {
@@ -1022,7 +1029,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "unknown",
     "route": "",
@@ -1049,14 +1056,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "온천동 중앙대로변은 4개 노선 미경유",
-    "address": "동래구 온천동 중앙대로 1523"
+    "address": "부산 동래구 중앙대로 1523",
+    "auto": true,
+    "verdict": "ok",
+    "route": "155",
+    "stop": "협진태양맨션",
+    "walk_min": 10,
+    "note": "자동 판정 · 가장 가까운 정류장 155번 협진태양맨션 직선 560m"
    }
   },
   {
@@ -1076,7 +1084,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1103,13 +1111,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -1130,13 +1138,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -1157,7 +1165,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "ok",
     "route": "115-1",
@@ -1185,13 +1193,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -1212,13 +1220,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -1239,7 +1247,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "far",
     "route": "155",
@@ -1266,13 +1274,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T22:32",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -1294,13 +1302,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -1321,13 +1329,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -1348,13 +1356,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -1375,7 +1383,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1402,15 +1410,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T18:47",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "자동 판정 · 가장 가까운 정류장(155번 충렬초등학교)까지 직선 1720m",
     "address": "부산 동래구 아시아드대로 239-1",
-    "auto": true
+    "auto": true,
+    "verdict": "ok2",
+    "route": "44",
+    "stop": "미남역.반도스카이뷰",
+    "walk_min": 2,
+    "note": "자동 판정 · 반여3동 정류장에서 44번, 미남역.반도스카이뷰 직선 133m"
    }
   },
   {
@@ -1430,14 +1438,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T18:47",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
+    "address": "부산 부산진구 황령대로 12",
+    "auto": true,
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
-    "address": ""
+    "note": "자동 판정 · 가장 가까운 정류장(44번 당감초등학교)까지 직선 1246m"
    }
   },
   {
@@ -1458,13 +1467,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T18:47",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -1485,7 +1494,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1513,14 +1522,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "구서동은 4개 노선 미경유",
-    "address": "금정구 구서동"
+    "address": "부산 금정구 중앙대로1685번길 12",
+    "auto": true,
+    "verdict": "ok2",
+    "route": "144",
+    "stop": "장전중앙교회",
+    "walk_min": 8,
+    "note": "자동 판정 · 반여3동 정류장에서 144번, 장전중앙교회 직선 456m"
    }
   },
   {
@@ -1541,14 +1551,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
-    "address": ""
+    "address": "부산 부산진구 서전로10번길 61",
+    "auto": true,
+    "verdict": "ok2",
+    "route": "44",
+    "stop": "당감초등학교",
+    "walk_min": 9,
+    "note": "자동 판정 · 반여3동 정류장에서 44번, 당감초등학교 직선 512m"
    }
   },
   {
@@ -1568,13 +1579,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -1595,13 +1606,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -1622,13 +1633,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -1649,14 +1660,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "구서동은 4개 노선 미경유",
-    "address": "금정구 구서동"
+    "address": "부산 금정구 중앙대로1685번길 12",
+    "auto": true,
+    "verdict": "ok2",
+    "route": "144",
+    "stop": "장전중앙교회",
+    "walk_min": 8,
+    "note": "자동 판정 · 반여3동 정류장에서 144번, 장전중앙교회 직선 456m"
    }
   },
   {
@@ -1677,13 +1689,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -1704,7 +1716,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1731,13 +1743,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -1759,14 +1771,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
+    "address": "부산 부산진구 개금온정로 5",
+    "auto": true,
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
-    "address": ""
+    "note": "자동 판정 · 가장 가까운 정류장(44번 부산진구생활문화센터)까지 직선 1897m"
    }
   },
   {
@@ -1787,13 +1800,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -1814,13 +1827,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -1841,14 +1854,16 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
-    "address": ""
+    "address": "부산 부산진구 중앙대로 808",
+    "auto": true,
+    "verdict": "far",
+    "route": "44",
+    "stop": "당감초등학교",
+    "walk_min": 18,
+    "transfer": true,
+    "note": "자동 판정 · 반여3동 정류장에서 44번 당감초등학교 직선 1010m"
    }
   },
   {
@@ -1868,14 +1883,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
-    "address": ""
+    "address": "부산 부산진구 중앙대로 907",
+    "auto": true,
+    "verdict": "ok2",
+    "route": "44",
+    "stop": "양정현대아파트",
+    "walk_min": 10,
+    "note": "자동 판정 · 반여3동 정류장에서 44번, 양정현대아파트 직선 603m"
    }
   },
   {
@@ -1895,13 +1911,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -1922,7 +1938,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "ok",
     "route": "36",
@@ -1949,13 +1965,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -1976,14 +1992,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "온천동 동래역 앞, 4개 노선 미경유",
-    "address": "동래구 온천동 중앙대로 1523 (동래역)"
+    "address": "부산 동래구 중앙대로 1523",
+    "auto": true,
+    "verdict": "ok",
+    "route": "155",
+    "stop": "협진태양맨션",
+    "walk_min": 9,
+    "note": "자동 판정 · 가장 가까운 정류장 155번 협진태양맨션 직선 539m"
    }
   },
   {
@@ -2003,13 +2020,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -2030,13 +2047,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -2057,13 +2074,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -2084,14 +2101,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
+    "address": "부산 부산진구 양정로 62",
+    "auto": true,
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
-    "address": ""
+    "note": "자동 판정 · 가장 가까운 정류장(44번 양정현대아파트)까지 직선 1268m"
    }
   },
   {
@@ -2111,14 +2129,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "온천동은 4개 노선 미경유",
-    "address": "동래구 온천동 금강로 64 (동래유유요양병원)"
+    "address": "부산 동래구 반송로 352",
+    "auto": true,
+    "verdict": "ok",
+    "route": "155",
+    "stop": "반여동부산은행",
+    "walk_min": 4,
+    "note": "자동 판정 · 가장 가까운 정류장 155번 반여동부산은행 직선 251m"
    }
   },
   {
@@ -2138,13 +2157,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -2165,7 +2184,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "ok",
     "route": "115-1",
@@ -2192,13 +2211,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -2219,13 +2238,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -2247,13 +2266,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -2274,13 +2293,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -2301,13 +2320,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -2329,7 +2348,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2357,7 +2376,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2384,13 +2403,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -2411,14 +2430,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "온천동은 4개 노선 미경유",
-    "address": "동래구 온천동 금강로 64 (동래유유요양병원)"
+    "address": "부산 동래구 반송로 352",
+    "auto": true,
+    "verdict": "ok",
+    "route": "155",
+    "stop": "반여동부산은행",
+    "walk_min": 4,
+    "note": "자동 판정 · 가장 가까운 정류장 155번 반여동부산은행 직선 251m"
    }
   },
   {
@@ -2438,13 +2458,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -2465,7 +2485,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "ok",
     "route": "115-1",
@@ -2492,13 +2512,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -2520,13 +2540,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -2547,13 +2567,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -2574,13 +2594,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -2601,13 +2621,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -2628,13 +2648,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -2655,13 +2675,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -2682,13 +2702,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -2709,13 +2729,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -2737,13 +2757,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T21:09",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -2765,13 +2785,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -2793,7 +2813,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -2820,14 +2840,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "명륜동은 4개 노선 미경유",
-    "address": "동래구 명륜동 시실로 12"
+    "address": "부산 동래구 시실로 12",
+    "auto": true,
+    "verdict": "ok2",
+    "route": "144",
+    "stop": "온천장아스타아파트",
+    "walk_min": 4,
+    "note": "자동 판정 · 반여3동 정류장에서 144번, 온천장아스타아파트 직선 231m"
    }
   },
   {
@@ -2847,13 +2868,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -2874,13 +2895,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -2901,13 +2922,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -2928,13 +2949,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -2955,13 +2976,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -2982,13 +3003,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -3009,13 +3030,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -3036,13 +3057,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -3063,13 +3084,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -3090,13 +3111,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -3118,13 +3139,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -3145,13 +3166,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -3172,13 +3193,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -3199,13 +3220,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -3226,13 +3247,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -3253,13 +3274,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -3280,14 +3301,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "부곡동 중앙대로변, 미경유",
-    "address": "금정구 부곡동 중앙대로 1590"
+    "address": "부산 금정구 중앙대로 1590",
+    "auto": true,
+    "verdict": "ok2",
+    "route": "144",
+    "stop": "래미안장전남문",
+    "walk_min": 6,
+    "note": "자동 판정 · 반여3동 정류장에서 144번, 래미안장전남문 직선 364m"
    }
   },
   {
@@ -3307,13 +3329,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -3334,13 +3356,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -3361,13 +3383,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -3388,13 +3410,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -3415,13 +3437,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -3442,7 +3464,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:37",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "ok",
     "route": "36",
@@ -3469,13 +3491,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:37",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -3496,13 +3518,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:37",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -3523,14 +3545,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:37",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "부곡동은 4개 노선 미경유",
-    "address": "금정구 부곡동"
+    "address": "부산 금정구 수림로 15",
+    "auto": true,
+    "verdict": "ok2",
+    "route": "144",
+    "stop": "까치공원",
+    "walk_min": 7,
+    "note": "자동 판정 · 반여3동 정류장에서 144번, 까치공원 직선 421m"
    }
   },
   {
@@ -3550,14 +3573,16 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:37",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
-    "address": ""
+    "address": "부산 부산진구 중앙대로 792",
+    "auto": true,
+    "verdict": "far",
+    "route": "44",
+    "stop": "당감초등학교",
+    "walk_min": 15,
+    "transfer": true,
+    "note": "자동 판정 · 반여3동 정류장에서 44번 당감초등학교 직선 873m"
    }
   },
   {
@@ -3577,7 +3602,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:37",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "ok",
     "route": "189-1",
@@ -3604,13 +3629,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:37",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -3631,14 +3656,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:37",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
-    "address": ""
+    "address": "부산 부산진구 새싹로 186",
+    "auto": true,
+    "verdict": "ok2",
+    "route": "44",
+    "stop": "부산시설공단",
+    "walk_min": 2,
+    "note": "자동 판정 · 반여3동 정류장에서 44번, 부산시설공단 직선 120m"
    }
   },
   {
@@ -3659,13 +3685,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -3686,13 +3712,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T18:47",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -3713,15 +3739,16 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T18:47",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
+    "address": "부산 남구 석포로26번길 17",
+    "auto": true,
     "verdict": "far",
     "route": "155",
     "stop": "부경대용당캠퍼스",
     "walk_min": 14,
-    "note": "자동 판정 · 지도 기준 가장 가까운 정류장 155번 부경대용당캠퍼스 직선 817m",
-    "address": "부산 남구 석포로26번길 17",
-    "auto": true
+    "transfer": false,
+    "note": "자동 판정 · 155번 부경대용당캠퍼스 직선 817m"
    }
   },
   {
@@ -3741,7 +3768,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T18:47",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -3768,15 +3795,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T08:22",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "자동 판정 · 가장 가까운 정류장(189-1번 연산교차로)까지 직선 2092m",
     "address": "부산 연제구 종합운동장로 7",
-    "auto": true
+    "auto": true,
+    "verdict": "ok2",
+    "route": "44",
+    "stop": "창신초등학교.종합운동장역",
+    "walk_min": 7,
+    "note": "자동 판정 · 반여3동 정류장에서 44번, 창신초등학교.종합운동장역 직선 427m"
    }
   },
   {
@@ -3796,13 +3823,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -3823,13 +3850,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -3850,14 +3877,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
-    "address": ""
+    "address": "부산 동구 중앙대로 205",
+    "auto": true,
+    "verdict": "ok2",
+    "route": "52",
+    "stop": "부산진역",
+    "walk_min": 2,
+    "note": "자동 판정 · 반여3동 정류장에서 52번, 부산진역 직선 130m"
    }
   },
   {
@@ -3877,13 +3905,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -3904,13 +3932,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -3931,14 +3959,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
-    "address": ""
+    "address": "부산 부산진구 새싹로14번길 14",
+    "auto": true,
+    "verdict": "ok2",
+    "route": "44",
+    "stop": "당감초등학교",
+    "walk_min": 6,
+    "note": "자동 판정 · 반여3동 정류장에서 44번, 당감초등학교 직선 342m"
    }
   },
   {
@@ -3958,13 +3987,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -3985,14 +4014,16 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
-    "address": ""
+    "address": "부산 부산진구 중앙대로 805",
+    "auto": true,
+    "verdict": "far",
+    "route": "44",
+    "stop": "당감초등학교",
+    "walk_min": 17,
+    "transfer": true,
+    "note": "자동 판정 · 반여3동 정류장에서 44번 당감초등학교 직선 969m"
    }
   },
   {
@@ -4012,13 +4043,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -4039,13 +4070,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -4066,13 +4097,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -4093,13 +4124,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -4120,7 +4151,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -4147,13 +4178,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -4174,7 +4205,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "unknown",
     "route": "",
@@ -4201,7 +4232,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -4228,13 +4259,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -4255,13 +4286,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -4282,13 +4313,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -4309,13 +4340,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -4336,14 +4367,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
+    "address": "부산 동구 범일로 85",
+    "auto": true,
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
-    "address": ""
+    "note": "자동 판정 · 가장 가까운 정류장(52번 봉생병원)까지 직선 1253m"
    }
   },
   {
@@ -4363,13 +4395,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -4390,7 +4422,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "far",
     "route": "36",
@@ -4417,14 +4449,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
+    "address": "부산 동구 범일로 85",
+    "auto": true,
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
-    "address": ""
+    "note": "자동 판정 · 가장 가까운 정류장(52번 봉생병원)까지 직선 1253m"
    }
   },
   {
@@ -4444,13 +4477,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -4471,14 +4504,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
-    "address": ""
+    "address": "부산 부산진구 동평로 94",
+    "auto": true,
+    "verdict": "ok2",
+    "route": "44",
+    "stop": "부산진구생활문화센터",
+    "walk_min": 7,
+    "note": "자동 판정 · 반여3동 정류장에서 44번, 부산진구생활문화센터 직선 413m"
    }
   },
   {
@@ -4498,7 +4532,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "unknown",
     "route": "",
@@ -4525,7 +4559,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "far",
     "route": "36",
@@ -4552,7 +4586,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "ok",
     "route": "36",
@@ -4579,13 +4613,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -4606,13 +4640,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -4633,7 +4667,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4660,13 +4694,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -4687,7 +4721,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4714,7 +4748,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4741,13 +4775,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -4768,13 +4802,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -4795,13 +4829,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -4822,13 +4856,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -4849,13 +4883,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -4876,7 +4910,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "ok",
     "route": "189-1",
@@ -4903,13 +4937,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -4930,7 +4964,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "ok",
     "route": "36",
@@ -4957,13 +4991,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -4984,14 +5018,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "온천동은 4개 노선 미경유",
-    "address": "동래구 온천동 (미남교차로)"
+    "address": "부산 동래구 아시아드대로 213",
+    "auto": true,
+    "verdict": "ok2",
+    "route": "44",
+    "stop": "미남역.반도스카이뷰",
+    "walk_min": 3,
+    "note": "자동 판정 · 반여3동 정류장에서 44번, 미남역.반도스카이뷰 직선 162m"
    }
   },
   {
@@ -5011,7 +5046,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -5038,14 +5073,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
-    "address": ""
+    "address": "부산 부산진구 서면문화로 10",
+    "auto": true,
+    "verdict": "ok2",
+    "route": "44",
+    "stop": "당감초등학교",
+    "walk_min": 4,
+    "note": "자동 판정 · 반여3동 정류장에서 44번, 당감초등학교 직선 224m"
    }
   },
   {
@@ -5065,13 +5101,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
+    "verdict": "unknown",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "기관 위치 확인 필요",
     "address": ""
    }
   },
@@ -5092,13 +5128,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -5119,13 +5155,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -5146,13 +5182,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -5173,13 +5209,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -5200,13 +5236,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -5227,13 +5263,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -5254,14 +5290,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
-    "address": ""
+    "address": "부산 부산진구 부전로 144-3",
+    "auto": true,
+    "verdict": "ok2",
+    "route": "44",
+    "stop": "당감초등학교",
+    "walk_min": 8,
+    "note": "자동 판정 · 반여3동 정류장에서 44번, 당감초등학교 직선 432m"
    }
   },
   {
@@ -5281,7 +5318,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "ok",
     "route": "36",
@@ -5308,13 +5345,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -5335,13 +5372,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -5362,13 +5399,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -5389,14 +5426,14 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "부곡동 중앙대로변, 미경유",
-    "address": "금정구 부곡동 중앙대로 1590"
+    "note": "이용 가능한 노선이 가지 않는 지역",
+    "address": ""
    }
   },
   {
@@ -5416,13 +5453,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -5443,15 +5480,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
+    "address": "부산 사하구 낙동남로 1412",
+    "auto": true,
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "자동 판정 · 가장 가까운 정류장(155번 부경대용당캠퍼스)까지 직선 11623m",
-    "address": "부산 사하구 낙동남로 1412",
-    "auto": true
+    "note": "자동 판정 · 가장 가까운 정류장(52번 초량시장입구)까지 직선 5944m"
    }
   },
   {
@@ -5471,14 +5508,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
-    "address": ""
+    "address": "부산 부산진구 서면문화로 10",
+    "auto": true,
+    "verdict": "ok2",
+    "route": "44",
+    "stop": "당감초등학교",
+    "walk_min": 4,
+    "note": "자동 판정 · 반여3동 정류장에서 44번, 당감초등학교 직선 224m"
    }
   },
   {
@@ -5498,13 +5536,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -5525,13 +5563,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -5552,7 +5590,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -5579,13 +5617,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -5606,13 +5644,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -5633,13 +5671,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
+    "verdict": "unknown",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "기관 위치 확인 필요",
     "address": ""
    }
   },
@@ -5660,7 +5698,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "far",
     "route": "36",
@@ -5687,7 +5725,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "far",
     "route": "36",
@@ -5714,7 +5752,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "far",
     "route": "36",
@@ -5741,7 +5779,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "far",
     "route": "36",
@@ -5768,14 +5806,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
-    "address": ""
+    "address": "부산 부산진구 가야대로 767",
+    "auto": true,
+    "verdict": "ok2",
+    "route": "44",
+    "stop": "당감초등학교",
+    "walk_min": 0,
+    "note": "자동 판정 · 반여3동 정류장에서 44번, 당감초등학교 직선 27m"
    }
   },
   {
@@ -5795,14 +5834,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "장전동 미경유",
-    "address": "금정구 장전동 식물원로 11"
+    "address": "부산 금정구 식물원로 11",
+    "auto": true,
+    "verdict": "ok",
+    "route": "155",
+    "stop": "협진태양맨션",
+    "walk_min": 9,
+    "note": "자동 판정 · 가장 가까운 정류장 155번 협진태양맨션 직선 535m"
    }
   },
   {
@@ -5822,14 +5862,16 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
-    "address": ""
+    "address": "부산 부산진구 중앙대로 805",
+    "auto": true,
+    "verdict": "far",
+    "route": "44",
+    "stop": "당감초등학교",
+    "walk_min": 17,
+    "transfer": true,
+    "note": "자동 판정 · 반여3동 정류장에서 44번 당감초등학교 직선 969m"
    }
   },
   {
@@ -5849,13 +5891,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -5876,14 +5918,16 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "구서동 미경유",
-    "address": "금정구 구서동 금정로 244"
+    "address": "부산 금정구 금정로 244",
+    "auto": true,
+    "verdict": "far",
+    "route": "144",
+    "stop": "까치공원",
+    "walk_min": 16,
+    "transfer": true,
+    "note": "자동 판정 · 반여3동 정류장에서 144번 까치공원 직선 951m"
    }
   },
   {
@@ -5903,13 +5947,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -5930,14 +5974,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
+    "address": "부산 금정구 금강로 592",
+    "auto": true,
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "구서동은 4개 노선 미경유",
-    "address": "금정구 구서동 금강로 592"
+    "note": "자동 판정 · 가장 가까운 정류장(144번 까치공원)까지 직선 2484m"
    }
   },
   {
@@ -5957,7 +6002,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -5984,7 +6029,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "ok",
     "route": "115-1",
@@ -6011,13 +6056,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
+    "verdict": "unknown",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "기관 위치 확인 필요",
     "address": ""
    }
   },
@@ -6038,13 +6083,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
+    "verdict": "unknown",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "기관 위치 확인 필요",
     "address": ""
    }
   },
@@ -6065,7 +6110,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -6092,13 +6137,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -6119,13 +6164,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -6146,13 +6191,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -6173,7 +6218,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -6200,7 +6245,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "ok",
     "route": "36",
@@ -6227,7 +6272,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "ok",
     "route": "36",
@@ -6254,14 +6299,16 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "서동역에서 1.3km 이상, 부곡3동",
-    "address": "금정구 부곡동 무학송로 143"
+    "address": "부산 금정구 무학송로 143",
+    "auto": true,
+    "verdict": "far",
+    "route": "144",
+    "stop": "까치공원",
+    "walk_min": 16,
+    "transfer": true,
+    "note": "자동 판정 · 반여3동 정류장에서 144번 까치공원 직선 951m"
    }
   },
   {
@@ -6281,14 +6328,14 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "부곡동 중앙대로변, 미경유",
-    "address": "금정구 부곡동 중앙대로 1590"
+    "note": "이용 가능한 노선이 가지 않는 지역",
+    "address": ""
    }
   },
   {
@@ -6308,14 +6355,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
+    "address": "부산 금정구 금강로 592",
+    "auto": true,
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "구서동은 4개 노선 미경유",
-    "address": "금정구 구서동 금강로 592"
+    "note": "자동 판정 · 가장 가까운 정류장(144번 까치공원)까지 직선 2484m"
    }
   },
   {
@@ -6335,7 +6383,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "ok",
     "route": "36",
@@ -6362,14 +6410,16 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
-    "address": ""
+    "address": "부산 부산진구 중앙대로 792",
+    "auto": true,
+    "verdict": "far",
+    "route": "44",
+    "stop": "당감초등학교",
+    "walk_min": 15,
+    "transfer": true,
+    "note": "자동 판정 · 반여3동 정류장에서 44번 당감초등학교 직선 873m"
    }
   },
   {
@@ -6389,7 +6439,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "unknown",
     "route": "",
@@ -6416,14 +6466,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
-    "address": ""
+    "address": "부산 부산진구 서면로 25",
+    "auto": true,
+    "verdict": "ok2",
+    "route": "44",
+    "stop": "당감초등학교",
+    "walk_min": 10,
+    "note": "자동 판정 · 반여3동 정류장에서 44번, 당감초등학교 직선 562m"
    }
   },
   {
@@ -6443,7 +6494,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -6470,7 +6521,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -6497,14 +6548,15 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "부산대역 인근 부곡동, 미경유",
-    "address": "금정구 부곡동 중앙대로 1580 (삼세한방병원)"
+    "address": "부산 금정구 중앙대로 1580",
+    "auto": true,
+    "verdict": "ok",
+    "route": "155",
+    "stop": "협진태양맨션",
+    "walk_min": 9,
+    "note": "자동 판정 · 가장 가까운 정류장 155번 협진태양맨션 직선 533m"
    }
   },
   {
@@ -6524,7 +6576,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -6551,7 +6603,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "ok",
     "route": "115-1",
@@ -6578,13 +6630,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -6605,13 +6657,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -6632,7 +6684,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "far",
     "route": "115-1",
@@ -6659,13 +6711,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -6686,13 +6738,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -6713,13 +6765,13 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -6740,7 +6792,7 @@
     "수간호사"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -6767,7 +6819,7 @@
     "수간호사"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "ok",
     "route": "115-1",
@@ -6794,13 +6846,13 @@
     "수간호사"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -6821,15 +6873,15 @@
     "수간호사"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
+    "address": "부산 기장군 일광읍 해빛6로 85-16",
+    "auto": true,
     "verdict": "ok",
     "route": "36",
     "stop": "자이푸르지오2단지",
     "walk_min": 2,
-    "note": "자동 판정 · 지도 기준 가장 가까운 정류장 36번 자이푸르지오2단지 직선 104m",
-    "address": "부산 기장군 일광읍 해빛6로 85-16",
-    "auto": true
+    "note": "자동 판정 · 가장 가까운 정류장 36번 자이푸르지오2단지 직선 104m"
    }
   },
   {
@@ -6850,14 +6902,15 @@
     "간호부"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "부산대역 인근 부곡동, 미경유",
-    "address": "금정구 부곡동 중앙대로 1580 (삼세한방병원)"
+    "address": "부산 금정구 중앙대로 1580",
+    "auto": true,
+    "verdict": "ok",
+    "route": "155",
+    "stop": "협진태양맨션",
+    "walk_min": 9,
+    "note": "자동 판정 · 가장 가까운 정류장 155번 협진태양맨션 직선 533m"
    }
   },
   {
@@ -6877,7 +6930,7 @@
     "수간호사"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -6904,13 +6957,13 @@
     "수간호사"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -6931,13 +6984,13 @@
     "수간호사"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -6958,13 +7011,13 @@
     "수간호사"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -6985,13 +7038,13 @@
     "수간호사"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -7012,13 +7065,13 @@
     "수간호사"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -7039,13 +7092,13 @@
     "수간호사"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -7066,13 +7119,13 @@
     "수간호사"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -7085,7 +7138,7 @@
    "education": "",
    "type": "",
    "deadline": "11/07(토)",
-   "posted": "3시간전 등록",
+   "posted": "4시간전 등록",
    "sector": "간호사(병동) > 병원(기업) 내규에 따름",
    "url": "https://www.nursejob.co.kr/recruit/recruit_view.php?r_idx=1212929",
    "source": "널스잡",
@@ -7095,13 +7148,13 @@
     "간호부"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -7124,13 +7177,13 @@
     "간호부"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -7153,13 +7206,13 @@
     "간호부"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -7181,13 +7234,13 @@
     "신장실"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -7209,13 +7262,13 @@
     "신장실"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -7237,13 +7290,13 @@
     "신장실"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -7265,13 +7318,13 @@
     "신장실"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -7293,13 +7346,13 @@
     "신장실"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -7321,13 +7374,13 @@
     "신장실"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -7349,13 +7402,13 @@
     "신장실"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -7377,15 +7430,15 @@
     "간호부"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
+    "address": "부산 해운대구 좌동순환로 462",
+    "auto": true,
     "verdict": "ok",
     "route": "115-1",
     "stop": "해운대로데오거리",
     "walk_min": 3,
-    "note": "자동 판정 · 지도 기준 가장 가까운 정류장 115-1번 해운대로데오거리 직선 158m",
-    "address": "부산 해운대구 좌동순환로 462",
-    "auto": true
+    "note": "자동 판정 · 가장 가까운 정류장 115-1번 해운대로데오거리 직선 158m"
    }
   },
   {
@@ -7406,14 +7459,16 @@
     "간호부"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
-    "address": ""
+    "address": "부산 부산진구 중앙대로 663",
+    "auto": true,
+    "verdict": "far",
+    "route": "44",
+    "stop": "당감초등학교",
+    "walk_min": 12,
+    "transfer": true,
+    "note": "자동 판정 · 반여3동 정류장에서 44번 당감초등학교 직선 716m"
    }
   },
   {
@@ -7434,13 +7489,13 @@
     "간호부"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -7461,15 +7516,15 @@
     "간호과장"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
+    "address": "부산 기장군 기장읍 차성동로 63",
+    "auto": true,
     "verdict": "ok",
     "route": "36",
     "stop": "기장지구대",
     "walk_min": 5,
-    "note": "자동 판정 · 지도 기준 가장 가까운 정류장 36번 기장지구대 직선 296m",
-    "address": "부산 기장군 기장읍 차성동로 63",
-    "auto": true
+    "note": "자동 판정 · 가장 가까운 정류장 36번 기장지구대 직선 296m"
    }
   },
   {
@@ -7489,13 +7544,13 @@
     "신장실"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -7508,7 +7563,7 @@
    "education": "",
    "type": "",
    "deadline": "",
-   "posted": "3시간전 등록",
+   "posted": "4시간전 등록",
    "sector": "간호사(병동) > 병원(기업) 내규에 따름",
    "url": "https://www.nursejob.co.kr/recruit/recruit_view.php?r_idx=1213570",
    "source": "널스잡",
@@ -7516,13 +7571,13 @@
     "간호부"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -7535,7 +7590,7 @@
    "education": "",
    "type": "",
    "deadline": "",
-   "posted": "3시간전 등록",
+   "posted": "4시간전 등록",
    "sector": "간호사(병동) > 병원(기업) 내규에 따름",
    "url": "https://www.nursejob.co.kr/recruit/recruit_view.php?r_idx=1206513",
    "source": "널스잡",
@@ -7543,15 +7598,15 @@
     "간호부"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
+    "address": "부산 남구 용호로232번길 25-14",
+    "auto": true,
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "자동 판정 · 가장 가까운 정류장(155번 부경대용당캠퍼스)까지 직선 1757m",
-    "address": "부산 남구 용호로232번길 25-14",
-    "auto": true
+    "note": "자동 판정 · 가장 가까운 정류장(155번 부경대용당캠퍼스)까지 직선 1757m"
    }
   },
   {
@@ -7571,14 +7626,15 @@
     "간호부"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
+    "address": "부산 부산진구 범일로 177",
+    "auto": true,
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
-    "address": ""
+    "note": "자동 판정 · 가장 가까운 정류장(44번 당감초등학교)까지 직선 1370m"
    }
   },
   {
@@ -7598,13 +7654,13 @@
     "간호부"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -7625,13 +7681,13 @@
     "간호부"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -7652,13 +7708,13 @@
     "간호부"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -7679,13 +7735,13 @@
     "간호부"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -7706,13 +7762,13 @@
     "간호부"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -7733,13 +7789,13 @@
     "간호부"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -7760,13 +7816,13 @@
     "간호부"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -7787,13 +7843,13 @@
     "간호부"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -7814,13 +7870,13 @@
     "간호부"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -7841,13 +7897,13 @@
     "간호부"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -7860,7 +7916,7 @@
    "education": "대졸이상",
    "type": "연 3000만원",
    "deadline": "",
-   "posted": "22시간전 등록",
+   "posted": "23시간전 등록",
    "sector": "간호사 > 경력무관 > 대졸이상 > 연 3000만원",
    "url": "https://www.nursejob.co.kr/recruit/recruit_view.php?r_idx=1213919",
    "source": "널스잡",
@@ -7868,13 +7924,13 @@
     "간호부"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -7895,13 +7951,13 @@
     "간호부"
    ],
    "first_seen": "2026-09-24T09:44",
-   "last_seen": "2026-09-24T09:44",
+   "last_seen": "2026-09-24T10:37",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    }
   },
@@ -7925,12 +7981,13 @@
    "first_seen": "2026-09-22T20:58",
    "last_seen": "2026-09-23T22:32",
    "commute": {
+    "address": "부산 부산진구 봉수로 18",
+    "auto": true,
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
-    "address": ""
+    "note": "자동 판정 · 가장 가까운 정류장(44번 당감초등학교)까지 직선 1598m"
    },
    "gone": true
   },
@@ -8013,7 +8070,7 @@
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    },
    "gone": true
@@ -8041,7 +8098,7 @@
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    },
    "gone": true
@@ -8096,7 +8153,7 @@
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    },
    "gone": true
@@ -8119,12 +8176,13 @@
    "first_seen": "2026-09-22T20:58",
    "last_seen": "2026-09-23T08:22",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "사직동은 4개 노선 미경유",
-    "address": "동래구 사직동"
+    "address": "부산 동래구 여고로 5",
+    "auto": true,
+    "verdict": "ok2",
+    "route": "44",
+    "stop": "사직사거리",
+    "walk_min": 2,
+    "note": "자동 판정 · 반여3동 정류장에서 44번, 사직사거리 직선 133m"
    },
    "gone": true
   },
@@ -8173,12 +8231,13 @@
    "first_seen": "2026-09-22T21:13",
    "last_seen": "2026-09-23T08:22",
    "commute": {
+    "address": "부산 부산진구 황령대로 12",
+    "auto": true,
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
-    "address": ""
+    "note": "자동 판정 · 가장 가까운 정류장(44번 당감초등학교)까지 직선 1246m"
    },
    "gone": true
   },
@@ -8204,7 +8263,7 @@
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    },
    "gone": true
@@ -8231,7 +8290,7 @@
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    },
    "gone": true
@@ -8258,7 +8317,7 @@
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    },
    "gone": true
@@ -8312,7 +8371,7 @@
     "route": "",
     "stop": "",
     "walk_min": null,
-    "note": "115-1·155·189-1·36번이 가지 않는 지역",
+    "note": "이용 가능한 노선이 가지 않는 지역",
     "address": ""
    },
    "gone": true
@@ -8425,9 +8484,16 @@
    "new": 43,
    "saramin": 248,
    "nursejob": 43
+  },
+  {
+   "at": "2026-09-24T10:37",
+   "total": 291,
+   "new": 0,
+   "saramin": 248,
+   "nursejob": 43
   }
  ],
- "updated": "2026-09-24T09:44",
+ "updated": "2026-09-24T10:37",
  "search": {
   "keywords": [
    "수간호사",
