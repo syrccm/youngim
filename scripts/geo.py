@@ -60,8 +60,10 @@ def build_stops(routes):
     """routes.json 의 정류장 이름을 좌표로. 이미 있는 것은 건너뛴다."""
     stops = json.loads(STOPS.read_text(encoding="utf-8")) if STOPS.exists() else {}
     changed = False
-    for rno, r in routes["routes"].items():
-        have = {s["name"]: s for s in stops.get(rno, [])}
+    groups = [(rno, r, rno) for rno, r in routes["routes"].items()] + \
+             [(rno, r, "2:" + rno) for rno, r in routes.get("routes2", {}).items()]
+    for rno, r, key in groups:
+        have = {s["name"]: s for s in stops.get(key, [])}
         out, prev = [], None
         for name in r["stops"]:
             if name in have and have[name].get("x"):
@@ -94,7 +96,7 @@ def build_stops(routes):
                 out.append({"name": name, "x": None, "y": None})
                 if name not in have:
                     changed = True
-        stops[rno] = out
+        stops[key] = out
     if changed:
         STOPS.write_text(json.dumps(stops, ensure_ascii=False, indent=1), encoding="utf-8")
     located = sum(1 for r in stops.values() for s in r if s.get("x"))
@@ -142,9 +144,13 @@ def geocode_company(company, location, cache):
     return result
 
 
-def nearest_stop(x, y, stops):
+def nearest_stop(x, y, stops, transfer=False):
+    """transfer=False: 직행 4개 노선, True: 반여3동 정류장 경유 노선(키가 '2:'로 시작)"""
     best = None
     for rno, lst in stops.items():
+        if rno.startswith("2:") != transfer:
+            continue
+        rno = rno[2:] if transfer else rno
         for s in lst:
             if not s.get("x"):
                 continue
@@ -159,17 +165,31 @@ def auto_verdict(company, location, stops, cache):
     g = geocode_company(company, location, cache)
     if not g or not stops:
         return None
-    best = nearest_stop(g["x"], g["y"], stops)
-    if not best:
+    def walk_of(best):
+        return round(best[0] * DETOUR / WALK_M_PER_MIN) if best else None
+    b1 = nearest_stop(g["x"], g["y"], stops)            # 직행
+    b2 = nearest_stop(g["x"], g["y"], stops, True)      # 반여3동 경유
+    if not b1 and not b2:
         return None
-    d, rno, sname = best
-    walk = round(d * DETOUR / WALK_M_PER_MIN)
-    verdict = "ok" if walk <= WALK_OK_MIN else "far" if walk <= WALK_FAR_MIN else "no"
-    return {"verdict": verdict, "route": rno if verdict != "no" else "", "stop": sname if verdict != "no" else "",
-            "walk_min": walk if verdict != "no" else None,
-            "note": ("자동 판정 · 지도 기준 가장 가까운 정류장 " + rno + "번 " + sname + f" 직선 {int(d)}m")
-                    if verdict != "no" else f"자동 판정 · 가장 가까운 정류장({rno}번 {sname})까지 직선 {int(d)}m",
-            "address": g.get("address", ""), "auto": True}
+    w1, w2 = walk_of(b1), walk_of(b2)
+    base = {"address": g.get("address", ""), "auto": True}
+    if w1 is not None and w1 <= WALK_OK_MIN:
+        d, rno, sname = b1
+        return dict(base, verdict="ok", route=rno, stop=sname, walk_min=w1,
+                    note=f"자동 판정 · 가장 가까운 정류장 {rno}번 {sname} 직선 {int(d)}m")
+    if w2 is not None and w2 <= WALK_OK_MIN:
+        d, rno, sname = b2
+        return dict(base, verdict="ok2", route=rno, stop=sname, walk_min=w2,
+                    note=f"자동 판정 · 반여3동 정류장에서 {rno}번, {sname} 직선 {int(d)}m")
+    cands = [(w1, b1, ""), (w2, b2, "2")]
+    cands = [c for c in cands if c[0] is not None]
+    w, b, grp = min(cands, key=lambda c: c[0])
+    d, rno, sname = b
+    if w <= WALK_FAR_MIN:
+        return dict(base, verdict="far", route=rno, stop=sname, walk_min=w, transfer=bool(grp),
+                    note=f"자동 판정 · {'반여3동 정류장에서 ' if grp else ''}{rno}번 {sname} 직선 {int(d)}m")
+    return dict(base, verdict="no", route="", stop="", walk_min=None,
+                note=f"자동 판정 · 가장 가까운 정류장({rno}번 {sname})까지 직선 {int(d)}m")
 
 
 def load_cache():

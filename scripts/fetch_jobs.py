@@ -31,8 +31,9 @@ HEADERS = {
     "Accept": "text/html,application/xhtml+xml",
 }
 
-# 4개 노선(115-1, 155, 189-1, 36)이 전혀 가지 않는 구·지역 → 자동 '불가'
-NO_GO = ["사하구", "서구", "북구", "사상구", "강서구", "영도구", "동구", "부산진구", "중구", "경남", "울산", "경북"]
+# 직행 4개 노선 + 반여3동 경유 노선(115·144·44·52·해운대구1)이 모두 가지 않는 구·지역 → 자동 '불가'
+# (52번이 부산진구·동구까지 가므로 두 구는 제외하고 지도 판정에 맡김)
+NO_GO = ["사하구", "서구", "북구", "사상구", "강서구", "영도구", "중구", "경남", "울산", "경북"]
 
 
 def fetch(url, retries=6):
@@ -112,7 +113,7 @@ def judge_commute(item, table, stops=None, cache=None):
     loc = item.get("location", "")
     if any(loc.startswith(g) or ("부산 " + g) in loc for g in NO_GO) or loc.startswith("경남") or loc.startswith("울산"):
         return {"verdict": "no", "route": "", "stop": "", "walk_min": None,
-                "note": "115-1·155·189-1·36번이 가지 않는 지역", "address": ""}
+                "note": "이용 가능한 노선이 가지 않는 지역", "address": ""}
     if stops is not None and cache is not None:
         auto = geo.auto_verdict(item["company"], loc, stops, cache)
         if auto:

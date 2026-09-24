@@ -14,6 +14,7 @@
   --sr:#4FB3D9; --sr-soft:#123241;            /* 사람인: 하늘색 */
   --nj:#F0A657; --nj-soft:#3B2A14;            /* 널스잡: 살구색 */
   --ok:#5BD08F; --ok-soft:#14301F;            /* 갈 수 있음: 초록 */
+  --ok2:#4FD1C5;                              /* 환승 1회: 청록 */
   --far:#E8C547; --far-soft:#3A3212;          /* 도보 멀음: 노랑 */
   --unk:#A99BF0; --unk-soft:#272244;          /* 확인 필요: 보라 */
   --no:#7C8496;                               /* 불가: 회색 */
@@ -66,6 +67,7 @@ h1{font-size:24px;font-weight:900;margin:0;letter-spacing:-.01em}
 .sec h2 .cnt{font-weight:400;color:var(--muted)}
 .sec h2 .mark{display:inline-block;width:10px;height:10px;border-radius:50%}
 .sec.ok h2{color:var(--ok)} .sec.ok .mark{background:var(--ok)}
+.sec.ok2 h2{color:var(--ok2)} .sec.ok2 .mark{background:var(--ok2)}
 .sec.far h2{color:var(--far)} .sec.far .mark{background:var(--far)}
 .sec.unk h2{color:var(--unk)} .sec.unk .mark{background:var(--unk)}
 .sec.no h2{color:var(--no)} .sec.no .mark{background:var(--no)}
@@ -88,7 +90,7 @@ h1{font-size:24px;font-weight:900;margin:0;letter-spacing:-.01em}
 .card .meta{font-size:13.5px;color:var(--muted);display:flex;flex-wrap:wrap;gap:2px 10px}
 .card .meta b{color:var(--ink2);font-weight:500}
 .card .go{margin-top:6px;font-size:14px;color:var(--ink2);padding-left:10px;border-left:2px solid var(--line2)}
-.sec.ok .go{border-left-color:var(--ok)} .sec.far .go{border-left-color:var(--far)} .sec.unk .go{border-left-color:var(--unk);color:var(--muted)}
+.sec.ok .go{border-left-color:var(--ok)} .sec.ok2 .go{border-left-color:var(--ok2)} .sec.far .go{border-left-color:var(--far)} .sec.unk .go{border-left-color:var(--unk);color:var(--muted)}
 .card .go b{color:var(--ink)}
 .card .dl{position:absolute;right:14px;top:12px;font-size:13px;color:var(--muted);text-align:right;line-height:1.3}
 .card .dl b{display:block;color:var(--ink2);font-weight:700;font-size:14px}
@@ -134,7 +136,7 @@ footer a{color:var(--accent);text-underline-offset:3px}
 </div>
 
 <div class="big">
-  <div><div class="t">버스 한 번으로 갈 수 있는 곳만 보기</div><div class="d">반여1동 장산성당 정류장에서 115-1 · 155 · 189-1 · 36번 이용 기준</div></div>
+  <div><div class="t">버스로 갈 수 있는 곳만 보기</div><div class="d">직행(장산성당 정류장 115-1·155·189-1·36) 또는 반여3동 정류장에서 갈아타기(115·144·44·52·해운대구1)</div></div>
   <button class="sw" id="onlyok" role="switch" aria-checked="false" aria-label="통근 가능한 곳만 보기"></button>
 </div>
 
@@ -156,6 +158,7 @@ footer a{color:var(--accent);text-underline-offset:3px}
     <li><b>155</b> 서동(금정) → 명장·안락(동래) → 반여 → 재송 → 센텀 → 수영·광안 → 남천 → 경성대·부경대 → 대연 → 용당</li>
     <li><b>189-1</b> 반송 → 반여 → 재송 → 원동 → 토곡·연산8동 → 연산교차로</li>
     <li><b>36</b> 기장읍·일광·철마 → 반송 → 반여 → 원동 → 안락(동래봉생병원) → 연산교차로 → 연산역 → 거제역</li>
+    <li><b>통근 2순위(반여3동 정류장 09183/09182 경유)</b> — <b>115</b> 센텀·수영강변·토곡, <b>144</b> 동래역·온천장·부산대, <b>44</b> 미남·사직·시민공원·초읍·당감, <b>52</b> 교대·서면·범일·초량, <b>해운대구1</b>(마을) 반여·재송</li>
     <li>「갈 수 있음」은 하차 후 도보 10분 이내, 「도보가 좀 멀음」은 10~20분, 「갈 수 없음」은 4개 노선이 닿지 않는 곳입니다. 기관 위치는 확인된 판정표 또는 카카오 지도로 자동 판정하며, 「위치 확인 필요」는 지도에서도 찾지 못한 경우입니다.</li>
   </ul>
   <p>갱신 이력</p><ul id="hist"></ul>
@@ -227,14 +230,15 @@ footer a{color:var(--accent);text-underline-offset:3px}
 
   var showNo = false;
   var SEC = [
-    {k:'ok',  cls:'ok',  title:'버스 한 번으로 갈 수 있는 곳'},
+    {k:'ok',  cls:'ok',  title:'통근 1순위 · 버스 한 번으로 갈 수 있는 곳'},
+    {k:'ok2', cls:'ok2', title:'통근 2순위 · 반여3동 정류장에서 갈아타면 갈 수 있는 곳'},
     {k:'far', cls:'far', title:'갈 수는 있지만 도보가 좀 멀음 (10~20분)'},
     {k:'unknown', cls:'unk', title:'위치 확인 필요'},
     {k:'no',  cls:'no',  title:'버스 한 번으로는 갈 수 없는 곳'}
   ];
   function goText(it){
     var c = it.commute || {};
-    if (it.cv==='ok' || it.cv==='far') return '<b>'+esc(c.route)+'번</b> 타고 <b>'+esc(c.stop)+'</b> 하차' + (c.walk_min ? ' · 도보 '+c.walk_min+'분' : '') + (c.address ? ' · '+esc(c.address) : '');
+    if (it.cv==='ok' || it.cv==='ok2' || it.cv==='far') return (it.cv==='ok2' || c.transfer ? '반여3동 정류장에서 ' : '') + '<b>'+esc(c.route)+'번</b> 타고 <b>'+esc(c.stop)+'</b> 하차' + (c.walk_min ? ' · 도보 '+c.walk_min+'분' : '') + (c.address ? ' · '+esc(c.address) : '');
     if (it.cv==='unknown') return '기관 위치를 아직 확인하지 못했습니다';
     return c.address ? esc(c.address) : '';
   }
@@ -267,6 +271,7 @@ footer a{color:var(--accent);text-underline-offset:3px}
       if (s.k==='no' && onlyOk) return;
       if (!g.length) { if (s.k==='ok') html += '<div class="sec ok"><h2><span class="mark"></span>'+s.title+' <span class="cnt">0건</span></h2><div class="empty">지금은 해당 공고가 없습니다.</div></div>'; return; }
       if ((s.k==='unknown') && onlyOk) return;
+      if (s.k==='ok2' && !g.length) return;
       html += '<div class="sec '+s.cls+'"><h2><span class="mark"></span>'+s.title+' <span class="cnt">'+g.length+'건</span></h2>';
       if (s.k==='no' && !showNo) { html += '<button class="showno" id="showno">갈 수 없는 곳 '+g.length+'건 펼쳐 보기</button></div>'; return; }
       html += g.map(card).join('') + '</div>';
