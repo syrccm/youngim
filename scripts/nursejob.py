@@ -1,4 +1,4 @@
-"""널스잡(nursejob.co.kr) 검색 결과 수집 (Cloudflare 프록시 경유).
+"""널스잡(nursejob.co.kr) 검색 결과 수집 (Vercel 서울 프록시 경유).
 
 널스잡은 해외 IP를 막으므로 Cloudflare 워커(cloudflare/worker.js)를 프록시로 거친다.
 환경변수 NJ_PROXY_URL / NJ_PROXY_KEY 가 없으면 직접 접속을 시도하고, 실패하면 빈 목록을 돌려준다.
