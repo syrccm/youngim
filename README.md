@@ -13,8 +13,8 @@ GitHub Pages 페이지에 보여줍니다. 반여1동 장산성당 정류장에�
 | `data/commute.json` | 기관별 통근 판정표 — 새 기관은 여기에 한 줄 추가 |
 | `data/routes.json` | 4개 노선의 정류장 목록 (판정 근거) |
 | `scripts/fetch_jobs.py` | 사람인 검색 → 파싱 → 널스잡 결과와 병합 → `jobs.json` 저장 |
-| `scripts/nursejob.py` | 널스잡 검색(Cloudflare 프록시 경유) |
-| `cloudflare/worker.js` | 널스잡 프록시 워커 (널스잡이 해외 IP를 막아 필요) |
+| `scripts/nursejob.py` | 널스잡 검색(Vercel 서울 프록시 경유) |
+| `api/proxy.js`, `vercel.json` | 널스잡 프록시 (Vercel 서울 icn1 리전 서버리스 함수) |
 | `.github/workflows/update.yml` | 15분 간격 예약 실행 및 수동 실행 |
 
 ## 처음 한 번 설정
@@ -23,7 +23,7 @@ GitHub Pages 페이지에 보여줍니다. 반여1동 장산성당 정류장에�
    → 잠시 후 `https://syrccm.github.io/youngim/` 에서 열립니다.
 2. **Settings → Actions → General → Workflow permissions** : `Read and write permissions` 선택 후 저장  
    (Actions가 `data/jobs.json`을 커밋할 수 있어야 합니다.)
-3. **Actions 탭 → 「사람인 수간호사 공고 갱신」 → Run workflow** 로 첫 실행을 해 보고, 로그에 `fetched N items` 가 찍히는지 확인합니다.
+3. **Actions 탭 → 「간호 관리직 공고 갱신」 → Run workflow** 로 첫 실행을 해 보고, 로그에 `fetched N items` 가 찍히는지 확인합니다.
 
 ## 통근 판정 규칙
 

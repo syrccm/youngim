@@ -1,7 +1,7 @@
 """널스잡(nursejob.co.kr) 검색 결과 수집 (Vercel 서울 프록시 경유).
 
-널스잡은 해외 IP를 막으므로 Cloudflare 워커(cloudflare/worker.js)를 프록시로 거친다.
-환경변수 NJ_PROXY_URL / NJ_PROXY_KEY 가 없으면 직접 접속을 시도하고, 실패하면 빈 목록을 돌려준다.
+해외(GitHub Actions)에서는 널스잡 접속이 불안정하므로 Vercel 서울 리전 프록시(api/proxy.js)를 거친다.
+환경변수 NJ_PROXY_URL / NJ_PROXY_KEY 가 없으면 널스잡 수집을 건너뛴다.
 반환 항목 형식은 사람인(fetch_jobs.parse)과 같다. 마감된 공고는 제외.
 """
 import html, os, re, sys, time, urllib.parse, urllib.request
