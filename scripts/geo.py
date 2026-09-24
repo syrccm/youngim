@@ -198,3 +198,5 @@ def load_cache():
 
 def save_cache(cache):
     CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")
+
+# 정류장 좌표 캐시: data/stops.json
