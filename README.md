@@ -15,7 +15,7 @@ GitHub Pages 페이지에 보여줍니다. 반여1동 장산성당 정류장에�
 | `scripts/fetch_jobs.py` | 사람인 검색 → 파싱 → 널스잡 결과와 병합 → `jobs.json` 저장 |
 | `scripts/nursejob.py` | 널스잡 검색(Vercel 서울 프록시 경유) |
 | `api/proxy.js`, `vercel.json` | 널스잡 프록시 (Vercel 서울 icn1 리전 서버리스 함수) |
-| `.github/workflows/update.yml` | 15분 간격 예약 실행 및 수동 실행 |
+| `.github/workflows/update.yml` | 15분마다 수집(한 실행이 약 5시간 반복 후 다음 실행을 스스로 예약; GitHub 예약 실행 지연 대책) |
 
 ## 처음 한 번 설정
 
