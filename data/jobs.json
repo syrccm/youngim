@@ -17,7 +17,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-20T11:35",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -44,7 +44,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-20T10:08",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 연제구 고분로 6",
     "auto": true,
@@ -72,7 +72,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-20T09:21",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -99,7 +99,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-19T13:38",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 부산진구 가야대로 713",
     "auto": true,
@@ -127,7 +127,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-19T11:23",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -155,7 +155,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-19T11:06",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -182,7 +182,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-19T12:46",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -209,7 +209,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-17T08:12",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -236,7 +236,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-15T14:49",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 부산진구 범일로 133",
     "auto": true,
@@ -264,7 +264,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-15T14:15",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 부산진구 개금온정로 5",
     "auto": true,
@@ -292,7 +292,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-15T11:08",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -320,7 +320,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-15T10:17",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -347,7 +347,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-15T10:00",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -374,7 +374,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-15T09:44",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -401,7 +401,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-15T09:10",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -431,7 +431,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-14T16:11",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -458,7 +458,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-14T12:27",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -485,7 +485,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-14T09:36",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -513,7 +513,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-13T15:49",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -540,7 +540,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-12T17:28",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 수영구 연수로 404",
     "auto": true,
@@ -568,7 +568,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-12T16:32",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -595,7 +595,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-12T15:21",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -625,7 +625,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-12T11:24",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -652,7 +652,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-12T08:47",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "ok",
     "route": "115-1",
@@ -679,7 +679,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-11T18:34",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 동래구 사직북로 4",
     "auto": true,
@@ -707,7 +707,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-10T16:32",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 남구 수영로 185-7",
     "auto": true,
@@ -735,7 +735,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-10T13:37",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 동래구 중앙대로 1523",
     "auto": true,
@@ -763,7 +763,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-08T17:26",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -790,7 +790,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-08T17:26",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -817,7 +817,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-08T15:28",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -845,7 +845,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-07T10:25",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -872,7 +872,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-06T14:56",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 연제구 고분로 4",
     "auto": true,
@@ -901,7 +901,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-06T10:12",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -928,7 +928,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-05T10:45",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "unknown",
     "route": "",
@@ -956,7 +956,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-04T18:58",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -983,7 +983,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-01T09:26",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "far",
     "route": "155",
@@ -1010,7 +1010,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-02T14:35",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1037,7 +1037,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-28T12:35",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1065,7 +1065,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-28T12:35",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 부산진구 봉수로 18",
     "auto": true,
@@ -1094,7 +1094,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-28T12:35",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1121,7 +1121,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-28T12:35",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 동래구 중앙대로 1523",
     "auto": true,
@@ -1149,7 +1149,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-28T08:58",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1176,7 +1176,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1203,7 +1203,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 동구 대영로 261",
     "auto": true,
@@ -1232,7 +1232,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-20T15:02",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1259,7 +1259,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T20:58",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -1287,7 +1287,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-13T11:32",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1314,7 +1314,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-07T21:41",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1341,7 +1341,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-06T21:49",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 금정구 중앙대로 1961",
     "auto": true,
@@ -1369,7 +1369,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-23T22:32",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1398,7 +1398,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-21T14:48",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 동래구 충렬대로 455",
     "auto": true,
@@ -1426,7 +1426,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-20T16:43",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1454,7 +1454,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-20T12:09",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 동래구 충렬대로 96",
     "auto": true,
@@ -1483,7 +1483,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-20T11:17",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1510,7 +1510,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-20T11:00",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1539,7 +1539,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-20T10:26",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1567,7 +1567,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-20T09:05",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 금정구 중앙대로1685번길 12",
     "auto": true,
@@ -1595,7 +1595,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-19T15:21",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "unknown",
     "route": "",
@@ -1623,7 +1623,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-19T15:04",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 기장군 기장읍 읍내로 108-1",
     "auto": true,
@@ -1654,7 +1654,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-19T13:38",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1683,7 +1683,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-19T11:54",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "ok",
     "route": "115-1",
@@ -1710,7 +1710,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-19T12:11",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 부산진구 황령대로 12",
     "auto": true,
@@ -1738,7 +1738,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-19T11:23",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 부산진구 황령대로 12",
     "auto": true,
@@ -1766,7 +1766,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-17T11:34",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1794,7 +1794,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-16T11:48",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 금정구 중앙대로1685번길 12",
     "auto": true,
@@ -1822,7 +1822,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-16T10:57",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1849,7 +1849,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-16T10:22",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 동래구 충렬대로 97",
     "auto": true,
@@ -1877,7 +1877,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-16T10:22",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "ok",
     "route": "36",
@@ -1904,7 +1904,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-14T12:27",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1932,7 +1932,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-12T14:14",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1962,7 +1962,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-12T10:33",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1992,7 +1992,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-08T16:33",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2020,7 +2020,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-07T09:19",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2047,7 +2047,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-06T17:29",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 부산진구 양정로 62",
     "auto": true,
@@ -2076,7 +2076,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-06T11:05",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 동래구 반송로 352",
     "auto": true,
@@ -2104,7 +2104,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-06T09:39",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2132,7 +2132,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-05T16:48",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2161,7 +2161,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-02T13:42",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2189,7 +2189,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-30T17:34",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 연제구 과정로 140",
     "auto": true,
@@ -2218,7 +2218,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-30T09:24",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2247,7 +2247,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-28T12:35",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2275,7 +2275,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-28T03:40",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2302,7 +2302,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-19T17:03",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2330,7 +2330,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-20T14:10",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2357,7 +2357,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2386,7 +2386,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2413,7 +2413,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-16T21:43",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2440,7 +2440,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-29T03:09",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2468,7 +2468,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-21T12:00",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 부산진구 중앙대로 808",
     "auto": true,
@@ -2498,7 +2498,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-21T09:42",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2525,7 +2525,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-19T18:27",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2552,7 +2552,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-21T21:37",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 금정구 중앙대로1719번길 23",
     "auto": true,
@@ -2580,7 +2580,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-21T22:30",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 동래구 동래로 156-1",
     "auto": true,
@@ -2610,7 +2610,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-21T21:37",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2637,7 +2637,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-17T21:12",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2664,7 +2664,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-09T22:00",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2691,7 +2691,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-08T00:29",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2718,7 +2718,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-08T00:29",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2746,7 +2746,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-21T11:08",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2773,7 +2773,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-20T15:19",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2800,7 +2800,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-16T09:27",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2827,7 +2827,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-15T10:00",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2854,7 +2854,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-15T09:44",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2881,7 +2881,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-13T09:14",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2908,7 +2908,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-08T16:51",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2935,7 +2935,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-19T21:40",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 금정구 중앙대로 1590",
     "auto": true,
@@ -2963,7 +2963,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-12T21:55",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2991,7 +2991,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-19T15:56",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 동래구 반송로 352",
     "auto": true,
@@ -3019,7 +3019,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-16T09:27",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3046,7 +3046,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-13T09:50",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3073,7 +3073,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-12T11:58",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3100,7 +3100,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-07T11:50",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "ok",
     "route": "189-1",
@@ -3127,7 +3127,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-07T08:13",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3154,7 +3154,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-02T15:46",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 해운대구 해운대로 415",
     "auto": true,
@@ -3182,7 +3182,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-02T15:46",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 해운대구 해운대로 415",
     "auto": true,
@@ -3210,7 +3210,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-29T12:47",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "unknown",
     "route": "",
@@ -3237,7 +3237,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-12T09:24",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3264,7 +3264,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:37",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 부산진구 중앙대로 792",
     "auto": true,
@@ -3292,7 +3292,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:37",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 부산진구 새싹로 186",
     "auto": true,
@@ -3320,7 +3320,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-22T08:39",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3347,7 +3347,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-21T17:24",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 부산진구 새싹로14번길 14",
     "auto": true,
@@ -3375,7 +3375,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-21T17:06",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "unknown",
     "route": "",
@@ -3402,7 +3402,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-21T17:06",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3429,7 +3429,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-21T15:40",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 동래구 충렬대로 187",
     "auto": true,
@@ -3457,7 +3457,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-21T14:31",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3484,7 +3484,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-21T13:44",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3511,7 +3511,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-21T13:09",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 동구 중앙대로 205",
     "auto": true,
@@ -3539,7 +3539,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-21T12:17",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3566,7 +3566,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-21T12:17",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3593,7 +3593,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-21T10:17",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 기장군 장안읍 월내2길 3",
     "auto": true,
@@ -3621,7 +3621,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-21T09:42",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3648,7 +3648,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-21T09:08",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3675,7 +3675,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-20T17:18",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3702,7 +3702,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-20T15:49",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3729,7 +3729,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-20T14:10",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 동구 범일로 85",
     "auto": true,
@@ -3758,7 +3758,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-20T13:53",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3785,7 +3785,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-20T11:35",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 부산진구 중앙대로 805",
     "auto": true,
@@ -3813,7 +3813,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-20T11:00",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 수영구 남천서로20번길 49",
     "auto": true,
@@ -3842,7 +3842,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-20T10:43",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3869,7 +3869,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-19T17:34",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3896,7 +3896,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-19T17:52",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3923,7 +3923,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-19T15:56",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3950,7 +3950,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-19T15:21",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3977,7 +3977,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-19T15:21",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4004,7 +4004,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-19T12:28",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4031,7 +4031,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-19T11:54",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 부산진구 부전로 144-3",
     "auto": true,
@@ -4059,7 +4059,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-19T11:23",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 연제구 중앙대로 1239",
     "auto": true,
@@ -4087,7 +4087,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-19T10:49",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4114,7 +4114,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-19T10:49",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4141,7 +4141,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-19T11:06",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4168,7 +4168,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-19T09:41",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 동구 범일로 85",
     "auto": true,
@@ -4197,7 +4197,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-19T09:06",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 수영구 남천서로20번길 49",
     "auto": true,
@@ -4226,7 +4226,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-19T09:06",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 동래구 아시아드대로 213",
     "auto": true,
@@ -4254,7 +4254,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-18T20:36",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 사하구 낙동남로 1412",
     "auto": true,
@@ -4282,7 +4282,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-17T16:30",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 동래구 금강로 91",
     "auto": true,
@@ -4310,7 +4310,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-16T17:50",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 연제구 중앙천로 94",
     "auto": true,
@@ -4338,7 +4338,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-16T17:50",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 연제구 중앙천로 94",
     "auto": true,
@@ -4366,7 +4366,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-16T16:03",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4393,7 +4393,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-16T14:23",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -4420,7 +4420,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-16T11:31",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4447,7 +4447,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-16T09:44",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4474,7 +4474,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-16T09:44",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4501,7 +4501,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-15T17:03",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4528,7 +4528,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-15T16:46",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "far",
     "route": "36",
@@ -4555,7 +4555,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-15T16:46",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "far",
     "route": "36",
@@ -4582,7 +4582,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-15T16:12",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4609,7 +4609,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-15T15:23",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 동래구 금강로 91",
     "auto": true,
@@ -4637,7 +4637,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-15T14:49",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4664,7 +4664,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-15T11:42",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 금정구 무학송로 143",
     "auto": true,
@@ -4693,7 +4693,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-14T11:18",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "unknown",
     "route": "",
@@ -4720,7 +4720,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-14T10:25",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4747,7 +4747,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-14T09:19",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4774,7 +4774,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-13T11:32",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4801,7 +4801,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-13T11:14",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 해운대구 APEC로 17",
     "auto": true,
@@ -4829,7 +4829,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-13T10:40",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -4856,7 +4856,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-13T10:40",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -4883,7 +4883,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-12T11:58",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 부산진구 동천로107번길 8",
     "auto": true,
@@ -4911,7 +4911,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-12T11:41",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4938,7 +4938,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-12T11:41",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 부산진구 백양대로 252",
     "auto": true,
@@ -4966,7 +4966,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-12T10:16",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "ok",
     "route": "36",
@@ -4993,7 +4993,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-12T09:42",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5020,7 +5020,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-10T14:13",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5047,7 +5047,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-09T14:27",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 금정구 식물원로 11",
     "auto": true,
@@ -5075,7 +5075,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-12T10:33",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5102,7 +5102,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-08T15:11",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "unknown",
     "route": "",
@@ -5129,7 +5129,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-08T15:11",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "unknown",
     "route": "",
@@ -5156,7 +5156,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-08T10:22",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5183,7 +5183,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-08T09:15",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -5210,7 +5210,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-07T14:39",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5237,7 +5237,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-07T11:50",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5264,7 +5264,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-15T08:01",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5291,7 +5291,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-07T11:16",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5318,7 +5318,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-07T10:59",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5345,7 +5345,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-07T09:19",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "address": "부산 부산진구 부전로 144-3",
     "auto": true,
@@ -5373,13 +5373,1516 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-07T09:19",
-   "last_seen": "2026-10-22T10:02",
+   "last_seen": "2026-10-22T10:18",
    "commute": {
     "verdict": "no",
     "route": "",
     "stop": "",
     "walk_min": null,
     "note": "이용 가능한 노선이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "55210637",
+   "company": "박원욱병원",
+   "title": "통증클리닉(외래) 간호조무사 모집합니다.",
+   "location": "부산전체, 수영구",
+   "career": "경력무관",
+   "education": "고졸↑",
+   "type": "계약직",
+   "deadline": "11/05(목)",
+   "posted": "등록일 26/10/06",
+   "sector": "간호조무사, 병원·진료, 정형외과, 신경외과",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55210637&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-06T14:22",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "ok",
+    "route": "155",
+    "stop": "금련산역",
+    "walk_min": 3,
+    "note": "수영로·광안로 교차점, 금련산역 인근",
+    "address": "수영구 광안동 광안로 4"
+   }
+  },
+  {
+   "id": "55202592",
+   "company": "서울정형외과의원",
+   "title": "부산 화명동 서울정형외과 외래 간호조무사 채용",
+   "location": "부산 북구",
+   "career": "경력무관",
+   "education": "학력무관",
+   "type": "정규직",
+   "deadline": "11/04(수)",
+   "posted": "등록일 26/10/05",
+   "sector": "간호조무사, 정형외과",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55202592&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-05T16:48",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "이용 가능한 노선이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "55202270",
+   "company": "삼육부산병원",
+   "title": "삼육부산병원 PA 간호사 모집",
+   "location": "부산 서구",
+   "career": "경력3년↑",
+   "education": "대졸↑",
+   "type": "정규직",
+   "deadline": "11/04(수)",
+   "posted": "수정일 26/10/05",
+   "sector": "간호사, 종합병원",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55202270&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-05T12:30",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "이용 가능한 노선이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "55201815",
+   "company": "(의)센텀의료재단",
+   "title": "센텀종합병원 경력직 중환자실,병동 3교대 간호사 모집",
+   "location": "부산 수영구",
+   "career": "경력",
+   "education": "대졸↑",
+   "type": "계약직",
+   "deadline": "11/04(수)",
+   "posted": "등록일 26/10/05",
+   "sector": "간호사, 전문병원",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55201815&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-05T13:23",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "ok",
+    "route": "155",
+    "stop": "수영교차로.수영역",
+    "walk_min": 3,
+    "note": "수영교차로 바로 옆",
+    "address": "수영구 광안동 수영로 677 (센텀종합병원)"
+   }
+  },
+  {
+   "id": "55201705",
+   "company": "(의)대종의료재단",
+   "title": "부곡온천병원에서 병동 24시간 교대 보호사/간병사 구인합니다.",
+   "location": "경남전체, 창녕군, 전국 전국",
+   "career": "경력무관",
+   "education": "학력무관",
+   "type": "정규직",
+   "deadline": "11/04(수)",
+   "posted": "등록일 26/10/05",
+   "sector": "병동보호사, 요양보호사, 전문병원",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55201705&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-05T09:55",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "이용 가능한 노선이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "55201639",
+   "company": "동래봉생병원",
+   "title": "수술실 스크럽 간호사 경력자 모집",
+   "location": "부산 동래구",
+   "career": "경력1년↑",
+   "education": "초대졸↑",
+   "type": "정규직·계약직",
+   "deadline": "11/04(수)",
+   "posted": "수정일 26/10/15",
+   "sector": "간호사, 종합병원",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55201639&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-05T11:21",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "ok",
+    "route": "36",
+    "stop": "동래봉생병원",
+    "walk_min": 1,
+    "note": "36번에 동명 정류장이 있어 바로 앞",
+    "address": "동래구 안락동 충렬대로"
+   }
+  },
+  {
+   "id": "55188638",
+   "company": "평거요양병원",
+   "title": "간호사 모집합니다(병동)",
+   "location": "부산 기장군",
+   "career": "경력무관",
+   "education": "초대졸↑",
+   "type": "정규직",
+   "deadline": "11/01(일)",
+   "posted": "등록일 26/10/02",
+   "sector": "간호사, 요양병원",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55188638&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-02T13:59",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "address": "부산 기장군 기장읍 대청로36번길 11-33",
+    "auto": true,
+    "verdict": "ok",
+    "route": "36",
+    "stop": "기장읍행정복지센터",
+    "walk_min": 3,
+    "note": "자동 판정 · 가장 가까운 정류장 36번 기장읍행정복지센터 직선 155m"
+   }
+  },
+  {
+   "id": "55187260",
+   "company": "의료법인 온그룹의료재단 온병원",
+   "title": "[온병원] 2027년 신규간호사 채용 10/1~10/31",
+   "location": "부산 부산진구",
+   "career": "신입",
+   "education": "대졸↑",
+   "type": "정규직",
+   "deadline": "11/01(일)",
+   "posted": "등록일 26/10/02",
+   "sector": "간호사, 종합병원",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55187260&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-02T12:51",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "unknown",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "기관 위치 확인 필요",
+    "address": ""
+   }
+  },
+  {
+   "id": "55186571",
+   "company": "연세미래정형외과",
+   "title": "중구 연세미래정형외과 외래 간호조무사 선생님 모십니다.",
+   "location": "부산 중구",
+   "career": "경력무관",
+   "education": "학력무관",
+   "type": "정규직",
+   "deadline": "11/01(일)",
+   "posted": "등록일 26/10/02",
+   "sector": "간호조무사, 정형외과",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55186571&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-02T12:34",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "이용 가능한 노선이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "55185075",
+   "company": "부산미남병원",
+   "title": "간호간병 통합서비스 병동간호사(3교대) 채용공고(경력직우대)",
+   "location": "부산 동래구",
+   "career": "경력 1~10년",
+   "education": "학력무관",
+   "type": "정규직",
+   "deadline": "11/01(일)",
+   "posted": "등록일 26/10/02",
+   "sector": "간호사, 전문병원",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55185075&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-02T09:47",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "address": "부산 동래구 아시아드대로 213",
+    "auto": true,
+    "verdict": "ok2",
+    "route": "44",
+    "stop": "미남역.반도스카이뷰",
+    "walk_min": 3,
+    "note": "자동 판정 · 반여3동 정류장에서 44번, 미남역.반도스카이뷰 직선 181m"
+   }
+  },
+  {
+   "id": "55175888",
+   "company": "(의)센텀의료재단",
+   "title": "센텀종합병원 간호간병통합서비스병동 3교대, 외래 조무사 모집",
+   "location": "부산 수영구",
+   "career": "경력무관",
+   "education": "고졸↑",
+   "type": "계약직",
+   "deadline": "10/31(토)",
+   "posted": "수정일 26/10/13",
+   "sector": "간호조무사, 전문병원",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55175888&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-01T15:06",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "ok",
+    "route": "155",
+    "stop": "수영교차로.수영역",
+    "walk_min": 3,
+    "note": "수영교차로 바로 옆",
+    "address": "수영구 광안동 수영로 677 (센텀종합병원)"
+   }
+  },
+  {
+   "id": "55175180",
+   "company": "서울정석정형외과의원",
+   "title": "간호조무사 추가 공고",
+   "location": "경남 창원시",
+   "career": "경력무관",
+   "education": "학력무관",
+   "type": "계약직",
+   "deadline": "10/31(토)",
+   "posted": "등록일 26/10/01",
+   "sector": "간호조무사, 정형외과",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55175180&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-01T15:06",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "이용 가능한 노선이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "55174385",
+   "company": "동래봉생병원",
+   "title": "중환자실, 병동 경력간호사 3교대 모집",
+   "location": "부산 동래구",
+   "career": "경력2년↑",
+   "education": "초대졸↑",
+   "type": "정규직·계약직",
+   "deadline": "10/31(토)",
+   "posted": "등록일 26/10/01",
+   "sector": "간호사, 종합병원",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55174385&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-01T13:34",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "ok",
+    "route": "36",
+    "stop": "동래봉생병원",
+    "walk_min": 1,
+    "note": "36번에 동명 정류장이 있어 바로 앞",
+    "address": "동래구 안락동 충렬대로"
+   }
+  },
+  {
+   "id": "55164373",
+   "company": "의료법인 온그룹의료재단 온병원",
+   "title": "[온병원] 2026년 하반기 신규간호사 채용",
+   "location": "부산 부산진구",
+   "career": "신입",
+   "education": "대졸↑",
+   "type": "정규직",
+   "deadline": "10/30(금)",
+   "posted": "등록일 26/09/30",
+   "sector": "간호사, 종합병원",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55164373&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-09-30T17:16",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "unknown",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "기관 위치 확인 필요",
+    "address": ""
+   }
+  },
+  {
+   "id": "55160553",
+   "company": "아이앤젤여성의원",
+   "title": "아이앤젤여성의원 간호부 직원모집",
+   "location": "부산 기장군",
+   "career": "경력무관",
+   "education": "고졸↑",
+   "type": "정규직",
+   "deadline": "10/30(금)",
+   "posted": "등록일 26/09/30",
+   "sector": "간호사, 심사간호사, 책임간호사, 간호조무사, 산부인과",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55160553&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-09-30T12:28",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "정관신도시 미경유",
+    "address": "기장군 정관읍 정관로 601"
+   }
+  },
+  {
+   "id": "55159880",
+   "company": "온천소아청소년과의원",
+   "title": "온천소아청소년과 외래 간호조무사 채용",
+   "location": "부산 동래구",
+   "career": "경력무관",
+   "education": "학력무관",
+   "type": "정규직",
+   "deadline": "10/30(금)",
+   "posted": "등록일 26/09/30",
+   "sector": "간호조무사, 소아과",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55159880&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-09-30T11:37",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "address": "부산 동래구 금강로 116",
+    "auto": true,
+    "verdict": "ok2",
+    "route": "144",
+    "stop": "온천장역",
+    "walk_min": 4,
+    "note": "자동 판정 · 반여3동 정류장에서 144번, 온천장역 직선 217m"
+   }
+  },
+  {
+   "id": "55158201",
+   "company": "(의)연송의료재단",
+   "title": "요양병원 N-KEEP 병동 간호사 구인 -나이트킵",
+   "location": "부산 사하구",
+   "career": "경력무관",
+   "education": "초대졸↑",
+   "type": "정규직",
+   "deadline": "10/30(금)",
+   "posted": "등록일 26/09/30",
+   "sector": "간호사, 요양병원, 요양병원",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55158201&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-09-30T10:13",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "이용 가능한 노선이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "55157547",
+   "company": "(의) 연송의료재단 신창요양병원",
+   "title": "간호조무사 모집합니다 [부산 중구]",
+   "location": "부산 중구",
+   "career": "경력무관",
+   "education": "학력무관",
+   "type": "정규직",
+   "deadline": "10/30(금)",
+   "posted": "수정일 26/09/30",
+   "sector": "간호조무사, 요양병원",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55157547&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-09-30T09:24",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "이용 가능한 노선이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "55147754",
+   "company": "더하얀의원",
+   "title": "피부과에서 일하실 능력있는 간호조무사 모집합니다",
+   "location": "부산 남구",
+   "career": "경력무관",
+   "education": "학력무관",
+   "type": "정규직",
+   "deadline": "10/29(목)",
+   "posted": "등록일 26/09/29",
+   "sector": "환자안내, 피부과, 피부관리사, 성형외과, 피부과",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55147754&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-09-29T14:41",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "address": "부산 남구 수영로 345",
+    "auto": true,
+    "verdict": "ok",
+    "route": "155",
+    "stop": "경성대.부경대역",
+    "walk_min": 1,
+    "note": "자동 판정 · 가장 가까운 정류장 155번 경성대.부경대역 직선 54m"
+   }
+  },
+  {
+   "id": "55141091",
+   "company": "가족사랑요양병원",
+   "title": "웨이팅또는 단기간 알바 원하는 간호사 추가모집 합니다",
+   "location": "부산 부산진구",
+   "career": "신입",
+   "education": "초대졸↑",
+   "type": "계약직·아르바이트",
+   "deadline": "11/27(금)",
+   "posted": "수정일 26/10/15",
+   "sector": "간호사, 요양병원",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55141091&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-09-29T08:16",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "address": "부산 부산진구 새싹로 286",
+    "auto": true,
+    "verdict": "far",
+    "route": "44",
+    "stop": "초읍초등학교",
+    "walk_min": 11,
+    "transfer": true,
+    "note": "자동 판정 · 반여3동 정류장에서 44번 초읍초등학교 직선 606m"
+   }
+  },
+  {
+   "id": "55136453",
+   "company": "마린성형외과",
+   "title": "밝고 적극적인 간호조무사 지원해주세요",
+   "location": "부산 해운대구",
+   "career": "경력1년↑",
+   "education": "고졸↑",
+   "type": "정규직",
+   "deadline": "10/28(수)",
+   "posted": "등록일 26/09/28",
+   "sector": "수술보조, 성형외과",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55136453&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-09-29T09:25",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "ok",
+    "route": "115-1",
+    "stop": "해운대도시철도역",
+    "walk_min": 5,
+    "note": "해운대역 구남로 인근",
+    "address": "해운대구 중동 구남로29번길 32"
+   }
+  },
+  {
+   "id": "55135253",
+   "company": "사)행복한복지재단부산진구노인요양센터",
+   "title": "요양보호사 정규직 모집(경력무관)",
+   "location": "부산 부산진구",
+   "career": "경력무관",
+   "education": "학력무관",
+   "type": "정규직",
+   "deadline": "10/28(수)",
+   "posted": "등록일 26/09/28",
+   "sector": "요양보호사, 복지시설, 노인복지, 요양보호",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55135253&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-09-28T19:10",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "unknown",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "기관 위치 확인 필요",
+    "address": ""
+   }
+  },
+  {
+   "id": "55132090",
+   "company": "의료법인 안심의료재단 안심요양병원",
+   "title": "D- keep간호사선생님을구인합니다.",
+   "location": "부산 연제구",
+   "career": "경력2년↑",
+   "education": "초대졸↑",
+   "type": "정규직",
+   "deadline": "10/28(수)",
+   "posted": "등록일 26/09/28",
+   "sector": "간호사, 요양병원",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55132090&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-09-28T19:10",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "ok",
+    "route": "189-1",
+    "stop": "토곡한양아파트",
+    "walk_min": 5,
+    "note": "과정로(토곡) 구간은 189-1이 직접 경유",
+    "address": "연제구 연산동 과정로 222 (안심요양병원)"
+   }
+  },
+  {
+   "id": "55131997",
+   "company": "평거요양병원",
+   "title": "나이트 킵 간호사 모집합니다(병동)",
+   "location": "부산 기장군",
+   "career": "경력3년↑",
+   "education": "초대졸↑",
+   "type": "정규직",
+   "deadline": "10/28(수)",
+   "posted": "등록일 26/09/28",
+   "sector": "간호사, 요양병원",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55131997&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-09-28T19:10",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "address": "부산 기장군 기장읍 대청로36번길 11-33",
+    "auto": true,
+    "verdict": "ok",
+    "route": "36",
+    "stop": "기장읍행정복지센터",
+    "walk_min": 3,
+    "note": "자동 판정 · 가장 가까운 정류장 36번 기장읍행정복지센터 직선 155m"
+   }
+  },
+  {
+   "id": "55130381",
+   "company": "동래봉생병원",
+   "title": "간호조무사 3교대 병동(간호간병) 모집",
+   "location": "부산 동래구",
+   "career": "경력무관",
+   "education": "학력무관",
+   "type": "정규직·계약직",
+   "deadline": "10/28(수)",
+   "posted": "등록일 26/09/28",
+   "sector": "간호조무사, 종합병원",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55130381&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-09-28T19:10",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "ok",
+    "route": "36",
+    "stop": "동래봉생병원",
+    "walk_min": 1,
+    "note": "36번에 동명 정류장이 있어 바로 앞",
+    "address": "동래구 안락동 충렬대로"
+   }
+  },
+  {
+   "id": "55127780",
+   "company": "신항내과의원",
+   "title": "(경력우대) 간호조무사 정규직/계약직 채용",
+   "location": "경남 창원시",
+   "career": "경력1년↑",
+   "education": "고졸↑",
+   "type": "정규직·계약직",
+   "deadline": "10/28(수)",
+   "posted": "등록일 26/09/28",
+   "sector": "간호사, 간호조무사, 내과, 주사실, 내과",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55127780&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-09-28T12:35",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "이용 가능한 노선이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "55126414",
+   "company": "가족사랑요양병원",
+   "title": "함께 할 D/E간호사모집합니다",
+   "location": "부산 부산진구",
+   "career": "신입",
+   "education": "초대졸↑",
+   "type": "정규직·계약직",
+   "deadline": "11/27(금)",
+   "posted": "수정일 26/10/16",
+   "sector": "간호사, 요양병원",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55126414&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-09-28T12:35",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "address": "부산 부산진구 새싹로 286",
+    "auto": true,
+    "verdict": "far",
+    "route": "44",
+    "stop": "초읍초등학교",
+    "walk_min": 11,
+    "transfer": true,
+    "note": "자동 판정 · 반여3동 정류장에서 44번 초읍초등학교 직선 606m"
+   }
+  },
+  {
+   "id": "55101198",
+   "company": "학장성심요양병원",
+   "title": "[학장성심요양병원] E-Keep간호사 모집합니다",
+   "location": "부산 사상구",
+   "career": "경력",
+   "education": "학력무관",
+   "type": "정규직",
+   "deadline": "오늘마감",
+   "posted": "등록일 26/09/22",
+   "sector": "간호사, 요양병원",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55101198&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-09-22T21:13",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "이용 가능한 노선이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "55100837",
+   "company": "길탑비뇨기과의원",
+   "title": "부산역 길탑비뇨기과 간호사 정직원 채용함.",
+   "location": "부산 동구",
+   "career": "경력무관",
+   "education": "고졸↑",
+   "type": "정규직·아르바이트",
+   "deadline": "11/21(토)",
+   "posted": "수정일 26/09/30",
+   "sector": "간호사, 마취간호사, 심사간호사, QPS간호사, 간호조무사",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55100837&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-09-22T21:13",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "address": "부산 동구 중앙대로 205",
+    "auto": true,
+    "verdict": "ok2",
+    "route": "52",
+    "stop": "초량역3번출구",
+    "walk_min": 8,
+    "note": "자동 판정 · 반여3동 정류장에서 52번, 초량역3번출구 직선 468m"
+   }
+  },
+  {
+   "id": "55098527",
+   "company": "영도병원",
+   "title": "[영도병원] 경력직 병동 간호사 모집",
+   "location": "부산 영도구",
+   "career": "경력1년↑",
+   "education": "초대졸↑",
+   "type": "정규직",
+   "deadline": "오늘마감",
+   "posted": "등록일 26/09/22",
+   "sector": "간호사, 종합병원",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55098527&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-09-22T21:13",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "이용 가능한 노선이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "55018668",
+   "company": "서면필내과",
+   "title": "간호조무사 및 간호사 모집합니다(내시경실 경력자 우대)",
+   "location": "부산 부산진구",
+   "career": "경력무관",
+   "education": "학력무관",
+   "type": "정규직",
+   "deadline": "10/31(토)",
+   "posted": "수정일 26/10/20",
+   "sector": "간호조무사, 내과",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55018668&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-09-22T21:13",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "address": "부산 부산진구 서면문화로 10",
+    "auto": true,
+    "verdict": "ok2",
+    "route": "52",
+    "stop": "서면역.서면지하상가",
+    "walk_min": 5,
+    "note": "자동 판정 · 반여3동 정류장에서 52번, 서면역.서면지하상가 직선 264m"
+   }
+  },
+  {
+   "id": "54972335",
+   "company": "더존한방병원하단점",
+   "title": "더존한방병원하단점/병동/DE교대/간호사/환자수 30~40명 수준",
+   "location": "부산전체, 강서구, 부산진구, 사하구, 서구, 경남 김해시, 양산시, 창원시",
+   "career": "경력1년↑",
+   "education": "초대졸↑",
+   "type": "정규직",
+   "deadline": "11/07(토)",
+   "posted": "수정일 26/10/20",
+   "sector": "간호사, 한방과, 일반병원, 한방병원, 2교대",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54972335&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-09-22T21:13",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "address": "부산 사하구 낙동남로 1412",
+    "auto": true,
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "자동 판정 · 가장 가까운 정류장(52번 금수사)까지 직선 6016m"
+   }
+  },
+  {
+   "id": "54972029",
+   "company": "김병준 레다스 흉부외과",
+   "title": "LEDAS 간호사 채용( 정규직, 기간제 4개월 )",
+   "location": "부산 부산진구",
+   "career": "경력무관",
+   "education": "초대졸↑",
+   "type": "정규직·기간제",
+   "deadline": "채용시",
+   "posted": "수정일 26/10/15",
+   "sector": "간호사, 외과",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54972029&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-09-22T21:13",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "address": "부산 부산진구 서면문화로 10",
+    "auto": true,
+    "verdict": "ok2",
+    "route": "52",
+    "stop": "서면역.서면지하상가",
+    "walk_min": 5,
+    "note": "자동 판정 · 반여3동 정류장에서 52번, 서면역.서면지하상가 직선 264m"
+   }
+  },
+  {
+   "id": "54957116",
+   "company": "사)행복한복지재단부산진구노인요양센터",
+   "title": "행복한 재가 방문목욕 요양보호사 모집",
+   "location": "부산 부산진구",
+   "career": "경력무관",
+   "education": "학력무관",
+   "type": "프리랜서",
+   "deadline": "11/06(금)",
+   "posted": "수정일 26/10/08",
+   "sector": "요양보호사, 복지시설, 노인복지, 요양보호",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54957116&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-09-22T21:13",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "unknown",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "기관 위치 확인 필요",
+    "address": ""
+   }
+  },
+  {
+   "id": "54830539",
+   "company": "동래정한방병원",
+   "title": "동래정한방병원에서 Tid 근무할 간호사 구인 합니다.",
+   "location": "부산 동래구",
+   "career": "경력무관",
+   "education": "초대졸↑",
+   "type": "정규직",
+   "deadline": "내일마감",
+   "posted": "수정일 26/09/28",
+   "sector": "간호사, 한방병원",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54830539&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-09-28T19:10",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "ok",
+    "route": "36",
+    "stop": "안락동우체국.동해선안락역",
+    "walk_min": 5,
+    "note": "안락교차로 인근, 36번 안락 구간",
+    "address": "동래구 안락동 (세원메디칼센터)"
+   }
+  },
+  {
+   "id": "55334315",
+   "company": "엠마우스요양병원",
+   "title": "엠마우스요양병원 간호사(데이/이브) 채용합니다.",
+   "location": "경남 진주시",
+   "career": "경력무관",
+   "education": "학력무관",
+   "type": "정규직",
+   "deadline": "10/31(토)",
+   "posted": "수정일 26/10/19",
+   "sector": "간호사, 병원·진료",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55334315&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-19T21:57",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "이용 가능한 노선이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "55180676",
+   "company": "의료법인문병욱의료재단(진주고려병원)",
+   "title": "[수술실,내시경센터] 신규 & 경력 간호사 모집합니다.",
+   "location": "경남 진주시",
+   "career": "경력1년↑",
+   "education": "초대졸",
+   "type": "정규직",
+   "deadline": "10/31(토)",
+   "posted": "수정일 26/10/06",
+   "sector": "간호사, 병원·진료",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55180676&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-01T21:54",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "이용 가능한 노선이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "55180678",
+   "company": "의료법인문병욱의료재단(진주고려병원)",
+   "title": "[병동] 신규 및 경력 간호사 모집",
+   "location": "경남 진주시",
+   "career": "경력무관",
+   "education": "학력무관",
+   "type": "정규직",
+   "deadline": "10/31(토)",
+   "posted": "수정일 26/10/06",
+   "sector": "간호사, 병원·진료",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55180678&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-01T21:54",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "이용 가능한 노선이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "51438642",
+   "company": "(주)엘티엔터테인먼트",
+   "title": "제주 드림타워 복합리조트 [카지노&호텔] 대규모 신입 공채",
+   "location": "제주 제주시",
+   "career": "신입",
+   "education": "학력무관",
+   "type": "정규직·계약직",
+   "deadline": "10/31(토)",
+   "posted": "수정일 26/09/30",
+   "sector": "카지노, 레저, 고객안내, 카지노, 호텔",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=51438642&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-22T10:18",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "unknown",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "기관 위치 확인 필요",
+    "address": ""
+   }
+  },
+  {
+   "id": "55354686",
+   "company": "(주)화신",
+   "title": "(주)화신 영천공장 설비보전 기간제 사원 모집 (정규직 전환형)",
+   "location": "경북 영천시",
+   "career": "신입",
+   "education": "고졸↑",
+   "type": "기간제·계약직",
+   "deadline": "채용시",
+   "posted": "등록일 26/10/21",
+   "sector": "자동차부품, 장비제어, 자동화라인, 프레스금형, 프레스",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55354686&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-22T10:18",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "이용 가능한 노선이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "55329814",
+   "company": "(주)농심",
+   "title": "농심 정규직 생산 사원 모집",
+   "location": "부산 강서구",
+   "career": "경력무관",
+   "education": "고졸↑",
+   "type": "정규직",
+   "deadline": "11/18(수)",
+   "posted": "등록일 26/10/19",
+   "sector": "식품가공, 기계조작원, 단순생산직, 외관검사원, 제조가공",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55329814&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-22T10:18",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "이용 가능한 노선이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "55288390",
+   "company": "(주)케이지엔지니어링종합건축사사무소",
+   "title": "2026 경력직 실행력 중심 채용 전형",
+   "location": "서울 송파구",
+   "career": "경력3년↑",
+   "education": "초대졸↑",
+   "type": "정규직",
+   "deadline": "10/24(토)",
+   "posted": "수정일 26/10/15",
+   "sector": "토목회사, S/W, 감사, 전산회계, 회계사",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55288390&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-22T10:18",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "unknown",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "기관 위치 확인 필요",
+    "address": ""
+   }
+  },
+  {
+   "id": "55274385",
+   "company": "(주)동화엔텍",
+   "title": "㈜동화엔텍 2026년 하반기 공개채용",
+   "location": "부산 강서구",
+   "career": "경력무관",
+   "education": "학력무관",
+   "type": "정규직",
+   "deadline": "11/02(월)",
+   "posted": "수정일 26/10/19",
+   "sector": "조선, 항공, 선박, 인/허가, 국제무역사",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55274385&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-22T10:18",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "이용 가능한 노선이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "55349796",
+   "company": "양우종합건설(주)",
+   "title": "임원 및 경력(신입)사원 모집",
+   "location": "전국",
+   "career": "신입·경력",
+   "education": "학력무관",
+   "type": "정규직·계약직",
+   "deadline": "11/20(금)",
+   "posted": "수정일 26/10/21",
+   "sector": "건설회사, 1군건설, 건설현장, 더존, 4대보험",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55349796&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-22T10:18",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "unknown",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "기관 위치 확인 필요",
+    "address": ""
+   }
+  },
+  {
+   "id": "55241057",
+   "company": "유니셈(주)",
+   "title": "반도체 장비 엔지니어 외 대규모 채용",
+   "location": "경기 화성시",
+   "career": "신입·경력",
+   "education": "대졸↑",
+   "type": "정규직·계약직",
+   "deadline": "오늘마감",
+   "posted": "수정일 26/10/08",
+   "sector": "기계, 기타제조업, 기업회계, 법인결산, 부가세신고",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55241057&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-22T10:18",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "unknown",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "기관 위치 확인 필요",
+    "address": ""
+   }
+  },
+  {
+   "id": "55170548",
+   "company": "(주)켐트로닉스",
+   "title": "㈜켐트로닉스 각 부문별 신입/경력직 채용",
+   "location": "경기 평택시",
+   "career": "신입·경력",
+   "education": "고졸↑",
+   "type": "정규직·계약직",
+   "deadline": "11/01(일)",
+   "posted": "수정일 26/10/12",
+   "sector": "전자, 석유화학, 화학, 기술지원, 유지보수",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55170548&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-22T10:18",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "unknown",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "기관 위치 확인 필요",
+    "address": ""
+   }
+  },
+  {
+   "id": "55162202",
+   "company": "극동건설(주)",
+   "title": "2026년 4분기 분야별 공개채용",
+   "location": "전국",
+   "career": "신입·경력",
+   "education": "초대졸↑",
+   "type": "정규직·계약직",
+   "deadline": "10/31(토)",
+   "posted": "수정일 26/10/15",
+   "sector": "건설회사, 건설현장, 건축, 데이터엔지니어, 백엔드/서버개발",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55162202&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-22T10:18",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "address": "부산 남구 수영로 295",
+    "auto": true,
+    "verdict": "ok",
+    "route": "155",
+    "stop": "경성대학교입구",
+    "walk_min": 3,
+    "note": "자동 판정 · 가장 가까운 정류장 155번 경성대학교입구 직선 146m"
+   }
+  },
+  {
+   "id": "55337057",
+   "company": "디엔케이모빌리티(주)",
+   "title": "[DnK모빌리티] 생산직 모집",
+   "location": "울산 울주군",
+   "career": "신입·경력",
+   "education": "고졸↑",
+   "type": "정규직",
+   "deadline": "11/19(목)",
+   "posted": "수정일 26/10/20",
+   "sector": "기계, 자동차, 자동차부품, 단순생산직",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55337057&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-22T10:18",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "이용 가능한 노선이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "55353385",
+   "company": "(주)면사랑",
+   "title": "면사랑 26년 하반기 신입/경력 공개채용 (전역장교 출신 우대)",
+   "location": "서울 강남구",
+   "career": "신입·경력",
+   "education": "초대졸↑",
+   "type": "정규직",
+   "deadline": "11/01(일)",
+   "posted": "수정일 26/10/21",
+   "sector": "웹개발, Java, 전산회계, 더존, 법인세신고",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55353385&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-22T10:18",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "address": "부산 수영구 남천바다로10번길 10",
+    "auto": true,
+    "verdict": "ok",
+    "route": "155",
+    "stop": "금련산역",
+    "walk_min": 3,
+    "note": "자동 판정 · 가장 가까운 정류장 155번 금련산역 직선 156m"
+   }
+  },
+  {
+   "id": "55171267",
+   "company": "(주)디알텍",
+   "title": "2026년 신입 및 경력 채용",
+   "location": "경기 성남시 분당구",
+   "career": "신입·경력",
+   "education": "고졸↑",
+   "type": "정규직",
+   "deadline": "10/31(토)",
+   "posted": "수정일 26/10/15",
+   "sector": "기타제조업, 유지보수, 퍼블리셔, SE(시스템엔지니어), 머신러닝",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55171267&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-22T10:18",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "address": "부산 강서구 신호삼로 92",
+    "auto": true,
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "자동 판정 · 가장 가까운 정류장(52번 금수사)까지 직선 13871m"
+   }
+  },
+  {
+   "id": "55322991",
+   "company": "한국이콜랩(유)",
+   "title": "[외국계 화학] 각 부문 신입/경력 채용",
+   "location": "서울전체",
+   "career": "신입·경력",
+   "education": "고졸↑",
+   "type": "정규직·계약직",
+   "deadline": "11/01(일)",
+   "posted": "수정일 26/10/21",
+   "sector": "석유화학, 화학, 화공, 에너지, SAP",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55322991&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-22T10:18",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "address": "경남 양산시 어곡공단1길 78",
+    "auto": true,
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "자동 판정 · 가장 가까운 정류장(144번 까치공원)까지 직선 16781m"
+   }
+  },
+  {
+   "id": "55300390",
+   "company": "(주)농심",
+   "title": "(주)농심 안성공장 생산직 정규사원(생산직무) 채용",
+   "location": "경기 안성시",
+   "career": "경력무관",
+   "education": "학력무관",
+   "type": "정규직",
+   "deadline": "12/14(월)",
+   "posted": "등록일 26/10/15",
+   "sector": "식품가공, 단순생산직",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55300390&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-22T10:18",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "address": "부산 동래구 금강공원로20번길 23",
+    "auto": true,
+    "verdict": "ok2",
+    "route": "144",
+    "stop": "온천장역",
+    "walk_min": 2,
+    "note": "자동 판정 · 반여3동 정류장에서 144번, 온천장역 직선 132m"
+   }
+  },
+  {
+   "id": "55345222",
+   "company": "(주)아모텍",
+   "title": "㈜아모텍 2026년 하반기 신입/경력 수시채용",
+   "location": "서울 서초구",
+   "career": "신입·경력",
+   "education": "초대졸↑",
+   "type": "정규직",
+   "deadline": "11/30(월)",
+   "posted": "수정일 26/10/21",
+   "sector": "기구설계, 전기, 회로설계, IR/공시, 관리회계",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55345222&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-22T10:18",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "unknown",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "기관 위치 확인 필요",
+    "address": ""
+   }
+  },
+  {
+   "id": "55340384",
+   "company": "(주)비지에프에코스페셜티",
+   "title": "(주)BGF에코스페셜티 채용(현장 Engineer/생산직)",
+   "location": "울산 울주군",
+   "career": "신입",
+   "education": "고졸↑",
+   "type": "계약직",
+   "deadline": "오늘마감",
+   "posted": "수정일 26/10/22",
+   "sector": "화학, 단순생산직, 현장기사",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55340384&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-22T10:18",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "이용 가능한 노선이 가지 않는 지역",
+    "address": ""
+   }
+  },
+  {
+   "id": "55312222",
+   "company": "(주)동구바이오제약",
+   "title": "동구바이오제약 생산,공장 부문 수시채용 모집(신입&경력)",
+   "location": "경기 화성시",
+   "career": "신입·경력",
+   "education": "학력무관",
+   "type": "정규직·계약직",
+   "deadline": "11/01(일)",
+   "posted": "수정일 26/10/16",
+   "sector": "화장품, 의약·제약, 의료·보건, 제약QA, 제약/바이오",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55312222&view_type=search",
+   "keywords": [
+    "간호부"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-22T10:18",
+   "last_seen": "2026-10-22T10:18",
+   "commute": {
+    "verdict": "unknown",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "기관 위치 확인 필요",
     "address": ""
    }
   },
@@ -5409,442 +6912,8 @@
     "stop": "초량역3번출구",
     "walk_min": 8,
     "note": "자동 판정 · 반여3동 정류장에서 52번, 초량역3번출구 직선 468m"
-   }
-  },
-  {
-   "id": "55210637",
-   "company": "박원욱병원",
-   "title": "통증클리닉(외래) 간호조무사 모집합니다.",
-   "location": "부산전체, 수영구",
-   "career": "경력무관",
-   "education": "고졸↑",
-   "type": "계약직",
-   "deadline": "11/05(목)",
-   "posted": "등록일 26/10/06",
-   "sector": "간호조무사, 병원·진료, 정형외과, 신경외과",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55210637&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-10-06T14:22",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "verdict": "ok",
-    "route": "155",
-    "stop": "금련산역",
-    "walk_min": 3,
-    "note": "수영로·광안로 교차점, 금련산역 인근",
-    "address": "수영구 광안동 광안로 4"
-   }
-  },
-  {
-   "id": "55202592",
-   "company": "서울정형외과의원",
-   "title": "부산 화명동 서울정형외과 외래 간호조무사 채용",
-   "location": "부산 북구",
-   "career": "경력무관",
-   "education": "학력무관",
-   "type": "정규직",
-   "deadline": "11/04(수)",
-   "posted": "등록일 26/10/05",
-   "sector": "간호조무사, 정형외과",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55202592&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-10-05T16:48",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "이용 가능한 노선이 가지 않는 지역",
-    "address": ""
-   }
-  },
-  {
-   "id": "55202270",
-   "company": "삼육부산병원",
-   "title": "삼육부산병원 PA 간호사 모집",
-   "location": "부산 서구",
-   "career": "경력3년↑",
-   "education": "대졸↑",
-   "type": "정규직",
-   "deadline": "11/04(수)",
-   "posted": "수정일 26/10/05",
-   "sector": "간호사, 종합병원",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55202270&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-10-05T12:30",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "이용 가능한 노선이 가지 않는 지역",
-    "address": ""
-   }
-  },
-  {
-   "id": "55201815",
-   "company": "(의)센텀의료재단",
-   "title": "센텀종합병원 경력직 중환자실,병동 3교대 간호사 모집",
-   "location": "부산 수영구",
-   "career": "경력",
-   "education": "대졸↑",
-   "type": "계약직",
-   "deadline": "11/04(수)",
-   "posted": "등록일 26/10/05",
-   "sector": "간호사, 전문병원",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55201815&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-10-05T13:23",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "verdict": "ok",
-    "route": "155",
-    "stop": "수영교차로.수영역",
-    "walk_min": 3,
-    "note": "수영교차로 바로 옆",
-    "address": "수영구 광안동 수영로 677 (센텀종합병원)"
-   }
-  },
-  {
-   "id": "55201705",
-   "company": "(의)대종의료재단",
-   "title": "부곡온천병원에서 병동 24시간 교대 보호사/간병사 구인합니다.",
-   "location": "경남전체, 창녕군, 전국 전국",
-   "career": "경력무관",
-   "education": "학력무관",
-   "type": "정규직",
-   "deadline": "11/04(수)",
-   "posted": "등록일 26/10/05",
-   "sector": "병동보호사, 요양보호사, 전문병원",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55201705&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-10-05T09:55",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "이용 가능한 노선이 가지 않는 지역",
-    "address": ""
-   }
-  },
-  {
-   "id": "55201639",
-   "company": "동래봉생병원",
-   "title": "수술실 스크럽 간호사 경력자 모집",
-   "location": "부산 동래구",
-   "career": "경력1년↑",
-   "education": "초대졸↑",
-   "type": "정규직·계약직",
-   "deadline": "11/04(수)",
-   "posted": "수정일 26/10/15",
-   "sector": "간호사, 종합병원",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55201639&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-10-05T11:21",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "verdict": "ok",
-    "route": "36",
-    "stop": "동래봉생병원",
-    "walk_min": 1,
-    "note": "36번에 동명 정류장이 있어 바로 앞",
-    "address": "동래구 안락동 충렬대로"
-   }
-  },
-  {
-   "id": "55188638",
-   "company": "평거요양병원",
-   "title": "간호사 모집합니다(병동)",
-   "location": "부산 기장군",
-   "career": "경력무관",
-   "education": "초대졸↑",
-   "type": "정규직",
-   "deadline": "11/01(일)",
-   "posted": "등록일 26/10/02",
-   "sector": "간호사, 요양병원",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55188638&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-10-02T13:59",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "address": "부산 기장군 기장읍 대청로36번길 11-33",
-    "auto": true,
-    "verdict": "ok",
-    "route": "36",
-    "stop": "기장읍행정복지센터",
-    "walk_min": 3,
-    "note": "자동 판정 · 가장 가까운 정류장 36번 기장읍행정복지센터 직선 155m"
-   }
-  },
-  {
-   "id": "55187260",
-   "company": "의료법인 온그룹의료재단 온병원",
-   "title": "[온병원] 2027년 신규간호사 채용 10/1~10/31",
-   "location": "부산 부산진구",
-   "career": "신입",
-   "education": "대졸↑",
-   "type": "정규직",
-   "deadline": "11/01(일)",
-   "posted": "등록일 26/10/02",
-   "sector": "간호사, 종합병원",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55187260&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-10-02T12:51",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "verdict": "unknown",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "기관 위치 확인 필요",
-    "address": ""
-   }
-  },
-  {
-   "id": "55186571",
-   "company": "연세미래정형외과",
-   "title": "중구 연세미래정형외과 외래 간호조무사 선생님 모십니다.",
-   "location": "부산 중구",
-   "career": "경력무관",
-   "education": "학력무관",
-   "type": "정규직",
-   "deadline": "11/01(일)",
-   "posted": "등록일 26/10/02",
-   "sector": "간호조무사, 정형외과",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55186571&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-10-02T12:34",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "이용 가능한 노선이 가지 않는 지역",
-    "address": ""
-   }
-  },
-  {
-   "id": "55185075",
-   "company": "부산미남병원",
-   "title": "간호간병 통합서비스 병동간호사(3교대) 채용공고(경력직우대)",
-   "location": "부산 동래구",
-   "career": "경력 1~10년",
-   "education": "학력무관",
-   "type": "정규직",
-   "deadline": "11/01(일)",
-   "posted": "등록일 26/10/02",
-   "sector": "간호사, 전문병원",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55185075&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-10-02T09:47",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "address": "부산 동래구 아시아드대로 213",
-    "auto": true,
-    "verdict": "ok2",
-    "route": "44",
-    "stop": "미남역.반도스카이뷰",
-    "walk_min": 3,
-    "note": "자동 판정 · 반여3동 정류장에서 44번, 미남역.반도스카이뷰 직선 181m"
-   }
-  },
-  {
-   "id": "55175888",
-   "company": "(의)센텀의료재단",
-   "title": "센텀종합병원 간호간병통합서비스병동 3교대, 외래 조무사 모집",
-   "location": "부산 수영구",
-   "career": "경력무관",
-   "education": "고졸↑",
-   "type": "계약직",
-   "deadline": "10/31(토)",
-   "posted": "수정일 26/10/13",
-   "sector": "간호조무사, 전문병원",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55175888&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-10-01T15:06",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "verdict": "ok",
-    "route": "155",
-    "stop": "수영교차로.수영역",
-    "walk_min": 3,
-    "note": "수영교차로 바로 옆",
-    "address": "수영구 광안동 수영로 677 (센텀종합병원)"
-   }
-  },
-  {
-   "id": "55175180",
-   "company": "서울정석정형외과의원",
-   "title": "간호조무사 추가 공고",
-   "location": "경남 창원시",
-   "career": "경력무관",
-   "education": "학력무관",
-   "type": "계약직",
-   "deadline": "10/31(토)",
-   "posted": "등록일 26/10/01",
-   "sector": "간호조무사, 정형외과",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55175180&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-10-01T15:06",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "이용 가능한 노선이 가지 않는 지역",
-    "address": ""
-   }
-  },
-  {
-   "id": "55174385",
-   "company": "동래봉생병원",
-   "title": "중환자실, 병동 경력간호사 3교대 모집",
-   "location": "부산 동래구",
-   "career": "경력2년↑",
-   "education": "초대졸↑",
-   "type": "정규직·계약직",
-   "deadline": "10/31(토)",
-   "posted": "등록일 26/10/01",
-   "sector": "간호사, 종합병원",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55174385&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-10-01T13:34",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "verdict": "ok",
-    "route": "36",
-    "stop": "동래봉생병원",
-    "walk_min": 1,
-    "note": "36번에 동명 정류장이 있어 바로 앞",
-    "address": "동래구 안락동 충렬대로"
-   }
-  },
-  {
-   "id": "55164373",
-   "company": "의료법인 온그룹의료재단 온병원",
-   "title": "[온병원] 2026년 하반기 신규간호사 채용",
-   "location": "부산 부산진구",
-   "career": "신입",
-   "education": "대졸↑",
-   "type": "정규직",
-   "deadline": "10/30(금)",
-   "posted": "등록일 26/09/30",
-   "sector": "간호사, 종합병원",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55164373&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-09-30T17:16",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "verdict": "unknown",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "기관 위치 확인 필요",
-    "address": ""
-   }
-  },
-  {
-   "id": "55160553",
-   "company": "아이앤젤여성의원",
-   "title": "아이앤젤여성의원 간호부 직원모집",
-   "location": "부산 기장군",
-   "career": "경력무관",
-   "education": "고졸↑",
-   "type": "정규직",
-   "deadline": "10/30(금)",
-   "posted": "등록일 26/09/30",
-   "sector": "간호사, 심사간호사, 책임간호사, 간호조무사, 산부인과",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55160553&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-09-30T12:28",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "정관신도시 미경유",
-    "address": "기장군 정관읍 정관로 601"
-   }
-  },
-  {
-   "id": "55159880",
-   "company": "온천소아청소년과의원",
-   "title": "온천소아청소년과 외래 간호조무사 채용",
-   "location": "부산 동래구",
-   "career": "경력무관",
-   "education": "학력무관",
-   "type": "정규직",
-   "deadline": "10/30(금)",
-   "posted": "등록일 26/09/30",
-   "sector": "간호조무사, 소아과",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55159880&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-09-30T11:37",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "address": "부산 동래구 금강로 116",
-    "auto": true,
-    "verdict": "ok2",
-    "route": "144",
-    "stop": "온천장역",
-    "walk_min": 4,
-    "note": "자동 판정 · 반여3동 정류장에서 144번, 온천장역 직선 217m"
-   }
+   },
+   "gone": true
   },
   {
    "id": "55158688",
@@ -5872,611 +6941,8 @@
     "stop": "부전역",
     "walk_min": 0,
     "note": "자동 판정 · 반여3동 정류장에서 52번, 부전역 직선 24m"
-   }
-  },
-  {
-   "id": "55158201",
-   "company": "(의)연송의료재단",
-   "title": "요양병원 N-KEEP 병동 간호사 구인 -나이트킵",
-   "location": "부산 사하구",
-   "career": "경력무관",
-   "education": "초대졸↑",
-   "type": "정규직",
-   "deadline": "10/30(금)",
-   "posted": "등록일 26/09/30",
-   "sector": "간호사, 요양병원, 요양병원",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55158201&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-09-30T10:13",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "이용 가능한 노선이 가지 않는 지역",
-    "address": ""
-   }
-  },
-  {
-   "id": "55157547",
-   "company": "(의) 연송의료재단 신창요양병원",
-   "title": "간호조무사 모집합니다 [부산 중구]",
-   "location": "부산 중구",
-   "career": "경력무관",
-   "education": "학력무관",
-   "type": "정규직",
-   "deadline": "10/30(금)",
-   "posted": "수정일 26/09/30",
-   "sector": "간호조무사, 요양병원",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55157547&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-09-30T09:24",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "이용 가능한 노선이 가지 않는 지역",
-    "address": ""
-   }
-  },
-  {
-   "id": "55147754",
-   "company": "더하얀의원",
-   "title": "피부과에서 일하실 능력있는 간호조무사 모집합니다",
-   "location": "부산 남구",
-   "career": "경력무관",
-   "education": "학력무관",
-   "type": "정규직",
-   "deadline": "10/29(목)",
-   "posted": "등록일 26/09/29",
-   "sector": "환자안내, 피부과, 피부관리사, 성형외과, 피부과",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55147754&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-09-29T14:41",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "address": "부산 남구 수영로 345",
-    "auto": true,
-    "verdict": "ok",
-    "route": "155",
-    "stop": "경성대.부경대역",
-    "walk_min": 1,
-    "note": "자동 판정 · 가장 가까운 정류장 155번 경성대.부경대역 직선 54m"
-   }
-  },
-  {
-   "id": "55141091",
-   "company": "가족사랑요양병원",
-   "title": "웨이팅또는 단기간 알바 원하는 간호사 추가모집 합니다",
-   "location": "부산 부산진구",
-   "career": "신입",
-   "education": "초대졸↑",
-   "type": "계약직·아르바이트",
-   "deadline": "11/27(금)",
-   "posted": "수정일 26/10/15",
-   "sector": "간호사, 요양병원",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55141091&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-09-29T08:16",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "address": "부산 부산진구 새싹로 286",
-    "auto": true,
-    "verdict": "far",
-    "route": "44",
-    "stop": "초읍초등학교",
-    "walk_min": 11,
-    "transfer": true,
-    "note": "자동 판정 · 반여3동 정류장에서 44번 초읍초등학교 직선 606m"
-   }
-  },
-  {
-   "id": "55136453",
-   "company": "마린성형외과",
-   "title": "밝고 적극적인 간호조무사 지원해주세요",
-   "location": "부산 해운대구",
-   "career": "경력1년↑",
-   "education": "고졸↑",
-   "type": "정규직",
-   "deadline": "10/28(수)",
-   "posted": "등록일 26/09/28",
-   "sector": "수술보조, 성형외과",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55136453&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-09-29T09:25",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "verdict": "ok",
-    "route": "115-1",
-    "stop": "해운대도시철도역",
-    "walk_min": 5,
-    "note": "해운대역 구남로 인근",
-    "address": "해운대구 중동 구남로29번길 32"
-   }
-  },
-  {
-   "id": "55135253",
-   "company": "사)행복한복지재단부산진구노인요양센터",
-   "title": "요양보호사 정규직 모집(경력무관)",
-   "location": "부산 부산진구",
-   "career": "경력무관",
-   "education": "학력무관",
-   "type": "정규직",
-   "deadline": "10/28(수)",
-   "posted": "등록일 26/09/28",
-   "sector": "요양보호사, 복지시설, 노인복지, 요양보호",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55135253&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-09-28T19:10",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "verdict": "unknown",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "기관 위치 확인 필요",
-    "address": ""
-   }
-  },
-  {
-   "id": "55132090",
-   "company": "의료법인 안심의료재단 안심요양병원",
-   "title": "D- keep간호사선생님을구인합니다.",
-   "location": "부산 연제구",
-   "career": "경력2년↑",
-   "education": "초대졸↑",
-   "type": "정규직",
-   "deadline": "10/28(수)",
-   "posted": "등록일 26/09/28",
-   "sector": "간호사, 요양병원",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55132090&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-09-28T19:10",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "verdict": "ok",
-    "route": "189-1",
-    "stop": "토곡한양아파트",
-    "walk_min": 5,
-    "note": "과정로(토곡) 구간은 189-1이 직접 경유",
-    "address": "연제구 연산동 과정로 222 (안심요양병원)"
-   }
-  },
-  {
-   "id": "55131997",
-   "company": "평거요양병원",
-   "title": "나이트 킵 간호사 모집합니다(병동)",
-   "location": "부산 기장군",
-   "career": "경력3년↑",
-   "education": "초대졸↑",
-   "type": "정규직",
-   "deadline": "10/28(수)",
-   "posted": "등록일 26/09/28",
-   "sector": "간호사, 요양병원",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55131997&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-09-28T19:10",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "address": "부산 기장군 기장읍 대청로36번길 11-33",
-    "auto": true,
-    "verdict": "ok",
-    "route": "36",
-    "stop": "기장읍행정복지센터",
-    "walk_min": 3,
-    "note": "자동 판정 · 가장 가까운 정류장 36번 기장읍행정복지센터 직선 155m"
-   }
-  },
-  {
-   "id": "55130381",
-   "company": "동래봉생병원",
-   "title": "간호조무사 3교대 병동(간호간병) 모집",
-   "location": "부산 동래구",
-   "career": "경력무관",
-   "education": "학력무관",
-   "type": "정규직·계약직",
-   "deadline": "10/28(수)",
-   "posted": "등록일 26/09/28",
-   "sector": "간호조무사, 종합병원",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55130381&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-09-28T19:10",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "verdict": "ok",
-    "route": "36",
-    "stop": "동래봉생병원",
-    "walk_min": 1,
-    "note": "36번에 동명 정류장이 있어 바로 앞",
-    "address": "동래구 안락동 충렬대로"
-   }
-  },
-  {
-   "id": "55127780",
-   "company": "신항내과의원",
-   "title": "(경력우대) 간호조무사 정규직/계약직 채용",
-   "location": "경남 창원시",
-   "career": "경력1년↑",
-   "education": "고졸↑",
-   "type": "정규직·계약직",
-   "deadline": "10/28(수)",
-   "posted": "등록일 26/09/28",
-   "sector": "간호사, 간호조무사, 내과, 주사실, 내과",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55127780&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-09-28T12:35",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "이용 가능한 노선이 가지 않는 지역",
-    "address": ""
-   }
-  },
-  {
-   "id": "55126414",
-   "company": "가족사랑요양병원",
-   "title": "함께 할 D/E간호사모집합니다",
-   "location": "부산 부산진구",
-   "career": "신입",
-   "education": "초대졸↑",
-   "type": "정규직·계약직",
-   "deadline": "11/27(금)",
-   "posted": "수정일 26/10/16",
-   "sector": "간호사, 요양병원",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55126414&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-09-28T12:35",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "address": "부산 부산진구 새싹로 286",
-    "auto": true,
-    "verdict": "far",
-    "route": "44",
-    "stop": "초읍초등학교",
-    "walk_min": 11,
-    "transfer": true,
-    "note": "자동 판정 · 반여3동 정류장에서 44번 초읍초등학교 직선 606m"
-   }
-  },
-  {
-   "id": "55101198",
-   "company": "학장성심요양병원",
-   "title": "[학장성심요양병원] E-Keep간호사 모집합니다",
-   "location": "부산 사상구",
-   "career": "경력",
-   "education": "학력무관",
-   "type": "정규직",
-   "deadline": "오늘마감",
-   "posted": "등록일 26/09/22",
-   "sector": "간호사, 요양병원",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55101198&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "이용 가능한 노선이 가지 않는 지역",
-    "address": ""
-   }
-  },
-  {
-   "id": "55100837",
-   "company": "길탑비뇨기과의원",
-   "title": "부산역 길탑비뇨기과 간호사 정직원 채용함.",
-   "location": "부산 동구",
-   "career": "경력무관",
-   "education": "고졸↑",
-   "type": "정규직·아르바이트",
-   "deadline": "11/21(토)",
-   "posted": "수정일 26/09/30",
-   "sector": "간호사, 마취간호사, 심사간호사, QPS간호사, 간호조무사",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55100837&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "address": "부산 동구 중앙대로 205",
-    "auto": true,
-    "verdict": "ok2",
-    "route": "52",
-    "stop": "초량역3번출구",
-    "walk_min": 8,
-    "note": "자동 판정 · 반여3동 정류장에서 52번, 초량역3번출구 직선 468m"
-   }
-  },
-  {
-   "id": "55098527",
-   "company": "영도병원",
-   "title": "[영도병원] 경력직 병동 간호사 모집",
-   "location": "부산 영도구",
-   "career": "경력1년↑",
-   "education": "초대졸↑",
-   "type": "정규직",
-   "deadline": "오늘마감",
-   "posted": "등록일 26/09/22",
-   "sector": "간호사, 종합병원",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55098527&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "이용 가능한 노선이 가지 않는 지역",
-    "address": ""
-   }
-  },
-  {
-   "id": "55018668",
-   "company": "서면필내과",
-   "title": "간호조무사 및 간호사 모집합니다(내시경실 경력자 우대)",
-   "location": "부산 부산진구",
-   "career": "경력무관",
-   "education": "학력무관",
-   "type": "정규직",
-   "deadline": "10/31(토)",
-   "posted": "수정일 26/10/20",
-   "sector": "간호조무사, 내과",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55018668&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "address": "부산 부산진구 서면문화로 10",
-    "auto": true,
-    "verdict": "ok2",
-    "route": "52",
-    "stop": "서면역.서면지하상가",
-    "walk_min": 5,
-    "note": "자동 판정 · 반여3동 정류장에서 52번, 서면역.서면지하상가 직선 264m"
-   }
-  },
-  {
-   "id": "54972335",
-   "company": "더존한방병원하단점",
-   "title": "더존한방병원하단점/병동/DE교대/간호사/환자수 30~40명 수준",
-   "location": "부산전체, 강서구, 부산진구, 사하구, 서구, 경남 김해시, 양산시, 창원시",
-   "career": "경력1년↑",
-   "education": "초대졸↑",
-   "type": "정규직",
-   "deadline": "11/07(토)",
-   "posted": "수정일 26/10/20",
-   "sector": "간호사, 한방과, 일반병원, 한방병원, 2교대",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54972335&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "address": "부산 사하구 낙동남로 1412",
-    "auto": true,
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "자동 판정 · 가장 가까운 정류장(52번 금수사)까지 직선 6016m"
-   }
-  },
-  {
-   "id": "54972029",
-   "company": "김병준 레다스 흉부외과",
-   "title": "LEDAS 간호사 채용( 정규직, 기간제 4개월 )",
-   "location": "부산 부산진구",
-   "career": "경력무관",
-   "education": "초대졸↑",
-   "type": "정규직·기간제",
-   "deadline": "채용시",
-   "posted": "수정일 26/10/15",
-   "sector": "간호사, 외과",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54972029&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "address": "부산 부산진구 서면문화로 10",
-    "auto": true,
-    "verdict": "ok2",
-    "route": "52",
-    "stop": "서면역.서면지하상가",
-    "walk_min": 5,
-    "note": "자동 판정 · 반여3동 정류장에서 52번, 서면역.서면지하상가 직선 264m"
-   }
-  },
-  {
-   "id": "54957116",
-   "company": "사)행복한복지재단부산진구노인요양센터",
-   "title": "행복한 재가 방문목욕 요양보호사 모집",
-   "location": "부산 부산진구",
-   "career": "경력무관",
-   "education": "학력무관",
-   "type": "프리랜서",
-   "deadline": "11/06(금)",
-   "posted": "수정일 26/10/08",
-   "sector": "요양보호사, 복지시설, 노인복지, 요양보호",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54957116&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "verdict": "unknown",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "기관 위치 확인 필요",
-    "address": ""
-   }
-  },
-  {
-   "id": "54830539",
-   "company": "동래정한방병원",
-   "title": "동래정한방병원에서 Tid 근무할 간호사 구인 합니다.",
-   "location": "부산 동래구",
-   "career": "경력무관",
-   "education": "초대졸↑",
-   "type": "정규직",
-   "deadline": "내일마감",
-   "posted": "수정일 26/09/28",
-   "sector": "간호사, 한방병원",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54830539&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-09-28T19:10",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "verdict": "ok",
-    "route": "36",
-    "stop": "안락동우체국.동해선안락역",
-    "walk_min": 5,
-    "note": "안락교차로 인근, 36번 안락 구간",
-    "address": "동래구 안락동 (세원메디칼센터)"
-   }
-  },
-  {
-   "id": "55334315",
-   "company": "엠마우스요양병원",
-   "title": "엠마우스요양병원 간호사(데이/이브) 채용합니다.",
-   "location": "경남 진주시",
-   "career": "경력무관",
-   "education": "학력무관",
-   "type": "정규직",
-   "deadline": "10/31(토)",
-   "posted": "수정일 26/10/19",
-   "sector": "간호사, 병원·진료",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55334315&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-10-19T21:57",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "이용 가능한 노선이 가지 않는 지역",
-    "address": ""
-   }
-  },
-  {
-   "id": "55180676",
-   "company": "의료법인문병욱의료재단(진주고려병원)",
-   "title": "[수술실,내시경센터] 신규 & 경력 간호사 모집합니다.",
-   "location": "경남 진주시",
-   "career": "경력1년↑",
-   "education": "초대졸",
-   "type": "정규직",
-   "deadline": "10/31(토)",
-   "posted": "수정일 26/10/06",
-   "sector": "간호사, 병원·진료",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55180676&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-10-01T21:54",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "이용 가능한 노선이 가지 않는 지역",
-    "address": ""
-   }
-  },
-  {
-   "id": "55180678",
-   "company": "의료법인문병욱의료재단(진주고려병원)",
-   "title": "[병동] 신규 및 경력 간호사 모집",
-   "location": "경남 진주시",
-   "career": "경력무관",
-   "education": "학력무관",
-   "type": "정규직",
-   "deadline": "10/31(토)",
-   "posted": "수정일 26/10/06",
-   "sector": "간호사, 병원·진료",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55180678&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-10-01T21:54",
-   "last_seen": "2026-10-22T10:02",
-   "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "이용 가능한 노선이 가지 않는 지역",
-    "address": ""
-   }
+   },
+   "gone": true
   },
   {
    "id": "nj1219502",
@@ -9930,13 +10396,6 @@
  ],
  "runs": [
   {
-   "at": "2026-10-19T22:33",
-   "total": 236,
-   "new": 0,
-   "saramin": 236,
-   "nursejob": 0
-  },
-  {
    "at": "2026-10-19T22:51",
    "total": 236,
    "new": 0,
@@ -11328,9 +11787,16 @@
    "new": 0,
    "saramin": 235,
    "nursejob": 0
+  },
+  {
+   "at": "2026-10-22T10:18",
+   "total": 250,
+   "new": 17,
+   "saramin": 250,
+   "nursejob": 0
   }
  ],
- "updated": "2026-10-22T10:02",
+ "updated": "2026-10-22T10:18",
  "search": {
   "keywords": [
    "수간호사",
