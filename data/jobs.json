@@ -19,7 +19,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-19T08:19",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -46,7 +46,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-18T17:24",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -74,7 +74,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-18T17:07",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -101,7 +101,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-17T11:18",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 연제구 고분로 6",
     "auto": true,
@@ -129,7 +129,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-16T15:55",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -157,7 +157,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-16T15:04",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -184,7 +184,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-15T21:49",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -211,7 +211,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-14T21:58",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 남구 수영로 185-7",
     "auto": true,
@@ -239,7 +239,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-14T10:53",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -266,7 +266,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-13T14:46",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -294,7 +294,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-13T10:51",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -321,7 +321,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-13T08:54",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 동구 대영로 261",
     "auto": true,
@@ -350,7 +350,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-12T15:34",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -377,7 +377,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-12T13:03",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -404,7 +404,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-12T12:46",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -432,7 +432,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-12T10:11",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 해운대구 APEC로 17",
     "auto": true,
@@ -460,7 +460,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-12T10:11",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -488,7 +488,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-11T15:33",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 부산진구 새싹로 286",
     "auto": true,
@@ -518,7 +518,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-10T17:42",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -545,7 +545,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-10T12:38",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 해운대구 좌동로 66",
     "auto": true,
@@ -573,7 +573,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-10T12:38",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -600,7 +600,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-10T12:38",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -627,7 +627,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-10T12:38",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -654,7 +654,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-09T16:44",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -681,7 +681,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-09T09:05",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -708,7 +708,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-06T11:48",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -736,7 +736,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-05T16:09",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 부산진구 봉수로 18",
     "auto": true,
@@ -766,7 +766,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-04T16:10",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 부산진구 봉수로 18",
     "auto": true,
@@ -795,7 +795,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-03T15:11",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "far",
     "route": "155",
@@ -822,7 +822,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-03T14:54",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -849,7 +849,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-03T11:30",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 부산진구 새싹로14번길 14",
     "auto": true,
@@ -877,7 +877,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-02T16:40",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 동래구 여고로 5",
     "auto": true,
@@ -905,7 +905,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-02T10:37",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -932,7 +932,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-30T16:12",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -959,7 +959,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-29T13:40",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -986,7 +986,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-28T17:59",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 부산진구 범일로 133",
     "auto": true,
@@ -1014,7 +1014,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-28T11:27",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1041,7 +1041,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-28T10:53",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1068,7 +1068,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-16T16:12",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 부산진구 범일로 133",
     "auto": true,
@@ -1096,7 +1096,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-26T09:27",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1123,7 +1123,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-25T19:45",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1150,7 +1150,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-22T13:07",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1177,7 +1177,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-15T14:15",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 부산진구 개금온정로 5",
     "auto": true,
@@ -1205,7 +1205,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-14T12:02",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1232,7 +1232,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-12T08:47",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "ok",
     "route": "115-1",
@@ -1260,7 +1260,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-04T17:53",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1287,7 +1287,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-27T09:36",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1315,7 +1315,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-17T21:38",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1342,7 +1342,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-11T22:50",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1369,7 +1369,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-06T21:42",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1396,7 +1396,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-26T21:46",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1423,7 +1423,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-23T21:36",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1452,7 +1452,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-18T17:58",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1479,7 +1479,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-18T17:24",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1507,7 +1507,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-18T09:32",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -1535,7 +1535,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-18T09:32",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1562,7 +1562,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-17T12:10",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 부산진구 가야대로 451",
     "auto": true,
@@ -1590,7 +1590,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-16T19:19",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 부산진구 가야대로 451",
     "auto": true,
@@ -1620,7 +1620,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-16T17:03",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1648,7 +1648,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-16T14:15",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1675,7 +1675,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-16T13:58",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 부산진구 양정로 62",
     "auto": true,
@@ -1705,7 +1705,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-16T13:41",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 금정구 중앙대로1685번길 12",
     "auto": true,
@@ -1735,7 +1735,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-13T16:47",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 동래구 반송로 352",
     "auto": true,
@@ -1764,7 +1764,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-13T13:21",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1793,7 +1793,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-13T12:32",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 동래구 반송로 352",
     "auto": true,
@@ -1821,7 +1821,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-12T09:53",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "ok",
     "route": "36",
@@ -1848,7 +1848,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-11T10:38",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 금정구 중앙대로1685번길 12",
     "auto": true,
@@ -1876,7 +1876,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-11T09:15",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 부산진구 황령대로 12",
     "auto": true,
@@ -1906,7 +1906,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-09T09:22",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1936,7 +1936,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-05T11:40",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1963,7 +1963,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-11T17:44",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -1990,7 +1990,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-02T18:51",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2017,7 +2017,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-30T12:16",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2044,7 +2044,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-30T12:33",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2072,7 +2072,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-28T15:58",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2100,7 +2100,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-28T14:33",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2130,7 +2130,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-28T09:01",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2158,7 +2158,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-27T16:52",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2186,7 +2186,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-27T16:01",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2214,7 +2214,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-26T14:44",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2242,7 +2242,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-26T10:00",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2269,7 +2269,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-26T09:45",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2298,7 +2298,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-23T11:09",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2327,7 +2327,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-22T11:26",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2354,7 +2354,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-20T16:43",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2382,7 +2382,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-20T09:05",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 금정구 중앙대로1685번길 12",
     "auto": true,
@@ -2391,6 +2391,36 @@
     "stop": "장전중앙교회",
     "walk_min": 8,
     "note": "자동 판정 · 반여3동 정류장에서 144번, 장전중앙교회 직선 456m"
+   }
+  },
+  {
+   "id": "55255000",
+   "company": "스마트나라요양병원",
+   "title": "스마트 나라 요양 병원 인공 신장실 간호사 모집합니다",
+   "location": "부산 사상구",
+   "career": "경력3년↑",
+   "education": "초대졸↑",
+   "type": "정규직",
+   "deadline": "12/11(금)",
+   "posted": "수정일 26/11/19",
+   "sector": "간호사, 요양병원",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55255000&view_type=search",
+   "keywords": [
+    "인공신장실",
+    "신장실",
+    "투석",
+    "투석실"
+   ],
+   "source": "사람인",
+   "first_seen": "2026-10-12T10:33",
+   "last_seen": "2026-11-19T09:27",
+   "commute": {
+    "verdict": "no",
+    "route": "",
+    "stop": "",
+    "walk_min": null,
+    "note": "이용 가능한 노선이 가지 않는 지역",
+    "address": ""
    }
   },
   {
@@ -2410,7 +2440,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-11T11:12",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2439,7 +2469,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-02T08:24",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2467,7 +2497,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-02T08:24",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2495,7 +2525,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-09T21:50",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2522,7 +2552,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-26T21:46",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2549,7 +2579,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-18T14:17",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 동래구 충렬대로 97",
     "auto": true,
@@ -2578,7 +2608,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-18T12:35",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2607,7 +2637,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-17T12:10",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2634,7 +2664,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-16T18:11",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "unknown",
     "route": "",
@@ -2661,7 +2691,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-13T14:46",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2690,7 +2720,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-12T09:16",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2717,7 +2747,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-11T10:22",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "unknown",
     "route": "",
@@ -2745,7 +2775,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-03T10:06",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 해운대구 윗반송로 68",
     "auto": true,
@@ -2773,7 +2803,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-24T10:16",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2800,7 +2830,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-18T22:42",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 수영구 연수로382번길 11",
     "auto": true,
@@ -2828,7 +2858,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-13T22:45",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 수영구 연수로 342-1",
     "auto": true,
@@ -2857,7 +2887,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-12T22:46",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2884,7 +2914,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-10T21:43",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "unknown",
     "route": "",
@@ -2911,7 +2941,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-11T22:33",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 부산진구 백양관문로 105-32",
     "auto": true,
@@ -2940,7 +2970,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-16T08:56",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -2967,7 +2997,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-13T15:21",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 기장군 정관읍 정관중앙로 61",
     "auto": true,
@@ -2995,7 +3025,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-13T09:44",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3023,7 +3053,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-12T12:11",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3050,7 +3080,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-12T09:16",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3078,7 +3108,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-06T12:22",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3105,7 +3135,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-03T11:13",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3132,7 +3162,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-27T09:03",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3159,7 +3189,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-27T09:19",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3186,7 +3216,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-20T15:19",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3213,7 +3243,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-13T21:36",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3240,7 +3270,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-12T21:34",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3267,7 +3297,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-04T21:51",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 금정구 중앙대로 1590",
     "auto": true,
@@ -3295,7 +3325,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-17T16:40",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "ok",
     "route": "36",
@@ -3322,7 +3352,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-10T15:28",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 해운대구 해운대로 415",
     "auto": true,
@@ -3350,7 +3380,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-09T18:46",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 해운대구 해운대로 415",
     "auto": true,
@@ -3378,7 +3408,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-09T17:18",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "ok",
     "route": "189-1",
@@ -3405,7 +3435,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-09T19:23",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3432,7 +3462,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-09T13:16",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 남구 수영로 298",
     "auto": true,
@@ -3460,7 +3490,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-04T10:29",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 해운대구 해운대로 415",
     "auto": true,
@@ -3488,7 +3518,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-04T10:29",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 해운대구 해운대로 415",
     "auto": true,
@@ -3516,7 +3546,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-03T13:46",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 남구 수영로 204",
     "auto": true,
@@ -3545,7 +3575,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-12T11:58",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3572,7 +3602,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-19T09:10",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3599,7 +3629,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-18T16:49",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "unknown",
     "route": "",
@@ -3626,7 +3656,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-18T16:49",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "unknown",
     "route": "",
@@ -3653,7 +3683,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-18T16:32",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 금정구 금강로 592",
     "auto": true,
@@ -3681,7 +3711,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-18T16:15",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 동래구 충렬대로 255",
     "auto": true,
@@ -3709,7 +3739,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-18T14:51",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 부산진구 서면로 74",
     "auto": true,
@@ -3737,7 +3767,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-18T14:17",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3764,7 +3794,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-18T11:27",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 부산진구 중앙대로 663",
     "auto": true,
@@ -3792,7 +3822,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-18T09:32",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3819,7 +3849,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-18T09:32",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3846,7 +3876,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-17T15:47",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3873,7 +3903,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-17T15:47",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3900,7 +3930,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-17T15:47",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3927,7 +3957,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-17T09:35",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3954,7 +3984,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-17T09:35",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -3981,7 +4011,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-17T09:35",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4008,7 +4038,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-16T19:36",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4035,7 +4065,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-16T18:11",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -4062,7 +4092,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-16T12:16",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4089,7 +4119,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-16T11:43",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 부산진구 서면문화로 10",
     "auto": true,
@@ -4117,7 +4147,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-16T10:35",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4144,7 +4174,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-16T10:18",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 남구 석포로26번길 17",
     "auto": true,
@@ -4173,7 +4203,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-16T10:18",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4200,7 +4230,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-16T14:31",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 부산진구 서면로 25",
     "auto": true,
@@ -4228,7 +4258,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-13T17:21",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "ok",
     "route": "36",
@@ -4255,7 +4285,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-13T17:04",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 금정구 중앙대로 1580",
     "auto": true,
@@ -4283,7 +4313,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-13T17:04",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4310,7 +4340,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-13T16:47",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 동래구 충렬대로 187",
     "auto": true,
@@ -4338,7 +4368,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-13T16:12",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 동래구 충렬대로 187",
     "auto": true,
@@ -4366,7 +4396,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-13T15:55",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4393,7 +4423,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-13T14:29",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 금정구 무학송로 143",
     "auto": true,
@@ -4422,7 +4452,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-13T12:49",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 부산진구 부전로 144-3",
     "auto": true,
@@ -4450,7 +4480,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-13T12:49",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 부산진구 부전로 144-3",
     "auto": true,
@@ -4478,7 +4508,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-13T11:07",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 동구 범일로 85",
     "auto": true,
@@ -4507,7 +4537,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-13T11:07",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 동구 범일로 85",
     "auto": true,
@@ -4536,7 +4566,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-13T11:07",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 동구 범일로 85",
     "auto": true,
@@ -4546,34 +4576,6 @@
     "walk_min": 11,
     "transfer": true,
     "note": "자동 판정 · 반여3동 정류장에서 52번 부산진시장 직선 647m"
-   }
-  },
-  {
-   "id": "55563110",
-   "company": "(의)성은의료재단",
-   "title": "정신의료기관 병동 3교대근무 간호조무사 구인",
-   "location": "부산 연제구",
-   "career": "경력무관",
-   "education": "고졸↑",
-   "type": "정규직",
-   "deadline": "채용시",
-   "posted": "등록일 26/11/13",
-   "sector": "간호조무사, 전문병원",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55563110&view_type=search",
-   "keywords": [
-    "간호부"
-   ],
-   "source": "사람인",
-   "first_seen": "2026-11-13T09:44",
-   "last_seen": "2026-11-19T09:10",
-   "commute": {
-    "address": "부산 연제구 고분로 21",
-    "auto": true,
-    "verdict": "ok",
-    "route": "189-1",
-    "stop": "연일시장",
-    "walk_min": 1,
-    "note": "자동 판정 · 가장 가까운 정류장 189-1번 연일시장 직선 49m"
    }
   },
   {
@@ -4593,7 +4595,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-12T17:17",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4620,7 +4622,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-12T17:17",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4647,7 +4649,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-12T16:43",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 금정구 금강로 592",
     "auto": true,
@@ -4675,7 +4677,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-12T17:00",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "unknown",
     "route": "",
@@ -4702,7 +4704,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-12T15:34",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4729,7 +4731,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-12T15:34",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4756,7 +4758,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-12T11:54",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4783,7 +4785,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-12T10:45",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 부산진구 부전로 144-3",
     "auto": true,
@@ -4811,7 +4813,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-12T09:34",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4838,7 +4840,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-11T16:52",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4865,7 +4867,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-11T15:50",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -4892,7 +4894,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-11T15:16",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 금정구 식물원로 11",
     "auto": true,
@@ -4920,7 +4922,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-11T13:32",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4947,7 +4949,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-11T13:32",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -4974,7 +4976,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-10T14:21",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5001,7 +5003,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-10T12:56",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5028,7 +5030,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-10T12:38",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 부산진구 새싹로 286",
     "auto": true,
@@ -5057,7 +5059,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-09T18:29",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5084,7 +5086,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-09T15:15",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5111,7 +5113,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-09T12:42",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "far",
     "route": "36",
@@ -5138,7 +5140,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-09T12:25",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 금정구 중앙대로1841번길 23",
     "auto": true,
@@ -5166,7 +5168,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-09T11:35",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 금정구 중앙대로1841번길 23",
     "auto": true,
@@ -5194,7 +5196,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-09T11:01",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 연제구 고분로 4",
     "auto": true,
@@ -5222,7 +5224,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-09T09:22",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 사하구 낙동남로 1412",
     "auto": true,
@@ -5250,7 +5252,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-09T09:05",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -5277,7 +5279,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-08T11:20",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5304,7 +5306,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-07T15:07",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "unknown",
     "route": "",
@@ -5331,7 +5333,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-07T10:28",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -5358,7 +5360,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-06T09:18",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 해운대구 APEC로 17",
     "auto": true,
@@ -5386,7 +5388,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-06T09:01",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5413,7 +5415,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-05T18:22",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "far",
     "route": "36",
@@ -5440,7 +5442,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-05T18:22",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "far",
     "route": "36",
@@ -5467,7 +5469,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-05T18:22",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "far",
     "route": "36",
@@ -5494,7 +5496,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-05T18:22",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "far",
     "route": "36",
@@ -5521,7 +5523,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-05T17:17",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 수영구 남천서로20번길 49",
     "auto": true,
@@ -5550,7 +5552,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-05T17:00",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 수영구 남천서로20번길 49",
     "auto": true,
@@ -5579,7 +5581,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-05T16:26",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5606,7 +5608,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-05T15:52",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5633,7 +5635,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-05T15:19",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 동래구 아시아드대로 213",
     "auto": true,
@@ -5661,7 +5663,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-05T14:45",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5688,7 +5690,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-04T14:11",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5715,7 +5717,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-04T13:36",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5742,7 +5744,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-03T17:09",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 동구 중앙대로 205",
     "auto": true,
@@ -5770,7 +5772,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-03T09:51",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5797,7 +5799,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-02T16:23",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5824,7 +5826,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-02T14:54",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5851,7 +5853,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-02T12:02",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -5878,7 +5880,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-02T09:49",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 금정구 금샘로 59",
     "auto": true,
@@ -5907,7 +5909,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-02T08:58",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -5934,7 +5936,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-29T14:31",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "far",
     "route": "36",
@@ -5961,7 +5963,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-29T11:43",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "unknown",
     "route": "",
@@ -5988,7 +5990,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-28T20:15",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -6015,7 +6017,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-28T09:50",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "ok",
     "route": "36",
@@ -6042,7 +6044,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-27T08:46",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -6069,7 +6071,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-26T18:06",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -6096,7 +6098,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-26T10:35",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 부산진구 동천로107번길 8",
     "auto": true,
@@ -6124,7 +6126,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-18T14:34",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -6151,7 +6153,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-23T14:26",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -6178,7 +6180,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-23T11:45",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 금정구 금정로 244",
     "auto": true,
@@ -6207,7 +6209,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-22T14:49",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -6234,7 +6236,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-22T12:31",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -6261,7 +6263,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-21T13:44",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -6288,7 +6290,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-20T11:35",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 부산진구 중앙대로 805",
     "auto": true,
@@ -6316,7 +6318,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-26T11:44",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -6343,7 +6345,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-18T09:49",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -6370,7 +6372,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-10-05T13:23",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "ok",
     "route": "155",
@@ -6397,7 +6399,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-03T09:51",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -6424,7 +6426,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-09-22T21:13",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -6451,7 +6453,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-13T21:36",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "address": "부산 동구 중앙대로 281",
     "auto": true,
@@ -6479,7 +6481,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-03T21:51",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -6506,7 +6508,7 @@
    ],
    "source": "사람인",
    "first_seen": "2026-11-03T21:51",
-   "last_seen": "2026-11-19T09:10",
+   "last_seen": "2026-11-19T09:27",
    "commute": {
     "verdict": "no",
     "route": "",
@@ -6517,33 +6519,31 @@
    }
   },
   {
-   "id": "55255000",
-   "company": "스마트나라요양병원",
-   "title": "스마트 나라 요양 병원 인공 신장실 간호사 구인합니다",
-   "location": "부산 사상구",
-   "career": "경력3년↑",
-   "education": "초대졸↑",
+   "id": "55563110",
+   "company": "(의)성은의료재단",
+   "title": "정신의료기관 병동 3교대근무 간호조무사 구인",
+   "location": "부산 연제구",
+   "career": "경력무관",
+   "education": "고졸↑",
    "type": "정규직",
-   "deadline": "12/11(금)",
-   "posted": "수정일 26/11/16",
-   "sector": "간호사, 요양병원",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55255000&view_type=search",
+   "deadline": "채용시",
+   "posted": "등록일 26/11/13",
+   "sector": "간호조무사, 전문병원",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55563110&view_type=search",
    "keywords": [
-    "인공신장실",
-    "신장실",
-    "투석",
-    "투석실"
+    "간호부"
    ],
    "source": "사람인",
-   "first_seen": "2026-10-12T10:33",
-   "last_seen": "2026-11-19T08:53",
+   "first_seen": "2026-11-13T09:44",
+   "last_seen": "2026-11-19T09:10",
    "commute": {
-    "verdict": "no",
-    "route": "",
-    "stop": "",
-    "walk_min": null,
-    "note": "이용 가능한 노선이 가지 않는 지역",
-    "address": ""
+    "address": "부산 연제구 고분로 21",
+    "auto": true,
+    "verdict": "ok",
+    "route": "189-1",
+    "stop": "연일시장",
+    "walk_min": 1,
+    "note": "자동 판정 · 가장 가까운 정류장 189-1번 연일시장 직선 49m"
    },
    "gone": true
   },
@@ -9309,13 +9309,6 @@
  ],
  "runs": [
   {
-   "at": "2026-11-16T23:02",
-   "total": 239,
-   "new": 0,
-   "saramin": 239,
-   "nursejob": 0
-  },
-  {
    "at": "2026-11-16T23:19",
    "total": 238,
    "new": 0,
@@ -10707,9 +10700,16 @@
    "new": 1,
    "saramin": 236,
    "nursejob": 0
+  },
+  {
+   "at": "2026-11-19T09:27",
+   "total": 236,
+   "new": 0,
+   "saramin": 236,
+   "nursejob": 0
   }
  ],
- "updated": "2026-11-19T09:10",
+ "updated": "2026-11-19T09:27",
  "search": {
   "keywords": [
    "수간호사",
