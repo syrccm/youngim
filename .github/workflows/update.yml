@@ -1,11 +1,9 @@
 name: 간호 관리직 공고 갱신 (사람인·널스잡)
 
-# GitHub의 예약 실행(schedule)은 혼잡 시 몇 시간씩 건너뛰므로 15분 간격을 보장하지 못한다.
-# 그래서 한 번 시작된 실행이 약 5시간 동안 15분마다 수집·커밋을 반복하고, 끝나기 전에 다음 실행을
-# 스스로 예약(workflow_dispatch)한다. schedule 은 사슬이 끊어졌을 때 다시 잇는 예비용이다.
+# 하루 한 번, 한국 시간 새벽 5시(UTC 20:00)에 수집한다. (무료 한도 보호 — 자주 돌리지 않는다)
 on:
   schedule:
-    - cron: "7 * * * *"
+    - cron: "0 20 * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -13,7 +11,6 @@ on:
 
 permissions:
   contents: write
-  actions: write
 
 concurrency:
   group: update-jobs
@@ -22,7 +19,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 340
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
 
@@ -30,35 +27,23 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: 15분마다 수집·커밋 (약 5시간 반복)
+      - name: 공고 수집
         env:
           KAKAO_REST_KEY: ${{ secrets.KAKAO_REST_KEY }}
           NJ_PROXY_URL: ${{ secrets.NJ_PROXY_URL }}
           NJ_PROXY_KEY: ${{ secrets.NJ_PROXY_KEY }}
-          ROUNDS: ${{ github.event_name == 'push' && 1 || 20 }}
+        run: python scripts/fetch_jobs.py
+
+      - name: 변경 사항 커밋
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          for i in $(seq 1 "$ROUNDS"); do
-            start=$(date +%s)
-            echo "=== round $i/$ROUNDS $(TZ=Asia/Seoul date '+%F %T') ==="
+          git add -A data/
+          if git diff --cached --quiet; then
+            echo "변경 없음"
+          else
+            git commit -m "data: $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M') 공고 갱신"
             git pull --rebase --autostash origin main || true
-            python scripts/fetch_jobs.py || echo "수집 실패 (round $i)"
-            git add -A data/
-            if git diff --cached --quiet; then
-              echo "변경 없음"
-            else
-              git commit -m "data: $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M') 공고 갱신"
-              git pull --rebase --autostash origin main || true
-              git push || (git pull --rebase --autostash origin main && git push) || echo "push 실패"
-            fi
-            [ "$i" -lt "$ROUNDS" ] || break
-            wait=$(( 900 - ($(date +%s) - start) ))
-            [ "$wait" -gt 0 ] && sleep "$wait"
-          done
-
-      - name: 다음 실행 예약
-        if: always()
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh workflow run update.yml --ref main || echo "다음 실행 예약 실패 (예비 schedule 이 다시 잇는다)"
+            git push
+          fi
